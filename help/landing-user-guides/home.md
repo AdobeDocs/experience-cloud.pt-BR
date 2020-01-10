@@ -2,7 +2,7 @@
 title: Documentação da Adobe Experience Cloud
 description: Esta página inclui uma lista abrangente de toda a documentação da Adobe Experience Cloud e os guias e tutoriais do usuário de ativação.
 translation-type: tm+mt
-source-git-commit: b1221def9e9ea3459c49d0a3220c770f51de01c6
+source-git-commit: 9f8c85d9589d67ad7e0e7adf627a8feca7beba68
 
 ---
 
@@ -254,7 +254,7 @@ Esta página inclui uma lista abrangente de toda a documentação da Adobe Exper
       <li><a href="https://docs.adobe.com/content/help/en/id-service/using/home.html"> Guia de serviço ECID</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/mobile-services/using/home.html"> SDKs v4 do Mobile Services</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html"> Guia do Device Co-op</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/launch/using/overview.html"> Launch</a></li><li></li>
+      <li><a href="https://docs.adobe.com/content/help/en/launch/using/overview.html"> Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html"> Guia do DTM</a></li>
     </ul>
   </td>
