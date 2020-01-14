@@ -158,10 +158,6 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
 <tbody>
 <tr>
   <td>
-    <p><strong>AEM como um serviço em nuvem</strong></p>
-    <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html"> Guia do usuário do Experience Manager como um serviço em nuvem</a></li>
-    </ul>
     <p><strong>AEM 6.5</strong></p>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html"> Hub do Guia do usuário do AEM 6.5</a></li>
@@ -180,6 +176,10 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-64/user-guide/home.html"> Hub do Guia do usuário do AEM 6.4</a></li>
       <li><a href="https://helpx.adobe.com/support/experience-manager/6-3.html"> Guias do usuário para versões anteriores do AEM</a></li>
+    </ul>
+    <p><strong>AEM como um serviço em nuvem</strong></p>
+    <ul>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html"> Guia do usuário do Experience Manager como um serviço em nuvem</a></li>
     </ul>
     <p><strong>Guias AEM adicionais</strong></p>
     <ul>
@@ -278,7 +278,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
 </tbody>
 </table>
 
-## ![Serviços de aplicativos de ícones](/help/assets/experience-cloud.png) acionados pela plataforma Experience
+## ![Serviços de aplicativos de ícone](/help/assets/experience-cloud.png) capacitados pela plataforma Experience
 
 <table>
 <thead>
