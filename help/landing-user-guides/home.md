@@ -2,7 +2,7 @@
 title: Documentação da Adobe Experience Cloud
 description: Esta página inclui uma lista abrangente de toda a documentação da Adobe Experience Cloud e os guias e tutoriais do usuário de ativação.
 translation-type: tm+mt
-source-git-commit: 65e52f4c85ad2a6efa7e09975e69bcd6f5ca01d1
+source-git-commit: 86b60471cb3fc660eb6c36469fedb77e9034dd78
 
 ---
 
@@ -41,7 +41,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
 <thead>
   <tr>
     <th>Guias do usuário</th>
-    <th>Tutoriais e desenvolvimento</th>
+    <th>Tutoriais e recursos</th>
   </tr>
 </thead>
 <tbody>
@@ -56,13 +56,16 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
       <li><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html"> Guia de implementação</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/import/home.html"> Guia de importação</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/integration/home.html"> Guia de integração</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Guia do Media Analytics</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Guia da análise de big data</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> Análise da jornada do cliente</a></li>
     </ul>
   </td>
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html"> Tutoriais do Analytics</a></li>
-      <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> APIs do Analytics</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics/technotes/home.html"> Notas técnicas do Analytics</a></li>
+      <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> APIs do Analytics </a></li>
     </ul>
   </td>
 </tr>
