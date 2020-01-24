@@ -2,14 +2,14 @@
 title: Documentação da Adobe Experience Cloud
 description: Esta página inclui uma lista abrangente de toda a documentação da Adobe Experience Cloud e os guias e tutoriais do usuário de ativação.
 translation-type: tm+mt
-source-git-commit: aad5d5503b1041cc060bfa4b38bfbdfcd5b26e87
+source-git-commit: a7ee26aed10bb7d1460372731068e053a2d6bc31
 
 ---
 
 
 # Documentação da Adobe Experience Cloud
 
-![Banner](/help/assets/experience-cloud-banner-notext.png)
+![Banner](/help/assets/experience-cloud-banner-3.png)
 
 Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Adobe Experience Cloud.
 
@@ -166,7 +166,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
 <tbody>
 <tr>
   <td>
-    <p><strong>AEM como um serviço em nuvem</strong></p>
+    <p><strong>AEM como um Cloud Service</strong></p>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html"> Guia do usuário do Experience Manager como um serviço em nuvem</a></li>
     </ul>
