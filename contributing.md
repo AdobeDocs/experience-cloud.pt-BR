@@ -1,6 +1,6 @@
 ---
 source-git-commit: ec724d95b7d0f0a72119c745fb124192863a9aee
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Contribuição
@@ -22,5 +22,5 @@ como parte do projeto. Assine nosso CLA em [ALGUM LINK](ainda sem link). É nece
 ## Revisões do código
 
 Todos os envios devem ser recebidos na forma de solicitações de pull e devem ser revisados
-pelos responsáveis pelo projeto. Leia a [documentação de solicitação de pull do GitHub](https://help.github.com/articles/about-pull-requests/)
+pelos responsáveis pelo projeto. Leia a [documentação de solicitação de pull do GitHub](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 para obter mais informações sobre como enviar solicitações de pull.
