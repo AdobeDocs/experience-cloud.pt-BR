@@ -2,7 +2,7 @@
 title: Documentação da Adobe Experience Cloud
 description: Esta página inclui uma lista abrangente de toda a documentação da Adobe Experience Cloud e os guias e tutoriais do usuário de ativação.
 translation-type: tm+mt
-source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
+source-git-commit: 77f00aaf2984d22e69e262432a66b526e8129a84
 
 ---
 
@@ -147,7 +147,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html">  Tutoriais do Audience Manager</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html"> Tutoriais do Audience Manager</a></li>
     </ul>
   </td>
 </tr>
@@ -244,7 +244,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
 </tbody>
 </table>
 
-## ![Plataforma de experiência de ícone](/help/assets/platform.png)
+## ![Ícone](/help/assets/platform.png) Experience Platform
 
 <table>
 <thead>
@@ -277,7 +277,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
       <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html"> Tutoriais da plataforma de experiência</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html"> Guia de implementação do Launch</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/"> APIs do desenvolvedor da Experience Platform</a></li>
-      <li><a href="https://www.adobe.io/apis/experienceplatform/home/services/web-sdk.html"> SDK da Web da Experience Platform</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/edge/home.html"> SDK da Web da Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html"> Tutoriais de orquestração de jornada</a></li>
     </ul>
   </td>
@@ -312,7 +312,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
 </tbody>
 </table>
 
-## ![Icon](/help/assets/advertising-cloud.png) Advertising Cloud
+## ![Ícone](/help/assets/advertising-cloud.png) Advertising Cloud
 
 A ajuda da Advertising Cloud está disponível no produto ao clicar no ícone de Ajuda (?) na parte superior de qualquer página.
 
