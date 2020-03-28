@@ -2,7 +2,7 @@
 title: Documentação da Adobe Experience Cloud
 description: Esta página inclui uma lista abrangente de toda a documentação da Adobe Experience Cloud e os guias e tutoriais do usuário de ativação.
 translation-type: tm+mt
-source-git-commit: eede3f444c3bba202cb3a743a6c8f9513f5c0ecc
+source-git-commit: 2c27fc142ae16c5dc985b6790d7de2393c7cd863
 
 ---
 
@@ -57,7 +57,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
       <li><a href="https://docs.adobe.com/content/help/en/analytics/import/home.html"> Guia de importação</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/integration/home.html"> Guia de integração</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Guia do Media Analytics</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Guia da análise de big data</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Guia do Data Workbench</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> Análise da jornada do cliente</a></li>
     </ul>
   </td>
@@ -72,7 +72,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
 </tbody>
 </table>
 
-## ![Destino do ícone](/help/assets/target.png)
+## ![Público alvo de ícones](/help/assets/target.png)
 
 <table>
 <thead>
@@ -90,12 +90,12 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html"> Tutoriais do Target</a></li>
-      <li><a href="https://developers.adobetarget.com/api/delivery-api/"> APIs do servidor de destino</a></li>
-      <li><a href="https://github.com/adobe/target-nodejs-sdk"> SDK do Target NodeJS</a></li>
-      <li><a href="https://github.com/adobe/target-java-sdk"> Target Java SDK</a></li>
-      <li><a href="https://developers.adobetarget.com/api/recommendations/"> API do Target Recommendations</a></li>
-      <li><a href="http://developers.adobetarget.com/api/#introduction"> Documentação do Target Adobe.IO</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html"> Tutoriais do Público alvo</a></li>
+      <li><a href="https://developers.adobetarget.com/api/delivery-api/"> APIs do servidor do Público alvo</a></li>
+      <li><a href="https://github.com/adobe/target-nodejs-sdk"> SDK NodeJS do Público alvo</a></li>
+      <li><a href="https://github.com/adobe/target-java-sdk"> SDK Java do Público alvo</a></li>
+      <li><a href="https://developers.adobetarget.com/api/recommendations/"> API do Público alvo Recommendations</a></li>
+      <li><a href="http://developers.adobetarget.com/api/#introduction"> Documentação do Público alvo Adobe.IO</a></li>
     </ul>
   </td>
 </tr>
@@ -121,8 +121,8 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html"> Tutoriais do Campaign Classic</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/overview.html"> Tutoriais do Campaign Standard</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html"> Tutoriais de Campaign Classic</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/overview.html"> Tutoriais de Campaign Standard</a></li>
     </ul>
   </td>
 </tr>
@@ -147,7 +147,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html"> Tutoriais do Audience Manager</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html"> Tutoriais do Gerenciador de Audiências</a></li>
     </ul>
   </td>
 </tr>
@@ -184,8 +184,8 @@ Esta página inclui uma lista abrangente dos guias e tutoriais do usuário da Ad
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html"> AEM Dispatcher</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html"> AEM Cloud Manager</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html"> Componentes principais do AEM</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/exc/using/overview.html"> Biblioteca da Adobe Experience Cloud</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html"> Aplicativo para desktop do AEM</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html"> AEM Brand Portal</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/table-of-contents/introduction.html"> Serviço de conversão automatizada do AEM Forms</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html"> Dynamic Media Classic</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html"> Guia do desenvolvedor do Dynamic Media</a></li>
