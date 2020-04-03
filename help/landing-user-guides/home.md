@@ -9,7 +9,7 @@ source-git-commit: e0ce5a635394e3ca8fcf86169d33a43056a5b70c
 
 # Documentação da Adobe Experience Cloud
 
-![Banner](/help/assets/experience-cloud-banner-4.png)
+![Banner](/help/assets/experience-cloud-banner-3.png)
 
 Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experience Cloud.
 
@@ -35,7 +35,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 </tbody>
 </table>
 
-## Analytics
+## ![Ícone](/help/assets/analytics.png) do Analytics
 
 <table>
 <thead>
@@ -72,7 +72,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 </tbody>
 </table>
 
-## Target
+## ![Ícone](/help/assets/target.png) do Target
 
 <table>
 <thead>
@@ -102,7 +102,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 </tbody>
 </table>
 
-## Campaign
+## ![Ícone](/help/assets/campaign.png) do Campaign
 
 <table>
 <thead>
@@ -129,7 +129,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 </tbody>
 </table>
 
-## Audience Manager
+## ![Ícone](/help/assets/audience-manager.png) Audience Manager
 
 <table>
 <thead>
@@ -154,7 +154,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 </tbody>
 </table>
 
-## Adobe Experience Manager
+## ![Ícone](/help/assets/aem.png) do Adobe Experience Manager
 
 <table>
 <thead>
@@ -207,7 +207,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 </tbody>
 </table>
 
-## Principais serviços, administração e implementação
+## ![Ícone](/help/assets/experience-cloud.png) do Serviços principais, Administração e Implementação
 
 <table>
 <thead>
@@ -244,7 +244,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 </tbody>
 </table>
 
-## Experience Platform
+## ![Ícone](/help/assets/platform.png) Experience Platform
 
 <table>
 <thead>
@@ -286,7 +286,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 </tbody>
 </table>
 
-## Primetime
+## ![Ícone](/help/assets/primetime.png) do Primetime
 
 <table>
 <thead>
@@ -313,7 +313,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 </tbody>
 </table>
 
-## Advertising Cloud
+## ![Ícone](/help/assets/advertising-cloud.png) Advertising Cloud
 
 A ajuda da Advertising Cloud está disponível no produto ao clicar no ícone de Ajuda (?) na parte superior de qualquer página.
 
@@ -338,7 +338,7 @@ A ajuda da Advertising Cloud está disponível no produto ao clicar no ícone de
 </tbody>
 </table>
 
-## Marketo
+## ![Ícone](/help/assets/marketo.png) do Marketo
 
 <table>
 <thead>
@@ -362,7 +362,7 @@ A ajuda da Advertising Cloud está disponível no produto ao clicar no ícone de
 </tbody>
 </table>
 
-## Magento
+## ![Ícone](/help/assets/magento.png) do Magento
 
 <table>
 <thead>
@@ -385,7 +385,7 @@ A ajuda da Advertising Cloud está disponível no produto ao clicar no ícone de
 </tbody>
 </table>
 
-## Guias adicionais da Experience Cloud
+## ![Ícone](/help/assets/experience-cloud.png) dos Guias adicionais da Experience Cloud
 
 <table>
 <thead>
