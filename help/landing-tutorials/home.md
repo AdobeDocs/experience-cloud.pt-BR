@@ -2,7 +2,7 @@
 title: Tutoriais da Adobe Experience Cloud
 description: Links para todos os tutoriais e guias de aprendizado da Experience Cloud
 translation-type: tm+mt
-source-git-commit: 9fc6495b20ed5aaedbe3ff2881fb13feabaf34f7
+source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
 
 ---
 
@@ -52,15 +52,15 @@ source-git-commit: 9fc6495b20ed5aaedbe3ff2881fb13feabaf34f7
 
 A ajuda da Advertising Cloud está disponível no produto ao clicar no ícone de Ajuda (?) na parte superior de qualquer página.
 
-* [Notas de versão da Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
+* [Notas de versão da Advertising Cloud](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/current.html#adcloud)
 
 ## Recursos adicionais
 
-> [!MORELIKETHIS]
+>[!MORELIKETHIS]
 >
->* [Documentação da Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)
->* [Aprendizagem e suporte da Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
+>* [Documentação da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.html)
+>* [Aprendizagem e suporte da Experience Cloud](https://helpx.adobe.com/br/support/experience-cloud.html)
 >* [Experience League](https://experienceleague.adobe.com/)
 >* [Fóruns da comunidade](https://forums.adobe.com/community/experience-cloud/)
->* [Treinamento e tutoriais da Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+>* [Treinamento e tutoriais da Adobe](https://helpx.adobe.com/br/learning.html?promoid=KAUDK)
 
