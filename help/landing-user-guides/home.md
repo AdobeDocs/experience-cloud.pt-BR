@@ -1,7 +1,7 @@
 ---
 title: Documentação da Adobe Experience Cloud
 description: Esta página inclui uma lista abrangente de toda a documentação da Adobe Experience Cloud e os guias e tutoriais do usuário de ativação.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d718636d9c81bc6166bbe72f998b106f4a9efee0
 
 ---
@@ -173,7 +173,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
     <p><strong>Versões do AEM</strong></p>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/experience-manager-65/user-guide/home.html"> Guias do usuário do AEM 6.5</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-64/user-guide/home.html"> Guias do usuário do AEM 6.4</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/experience-manager-64/user-guide/home.translate.html"> Guias do usuário do AEM 6.4</a></li>
       <li><a href="https://helpx.adobe.com/br/support/experience-manager/6-3.html"> Guias do usuário para versões anteriores do AEM</a></li>
     </ul>
     <p><strong>Guias adicionais do AEM</strong></p>
@@ -188,7 +188,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
       <li><a href="https://docs.adobe.com/content/help/pt-BR/experience-manager-brand-portal/using/home.html"> AEM Brand Portal</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/aem-forms-automated-conversion-service/using/introduction.html"> Serviço de conversão automatizada do AEM Forms</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/dynamic-media-classic/using/home.html"> Dynamic Media Classic</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html"> Guia do desenvolvedor do Dynamic Media</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/dynamic-media-developer-resources/landing/home.translate.html"> Guia do desenvolvedor do Dynamic Media</a></li>
     </ul>
   </td>
   <td>
@@ -207,7 +207,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 </tbody>
 </table>
 
-## Principais serviços, administração e implementação
+## Serviços principais, Administração e Implementação
 
 <table>
 <thead>
@@ -299,13 +299,13 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/release-notes/home.html"> Notas de versão do Primetime</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/programming/home.html"> Guia de programação do Primetime</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/migration/home.html"> Guia de migração e conversão do Primetime</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/reference-implementation/home.html"> Implementação de referência do Primetime</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/ad-insertion/home.html"> Inserção de anúncio dinâmico Primetime</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/drm/home.html"> Digital Rights Management do Primetime</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/reference/api-references.html"> Referências da API Primetime</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/primetime/release-notes/home.translate.html"> Notas de versão do Primetime</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/primetime/programming/home.translate.html"> Guia de programação do Primetime</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/primetime/migration/home.translate.html"> Guia de migração e conversão do Primetime</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/primetime/reference-implementation/home.translate.html"> Implementação de referência do Primetime</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/primetime/ad-insertion/home.translate.html"> Inserção de anúncio dinâmica do Primetime</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/primetime/drm/home.translate.html"> Digital Rights Management do Primetime</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/primetime/reference/api-references.translate.html"> Referências da API Primetime</a></li>
       <li><a href="https://helpx.adobe.com/primetime/archives.html"> Documentação arquivada do Primetime</a></li>
     </ul>
   </td>
