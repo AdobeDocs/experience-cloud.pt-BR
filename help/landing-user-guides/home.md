@@ -18,7 +18,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 
 >[!NOTE]
 >
->Para obter a melhor experiência de pesquisa enquanto migramos o conteúdo da documentação, recomendamos navegar pelas seções de produto abaixo e realizar uma pesquisa no nível do guia
+>Para obter a melhor experiência de pesquisa enquanto migramos o conteúdo da documentação, recomendamos navegar pelas seções de produto abaixo e realizar uma pesquisa no nível do guia.
 
 <!--
 To see a preview of our documentation staged on Experience League, see [About Moving to Experience League](/help/landing-user-guides/experience-league-preview.md) (in-progress).
