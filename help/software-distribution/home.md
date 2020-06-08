@@ -2,9 +2,9 @@
 title: Distribuição de software
 description: Como usar a Distribuição de software da Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 32fc45582ffeb4f178253d71de9f3bf4a0074eea
+source-git-commit: 91c7ff4c452beb19193f35e65161743b418a3f73
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '513'
 ht-degree: 2%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 2%
 
 ## Introdução
 
-A partir de junho de 2020, a solução Experience Cloud Software Distribution substituirá as plataformas de download Package Share for AEM and Neolane for Campaign e fornecerá uma experiência mais eficiente para localizar e baixar seu software. Uma interface de usuário intuitiva, uma pesquisa simplificada e uma velocidade de download muito melhor tornam o download de pacotes de software para produtos da Experience Cloud uma excelente experiência do usuário. Pacotes de software aprovados da Adobe e pacotes de empresas de parceiros agora estão disponíveis para os seguintes produtos:
+A partir de junho de 2020, a solução Experience Cloud Software Distribution substituirá as plataformas de download PackageShare for AEM e Neolane for Campaign e fornecerá uma experiência mais eficiente para localizar e baixar seu software. Uma interface de usuário intuitiva, uma pesquisa simplificada e uma velocidade de download muito melhor tornam o download de pacotes de software para produtos da Experience Cloud uma excelente experiência do usuário. Pacotes de software aprovados da Adobe e pacotes de empresas de parceiros agora estão disponíveis para os seguintes produtos:
 
 1. **Adobe Experience Manager** - Tudo relacionado ao serviço e manutenção, segurança, ferramentas e muito mais - para todas as versões do AEM suportadas.
 1. **Adobe Experience Manager como um serviço** em nuvem - SDK da AEM Cloud, ferramentas de migração da AEM Cloud e muito mais.
 1. **Adobe Campaign** - Todas as versões atuais do instalador da Campanha e ferramentas relacionadas.
-1. **Geral** - Ferramentas gerais de finalidade, incluindo JDKs Oracle para clientes da Adobe
+1. **Geral** - Ferramentas de finalidade geral, incluindo JDKs Oracle para clientes da Adobe.
 
 ## Acesso à distribuição de software
 
@@ -33,19 +33,21 @@ Acesse [https://experience.adobe.com/downloads](https://experience.adobe.com/dow
 
 ### Selecione seu produto
 
-Você pode escolher downloads de software dos produtos licenciados pela sua organização. O menu de cabeçalho em Distribuição de software mostra esses produtos incluindo a página de start &quot;Geral&quot;, onde você pode encontrar downloads de software para fins gerais. Selecione o produto para o qual deseja baixar o software.
+Você pode escolher downloads de software dos produtos licenciados pela sua organização. O menu de cabeçalho em Distribuição de software mostra esses produtos, incluindo a página **start geral** , onde você pode encontrar downloads de software de propósito geral. Selecione o produto para o qual deseja baixar o software.
 
 ### Localizar o download
 
-Quando estiver em uma página de download de produto de sua escolha, você verá todos os downloads relacionados ao produto listados na página. A lista de downloads pode ser muito longa para encontrar o download à primeira vista. É por isso que a Distribuição de software oferta formas simples, mas poderosas de encontrar seu download. Na maioria dos casos, você achará conveniente usar os filtros de pesquisa no lado esquerdo para filtrar a lista de downloads para o que é relevante para você. Dependendo do produto, você encontrará filtros como versão, solução ou tipo de software.
-Outra opção de pesquisa é a pesquisa de texto livre no canto superior direito.
+Quando estiver em uma página de download de produto de sua escolha, você verá todos os downloads relacionados a produtos listados nessa página. A lista de downloads pode ser muito longa para encontrar o download à primeira vista. É por isso que a Distribuição de software oferta formas simples, mas poderosas de encontrar seu download. Na maioria dos casos, você achará conveniente usar os filtros de pesquisa no lado esquerdo para filtrar a lista de downloads para o que é relevante para você. Dependendo do produto, você encontrará filtros como versão, solução ou tipo de software.
+
+Outra opção de pesquisa é a pesquisa de texto livre no lado superior direito.
 
 Como parte da família de soluções da Experience Cloud, a Distribuição de software permite que você navegue no contexto de soluções da Experience Cloud e utilize serviços unificados da Experience Cloud, inclusive os principais serviços, notificações personalizadas e muito mais.
 
 ### Download de software
 
-Ao clicar no duplo em um download de software listado, uma caixa de diálogo é aberta e fornece mais informações. Por exemplo, você poderá ver uma descrição, o nome do provedor e o EULA, que você precisa aceitar antes de continuar com seu download clicando no botão Download.
-Você também pode compartilhar um link para o download específico, o URL é copiado para uso adicional clicando no botão Compartilhar.
+Ao clicar no duplo em um download de software exibido, uma caixa de diálogo é aberta e fornece mais informações. Por exemplo, você poderá ver uma descrição, o nome do provedor e o EULA, que você precisa aceitar antes de continuar com seu download clicando no botão **Download** .
+
+Você também pode compartilhar um link para esse download específico. Clique no botão **Compartilhar** para copiar o URL.
 
 >[!NOTE]
 >
