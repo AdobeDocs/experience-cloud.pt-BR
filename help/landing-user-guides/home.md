@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: c97f610c2ea231b40bfd59e7998557768070a108
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Esta página inclui uma lista abrangente dos guias e tutoriais da Adobe Experien
 
 >[!NOTE]
 >
->Para obter a melhor experiência de pesquisa enquanto migramos o conteúdo da documentação, recomendamos navegar pelas seções de produto abaixo e realizar uma pesquisa no nível do guia.
+>Para obter a melhor experiência de pesquisa enquanto migramos o conteúdo da documentação, recomendamos navegar pelas seções de produto abaixo e realizar uma pesquisa na guia.
 
 <!--
 To see a preview of our documentation staged on Experience League, see [About Moving to Experience League](/help/landing-user-guides/experience-league-preview.md) (in-progress).
@@ -133,7 +133,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html"> Tutoriais do Campaign Classic</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/overview.html"> Tutoriais do Campaign Standard</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/overview.html"> Tutoriais do Campaign Standard</a></li>
     </ul>
   </td>
 </tr>
@@ -411,7 +411,7 @@ A ajuda da Advertising Cloud está disponível no produto ao clicar no ícone de
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html"> Distribuição do software</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/experience-cloud/software-distribution/home.html"> Distribuição do software</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/search-promote/using/sp-home.html"> Search&amp;Promote</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/livefyre/using/home.html"> Guia do usuário do Livefyre</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/livefyre/implementation/home.html"> Guia de implementação do Livefyre</a></li>
