@@ -2,9 +2,9 @@
 title: Documentação da Adobe Experience Cloud
 description: Esta página inclui uma lista abrangente de toda a documentação da Adobe Experience Cloud e os guias e tutoriais do usuário de ativação.
 translation-type: tm+mt
-source-git-commit: c97f610c2ea231b40bfd59e7998557768070a108
+source-git-commit: 1acfc2c352199022f1bd6c9d043ccc6714c6148b
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1291'
 ht-degree: 99%
 
 ---
@@ -101,7 +101,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html"> Tutoriais do Target</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/target-learn/tutorials/overview.html"> Tutoriais do Target</a></li>
       <li><a href="https://developers.adobetarget.com/api/delivery-api/"> APIs do lado do servidor do Target</a></li>
       <li><a href="https://github.com/adobe/target-nodejs-sdk"> SDK NodeJS do Target</a></li>
       <li><a href="https://github.com/adobe/target-java-sdk"> SDK Java do Target</a></li>
@@ -218,7 +218,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 </tbody>
 </table>
 
-## Interface, administração e implementação do Experience Cloud
+## Interface, administração e implementação da Experience Cloud
 
 <table>
 <thead>
@@ -231,7 +231,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/experience-cloud.html"> Interface Experience Cloud</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/core-services/interface/experience-cloud.html"> Interface da Experience Cloud</a></li>
       <li><a href="https://helpx.adobe.com/br/enterprise/using/admin-console.html"> Admin Console</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html"> Guia de serviço de Experience Cloud ID</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/mobile-services/using/home.html"> Guia de serviços do Mobile Services</a></li>
@@ -274,6 +274,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/overview.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/auditor/using/overview.html"> Auditor</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/debugger/using/experience-cloud-debugger.html"> Depurador</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/debugger/using-v2/experience-cloud-debugger.html"> Depurador v2 (Beta)</a></li>
     </ul>
     <p><strong>Serviços de aplicativos fornecidos pela Experience Platform</strong></p>
     <ul>
