@@ -1,9 +1,9 @@
 ---
 title: Documentação da Adobe Experience Cloud
 description: Esta página inclui uma lista abrangente de toda a documentação da Adobe Experience Cloud e os guias e tutoriais do usuário de ativação.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a8c58787439effac3ee69dbe2f49853550bdb10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1295'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/pt-BR/analytics/admin/home.html"> Guia de administração</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/analytics/components/home.html"> Guia de componentes</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/analytics/export/home.html"> Guia de exportação</a></li>
-      <li><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html"> Guia de Implementação</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html"> Guia de implementação</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/analytics/import/home.html"> Guia de importação</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/analytics/integration/home.html"> Guia de integração</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/media-analytics/using/media-overview.html"> Guia do Media Analytics</a></li>
@@ -291,7 +291,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/pt-BR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.translate.html"> Guia de implementação do Launch</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/"> APIs do desenvolvedor da Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/pt-BR/experience-platform/edge/home.html"> SDK da Web da Experience Platform</a></li>
-      <li><a href="https://docs.adobe.com/content/help/pt-BR/platform-learn/tutorials/journey-orchestration/introduction.html"> Tutoriais do Journey Orchestration</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html"> Tutoriais do Journey Orchestration</a></li>
     </ul>
   </td>
 </tr>
