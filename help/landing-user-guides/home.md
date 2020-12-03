@@ -1,9 +1,9 @@
 ---
 title: Documentação da Adobe Experience Cloud
 description: Esta página inclui uma lista abrangente de toda a documentação da Adobe Experience Cloud e os guias e tutoriais do usuário de ativação.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8a8c58787439effac3ee69dbe2f49853550bdb10
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 100%
 
@@ -177,9 +177,9 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 <tbody>
 <tr>
   <td>
-    <p><strong>AEM como um Cloud Service</strong></p>
+    <p><strong>AEM as a Cloud Service</strong></p>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/landing/home.html"> AEM como Guias do usuário do Cloud Service</a></li>
+      <li><a href="https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/landing/home.html"> Guias do usuário do AEM as a Cloud Service</a></li>
     </ul>
     <p><strong>Versões do AEM</strong></p>
     <ul>
@@ -204,7 +204,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html"> AEM como Tutoriais do Cloud Service</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html"> Tutoriais do AEM as a Cloud Service</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/overview.html"> Tutoriais do AEM Assets</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/forms/overview.html"> Tutoriais do AEM Forms</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/sites/overview.html"> Tutoriais do AEM Sites</a></li>
