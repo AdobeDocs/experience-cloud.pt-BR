@@ -56,3 +56,5 @@ No repositório público, os rótulos automatizados são atribuídos a solicita�
 * **Pronto para mesclar**: pronto para ser revisado pela equipe de revisão da solicitação de pull.
 
 
+
+
