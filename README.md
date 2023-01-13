@@ -1,6 +1,6 @@
 ---
 source-git-commit: 11c77aec2c0b04e2d6c09cb09f8fc52552aeff97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Consulte o [Guia do colaborador dos documentos da Adobe](https://experienceleagu
 
 Todos os artigos deste repositório usam GitHub Flavored Markdown. Se você não estiver familiarizado com o Markdown, consulte:
 
-* [Noções básicas sobre o Markdown](https://help.github.com/articles/markdown-basics/)
+* [Noções básicas sobre o Markdown](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 * [Página de consulta do Markdown para impressão](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Rótulos
