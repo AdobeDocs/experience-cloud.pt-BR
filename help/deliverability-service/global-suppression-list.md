@@ -4,64 +4,64 @@ description: Conheça a lista de supressão global
 hide: true
 exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
 source-git-commit: b66e2525694c771ebb7ac5190b7259ef5658d81a
-workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 2%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 # Lista de supressão global {#global-suppression-list}
 
-A lista de supressão consiste em endereços de email que os clientes desejam excluir de suas entregas, pois o envio para esses contatos pode prejudicar sua reputação de envio e as taxas de entrega. Atualmente, o Adobe mantém uma lista atualizada de endereços de email inválidos conhecidos que comprovadamente prejudicam a reputação de engajamento e mala direta, e garante que os emails não sejam entregues a eles. Essa lista é gerenciada em uma lista de supressão global que é comum em todos os clientes do Adobe. Os endereços e os nomes de domínio contidos na lista de supressão global estão ocultos. Somente o número de recipients excluídos é indicado nos relatórios de delivery.
+A lista de supressão consiste em endereços de email que clientes desejam excluir de suas entregas, pois enviar para esses contatos poderia prejudicar sua reputação de envio e as taxas de entrega. Atualmente, a Adobe mantém uma lista atualizada de endereços de email inadequados conhecidos que comprovadamente são prejudiciais ao engajamento e à reputação de envio, e garante que os emails não sejam entregues a eles. Essa lista é gerenciada em uma lista de supressão global comum a todos os clientes da Adobe. Os endereços e os nomes de domínio contidos na lista de supressão global estão ocultos. Somente o número de destinatários excluídos é indicado nos relatórios de entrega.
 
-Agora é possível gerenciar a lista de supressão global por meio de uma interface disponível internamente. Esta lista será mantida somente por consultores de avaliação de entrega. A lista de supressão global pode incluir endereços de email ou de domínio.
+Agora é possível gerenciar a lista de supressão global a partir de uma interface que está disponível internamente. Essa lista será mantida somente por consultores de capacidade de entrega. A lista de supressão global pode incluir endereços de email ou de domínio.
 
 ## Acessar a lista de supressão global
 
-Para acessar a lista detalhada de domínios e endereços de email excluídos, acesse **[!UICONTROL Lista de supressão global]**.
+Para acessar a lista detalhada de endereços de email e domínios excluídos, acesse **[!UICONTROL Lista de supressão global]**.
 
 >[!CAUTION]
 >
->As permissões para exibir, exportar e gerenciar a lista de supressão global dependem da lista de distribuição à qual você está atribuído. Saiba mais
+>As permissões para visualizar, exportar e gerenciar a lista de supressão global dependem da lista de distribuição à qual você está atribuído. Saiba mais
 
-Duas guias são exibidas: **[!UICONTROL E-mail]** e **[!UICONTROL Domínio]**.
+Duas guias são exibidas: **[!UICONTROL Email]** e **[!UICONTROL Domínio]**.
 
-Os filtros estão disponíveis para ajudá-lo a navegar pela lista.
+Há filtros disponíveis para ajudar na navegação pela lista.
 
 ## Adicionar endereços e domínios
 
-Atualmente, há duas maneiras de adicionar endereços à lista de supressão global:
+Atualmente, há duas maneiras de se adicionar endereços à lista de supressão global:
 
-* Lista com curadoria da equipe de avaliação do delivery.
-* Lista fornecida pelo provedor de serviços terceirizado Blackbox.
+* Uma lista preparada pela equipe de capacidade de entrega.
+* Uma lista fornecida pelo provedor de serviços de terceiros Blackbox.
 
-Você pode adicionar endereços de email ou domínios [um de cada vez](#add-one-address-or-domain)ou [no modo em massa](#upload-csv-file) por meio de um upload de arquivo CSV.
+Você pode adicionar os endereços de email ou domínios [um de cada vez](#add-one-address-or-domain) ou [em massa](#upload-csv-file) por meio do upload de um arquivo CSV.
 
-Para fazer isso, selecione a variável **[!UICONTROL Adicionar email ou domínio]** e siga um dos métodos abaixo.
+Para fazer isso, clique no botão **[!UICONTROL Adicionar email ou domínio]** e siga um dos métodos abaixo.
 
 ### Adicionar um endereço ou domínio {#add-one-address-or-domain}
 
-1. Selecione o **[!UICONTROL Um por um]** opção.
+1. Selecione a opção **[!UICONTROL Um por um]**.
 
-1. Escolha o tipo de endereço: **[!UICONTROL Endereço de email]** ou **[!UICONTROL Endereço do domínio]**.
+1. Escolha o tipo de endereço: **[!UICONTROL Endereço de email]** ou **[!UICONTROL Endereço de domínio]**.
 
 1. Insira o endereço de email ou domínio que deseja excluir do envio.
 
    >[!NOTE]
    >
-   >Insira um endereço de email válido (como abc@company.com) ou domínio (como abc.company.com).
+   >Certifique-se de inserir um endereço de email (como abc@empresa.com) ou de domínio (como abc.empresa.com) válido.
 
 1. Especifique um motivo, se necessário.
 
    >[!NOTE]
    >
-   >Todos os caracteres ASCII imprimíveis compreendidos entre 32 e 126 são permitidos neste campo. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} por exemplo.
+   >Todos os caracteres ASCII imprimíveis compreendidos entre 32 e 126 são permitidos neste campo. Para referência, a lista completa pode ser encontrada [nesta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}.
 
 1. Clique em **[!UICONTROL Enviar]** para confirmar.
 
-### Carregar um arquivo CSV {#upload-csv-file}
+### Fazer upload de um arquivo CSV {#upload-csv-file}
 
-1. Selecione o **[!UICONTROL Fazer upload de CSV]** opção.
+1. Selecione a opção **[!UICONTROL Fazer upload de CSV]**.
 
 1. Baixe o modelo CSV a ser usado, que inclui as colunas e o formato abaixo:
 
@@ -75,29 +75,29 @@ Para fazer isso, selecione a variável **[!UICONTROL Adicionar email ou domínio
    >
    >Não altere os nomes das colunas no modelo CSV.
    >
-   >O tamanho do arquivo não deve exceder 1 MB.
+   >O tamanho do arquivo não pode exceder a 1 MB.
 
-1. Preencha o modelo CSV com os domínios e/ou endereços de email que deseja adicionar à lista de supressão.
+1. Preencha o modelo CSV com os endereços de email e/ou domínios que deseja adicionar à lista de supressão.
 
    >[!NOTE]
    >
-   >Todos os caracteres ASCII entre 32 e 126 são permitidos na variável **Comentário** coluna. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} por exemplo.
+   >Todos os caracteres ASCII compreendidos entre 32 e 126 são permitidos na coluna **Comentário**. Para referência, a lista completa pode ser encontrada [nesta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}.
 
-1. Depois de concluído, arraste e solte seu arquivo CSV e clique em **[!UICONTROL Enviar]** para confirmar.
+1. Após concluído, arraste e solte seu arquivo CSV e clique em **[!UICONTROL Enviar]** para confirmar.
 
 >[!NOTE]
 >
->Depois que o upload for concluído, verifique se ele foi bem-sucedido verificando o status na interface. [Saiba como](#recent-uploads)
+>Quando o upload estiver concluído, verifique se ele foi bem-sucedido consultando o status na interface. [Saiba como](#recent-uploads)
 
-### Verificar status de uploads recentes {#recent-uploads}
+### Verificar o status de uploads recentes {#recent-uploads}
 
-Clique em **[!UICONTROL Uploads recentes]** botão para verificar o status dos arquivos CSV mais recentes carregados.
+Clique no botão **[!UICONTROL Uploads recentes]** para verificar o status dos arquivos CSV mais recentes que você enviou.
 
-Os possíveis status são:
+Os status possíveis são:
 
-* **[!UICONTROL Pending]**: o upload do arquivo está sendo processado.
-* **[!UICONTROL Erro]**: o processo de upload de arquivo falhou devido a um problema técnico ou a um erro de formato de arquivo.
-* **[!UICONTROL Concluído]**: o processo de upload de arquivo foi concluído com êxito.
+* **[!UICONTROL Pendente]**: o upload do arquivo está sendo processado.
+* **[!UICONTROL Erro]**: o processo de upload do arquivo falhou devido a um problema técnico ou a um erro no formato do arquivo.
+* **[!UICONTROL Concluído]**: o processo de upload de arquivo foi concluído com sucesso.
 
 Durante o upload, se alguns endereços não estiverem no formato correto, eles não serão adicionados à lista de supressão global.
 
@@ -105,8 +105,8 @@ Nesse caso, quando o upload é concluído, ele é associado a um relatório. Voc
 
 ## Remover endereços
 
-Para remover um endereço da lista de supressão global, use o **[!UICONTROL Excluir]** botão.
+Para remover um endereço da lista de supressão global, use o botão **[!UICONTROL Excluir]**.
 
 >[!CAUTION]
 >
->Endereços ou domínios adicionados automaticamente pelo provedor de serviços de terceiros Blackbox não podem ser removidos por consultores por meio da interface. Isso pode ser feito somente por meio de um tíquete de back-end.
+>Os endereços ou domínios adicionados automaticamente pelo provedor de serviços de terceiros Blackbox não podem ser removidos pelos consultores por meio da interface. Isso pode ser feito somente por meio de um tíquete no back-end.
