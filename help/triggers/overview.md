@@ -4,20 +4,20 @@ description: Descubra a interface dos Triggers da Adobe Experience Cloud
 hide: true
 hidefromtoc: true
 source-git-commit: 9f1b3257e49c34d2909d457c098a2081a2fb69a3
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '271'
+ht-degree: 100%
 
 ---
 
-# Visão geral do Triggers {#overview}
+# Visão geral dos acionadores {#overview}
 
-Os Experience Cloud Triggers fornecem uma solução abrangente para identificar, definir e monitorar os comportamentos críticos do consumidor. Com esses acionadores, você pode gerar comunicações entre aplicativos para atrair os visitantes novamente, resultando em uma experiência do usuário mais personalizada e envolvente.
-Você pode usar acionadores em decisões e personalização em tempo real, por exemplo:
+Os acionadores da Experience Cloud fornecem uma solução abrangente para identificar, definir e monitorar comportamentos importantes do consumidor. Com esses acionadores, você pode gerar comunicações entre aplicativos para reengajar os visitantes, resultando em uma experiência de usuário mais personalizada e envolvente.
+Você pode usar acionadores em personalizações e decisões em tempo real, por exemplo:
 
-* Configure campanhas de re-marketing rápidas para abandonos de carrinho ou abandonos de carrinho com produtos removidos, ajudando a aumentar as conversões e a receita.
-* Identifique formulários e aplicativos incompletos, permitindo acompanhar as comunicações personalizadas para incentivar a conclusão e reduzir as taxas de abandono.
-* Monitore quaisquer ações ou sequências de ações no site que deseja rastrear, fornecendo insights valiosos sobre o comportamento do usuário e permitindo otimizar a experiência do usuário com base em suas ações.
+* Configurar campanhas de remarketing rápidas para abandonos de carrinho com ou sem produtos removidos, ajudando a aumentar as conversões e a receita.
+* Identificar formulários e aplicativos incompletos, permitindo dar prosseguimento ao processo com comunicações personalizadas, a fim de incentivar a conclusão e reduzir as taxas de abandono.
+* Monitorar quaisquer ações ou sequências de ações no site que você deseja acompanhar, fornecendo insights valiosos sobre o comportamento do usuário e permitindo otimizar a experiência do usuário com base em suas ações.
 
 ## Tipos de Triggers
 
