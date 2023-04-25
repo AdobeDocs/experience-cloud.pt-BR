@@ -1,18 +1,17 @@
 ---
 title: Criar e gerenciar triggers da Experience Cloud
 description: Descubra a interface dos Triggers da Adobe Experience Cloud
-hide: true
-hidefromtoc: true
-source-git-commit: 9f1b3257e49c34d2909d457c098a2081a2fb69a3
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 743244e72cfe2dfb44a6c9adba699f90db1fe04d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Visão geral dos acionadores {#overview}
+# Sobre Experience Cloud Triggers {#overview}
 
 Os acionadores da Experience Cloud fornecem uma solução abrangente para identificar, definir e monitorar comportamentos importantes do consumidor. Com esses acionadores, você pode gerar comunicações entre aplicativos para reengajar os visitantes, resultando em uma experiência de usuário mais personalizada e envolvente.
+
 Você pode usar acionadores em personalizações e decisões em tempo real, por exemplo:
 
 * Configurar campanhas de remarketing rápidas para abandonos de carrinho com ou sem produtos removidos, ajudando a aumentar as conversões e a receita.

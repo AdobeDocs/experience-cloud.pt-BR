@@ -3,10 +3,11 @@ title: Criar e gerenciar Triggers da Experience Cloud
 description: Descubra a interface dos Triggers da Adobe Experience Cloud
 hide: true
 hidefromtoc: true
-source-git-commit: ce0faf9fab45c931feb666ac0c77f5ab5c231746
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
+source-git-commit: 743244e72cfe2dfb44a6c9adba699f90db1fe04d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 100%
 
 Crie um acionador e configure as condições para ele. Por exemplo, você pode especificar o critério das regras para um acionador durante uma visita. Alguns exemplos são métricas, como Abandono de carrinho, ou dimensões, como o nome do produto. O disparador é executado quando as regras são cumpridas.
 
-1. Na Experience Cloud, selecione o menu avançado e, em seguida, Acionadores.
+1. No Experience Cloud, selecione o menu alternador de soluções e **[!UICONTROL Triggers]**.
 
    ![](assets/triggers_7.png)
 
@@ -38,7 +39,7 @@ Crie um acionador e configure as condições para ele. Por exemplo, você pode e
 
 1. Selecione o **[!UICONTROL Conjunto de relatórios]** do Analytics usado nesse acionador. Esta configuração identifica os dados de relatório que serão usados.
 
-   [Saiba mais sobre Conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=pt-BR).
+   [Saiba mais sobre Conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=pt-BR){target="_blank"}.
 
 1. Escolha o período de validade **[!UICONTROL Disparar após inatividade de]**.
 
