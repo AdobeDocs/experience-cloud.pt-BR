@@ -1,10 +1,13 @@
 ---
 title: Criar e gerenciar triggers da Experience Cloud
 description: Descubra a interface dos Triggers da Adobe Experience Cloud
-source-git-commit: 743244e72cfe2dfb44a6c9adba699f90db1fe04d
+hide: true
+hidefromtoc: true
+exl-id: 2c8f58aa-cade-46c1-beaa-cfe7720e4e90
+source-git-commit: 7304dc2d08f78bd287fc0cae6e11021aa6ed1149
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '273'
+ht-degree: 98%
 
 ---
 
@@ -25,4 +28,3 @@ Geralmente, um acionador pode levar 15 a 90 minutos para iniciar uma campanha de
 * **Abandono:** é possível criar um acionador para ser disparado quando um visitante visualizar um produto, mas não fizer adições ao carrinho.
 * **Ação:** por exemplo, você pode criar acionadores para serem disparados depois de inscrições em newsletters, assinaturas por email ou aplicações para cartões de crédito (confirmações). Se você for um varejista, crie um acionador para um visitante que se inscreve em um programa de fidelidade. Em mídia e entretenimento, crie acionadores para visitantes que assistem a um certo programa que talvez você queira que respondam a uma pesquisa.
 * **Início e término de sessão:** crie um acionador para o início da sessão e eventos de término de sessão.
-
