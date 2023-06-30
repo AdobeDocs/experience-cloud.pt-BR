@@ -2,20 +2,24 @@
 title: Criar e gerenciar Triggers da Experience Cloud
 description: Descubra a interface dos Triggers da Adobe Experience Cloud
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
-source-git-commit: 3edbf7991e19d524ce5284a0cdd46676b9640062
+source-git-commit: 9cdff509e07f1e01b6c6a403288093998e5db152
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 95%
 
 ---
 
 # Criar um acionador da Experience Cloud {#create-triggers}
 
+>[!AVAILABILITY]
+>
+>A nova interface do usuário do Adobe Experience Cloud Triggers é implantada progressivamente para todos os clientes. Para obter mais informações, entre em contato com o representante da Adobe.
+
+Crie um acionador e configure as condições para ele. Por exemplo, você pode especificar o critério das regras para um acionador durante uma visita. Alguns exemplos são métricas, como Abandono de carrinho, ou dimensões, como o nome do produto. O disparador é executado quando as regras são cumpridas.
+
 >[!NOTE]
 >
 > A nova interface dos acionadores da Experience Cloud oferece uma experiência intuitiva para gerenciar comportamentos do consumidor e personalizar experiências do usuário. Para voltar à interface anterior, clique no botão **[!UICONTROL Ir para o modo clássico]**.
-
-Crie um acionador e configure as condições para ele. Por exemplo, você pode especificar o critério das regras para um acionador durante uma visita. Alguns exemplos são métricas, como Abandono de carrinho, ou dimensões, como o nome do produto. O disparador é executado quando as regras são cumpridas.
 
 1. Na Experience Cloud, selecione o menu do alternador de soluções e, em seguida, clique em **[!UICONTROL Acionadores]**.
 
