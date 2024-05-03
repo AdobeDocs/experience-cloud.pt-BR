@@ -4,8 +4,7 @@ description: Saiba como atualizar perfis com APIs
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
-exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 1%

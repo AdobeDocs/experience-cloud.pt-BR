@@ -7,8 +7,7 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
-exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 2%
@@ -28,7 +27,7 @@ Veja alguns exemplos:
 * Acionamento de comunicação transacional com base em eventos - confirmação de pedido, itinerário de reserva, redefinição de senha etc.
 * Até mesmo abandono de carrinho por e-mail.
 
-As páginas de aterrissagem de inscrição fornecem uma maneira de os clientes ou clientes potenciais registrarem seu nome e endereço de email. Depois que o Campaign Standard captura as informações e preferências do perfil, ele pode enviar mensagens personalizadas com base nos interesses da pessoa.
+As páginas de aterrissagem de inscrição fornecem uma maneira de os clientes ou clientes potenciais registrarem seu nome e endereço de email. Quando o Campaign Standard captura as informações e preferências do perfil, ele pode enviar mensagens personalizadas com base nos interesses da pessoa.
 
 Eles são criados com os elementos abaixo:
 
