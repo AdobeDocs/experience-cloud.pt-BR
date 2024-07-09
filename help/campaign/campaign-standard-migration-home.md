@@ -3,10 +3,10 @@ title: Interface do usuário da Web do Adobe Campaign
 description: Conheça a interface da Web do Adobe Campaign
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: ba22719c91d44e537020d17a53ff7f8f6a929111
+source-git-commit: 619453901147f83d691156a3b870d36b6caa1868
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -21,11 +21,11 @@ Além disso, essa transição trará muitos benefícios:
 * Integração com o Adobe Experience Platform
 * Interface do usuário e experiência consistentes
 
-Para obter mais informações sobre os principais recursos e diferenças de conceito, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/release-notes/acs-migration).
+Para obter mais informações sobre os principais recursos e diferenças de conceito, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
 
 ## Novidades
 
-Dê uma olhada em todos os recursos e funcionalidades oferecidos pelo [Interface do usuário da Web do Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home?lang=pt-BR) e [Campaign v8](https://experienceleague.adobe.en/com/docs/campaign/campaign-v8/campaign-home?lang=pt-BR).
+Dê uma olhada em todos os recursos e funcionalidades oferecidos pelo [Interface do usuário da Web do Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/campaign-web-home) e [Campaign v8](https://experienceleague.adobe.en/com/docs/campaign/campaign-v8/campaign-home?lang=pt-BR).
 
 Para que você possa fazer a transição sem problemas, adicionamos os principais recursos do Campaign Standard para o v8:
 
