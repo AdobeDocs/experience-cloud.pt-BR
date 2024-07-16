@@ -4,10 +4,10 @@ user-guide-description: Adobe Campaign v8
 breadcrumb-title: Adobe Campaign v8
 solution: Experience Cloud
 role: User
-source-git-commit: dfe80854447b2a49b53908947b7814c7b8e29fa5
+source-git-commit: 0650d42102216c353c5843322d01af5af80d2e5c
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 72%
+source-wordcount: '159'
+ht-degree: 71%
 
 ---
 
@@ -39,11 +39,12 @@ ht-degree: 72%
       + [Adicionar visualizações](reporting/adding-visualizations.md)
       + [Adição de componentes](reporting/adding-components.md)
       + [Criação de uma dimensão de perfil personalizada](reporting/creating-a-custom-profile-dimension.md)
-+ Marcas {#branding}
+      + [Contrato de uso de relatórios dinâmicos](reporting/pii-agreement.md)
++ Identidade visual {#branding}
    + [Sobre a marca](branding/branding-gs.md)
    + [Configurar uma marca](branding/branding-configure.md)
    + [Atribuir uma marca](branding/branding-assign.md)
-+ REST APIs {#apis}
++ APIs REST {#apis}
    + [Introdução às REST APIs](api/get-started-apis.md)
    + [Recommendations e limitações](api/limitations.md)
    + [Por que usar APIs REST](api/why-using-campaign-standard-apis.md)
@@ -64,7 +65,7 @@ ht-degree: 72%
       + [Recuperação de perfis](api/retrieving-profiles.md)
       + [Atualização de perfis](api/updating-profiles.md)
       + [Criação de perfis](api/creating-profiles-api.md)
-   + Gerenciamento de serviços e assinaturas {#managing-services-and-subscriptiopns}
+   + Gerenciando serviços e assinatura {#managing-services-and-subscriptiopns}
       + [Criação de um serviço](api/creating-a-service.md)
       + [Recuperação de subscrições](api/retrieving-subscriptions.md)
       + [Realizar subscrições](api/perform-subscriptions.md)
