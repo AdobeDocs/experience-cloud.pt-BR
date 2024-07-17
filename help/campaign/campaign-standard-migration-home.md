@@ -25,7 +25,7 @@ Para obter mais informações sobre os principais recursos e diferenças de conc
 
 ## Novidades
 
-Dê uma olhada em todos os recursos e funcionalidades oferecidos pelo [Interface do usuário da Web do Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/campaign-web-home) e [Campaign v8](https://experienceleague.adobe.en/com/docs/campaign/campaign-v8/campaign-home?lang=pt-BR).
+Dê uma olhada em todos os recursos e funcionalidades oferecidos pela [Interface do Usuário da Web do Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/campaign-web-home) e pelo [Campaign v8](https://experienceleague.adobe.en/com/docs/campaign/campaign-v8/campaign-home?lang=pt-BR).
 
 Para que você possa fazer a transição sem problemas, adicionamos os principais recursos do Campaign Standard para o v8:
 
@@ -37,13 +37,13 @@ Você pode acessar o Dynamic Reporting, que fornece relatórios totalmente perso
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](reporting/get-started-reporting.md)
 
->[!TAB Marcas centralizadas]
+>[!TAB Marca Centralizada]
 
 Os administradores técnicos agora podem definir uma ou várias marcas para centralizar os parâmetros que afetam a identidade de uma marca.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](branding/branding-gs.md)
 
->[!TAB Rest APIs]
+>[!TAB APIs rest]
 
 Você pode usar as APIs Rest para criar integrações com o Adobe Campaign e criar seu próprio ecossistema, conectando o Adobe Campaign ao painel de tecnologias que você usa.
 

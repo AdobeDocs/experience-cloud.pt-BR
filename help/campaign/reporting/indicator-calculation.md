@@ -4,7 +4,8 @@ description: Entenda os resultados de seus relatórios com uma lista de todas as
 level: Intermediate
 audience: end-user
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
-source-git-commit: 031d5b692d9b9e4420b14ba1ab892fbafed57ec0
+exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 7%
@@ -38,7 +39,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Na inclui na lista de bloqueios<br/> </td> 
+   <td> Na inclui na lista de bloqueios <br/> </td> 
    <td> @blacklisted<br/> </td> 
    <td> count(@failureReason=8, @failureType=2)<br/> </td> 
    <td> </td> 
@@ -47,7 +48,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> taxa de Inclui na lista de bloqueios<br/> </td> 
    <td> @rateBlacklisted<br/> </td> 
    <td> @blacklisted/@sent<br/> </td> 
-   <td> O denominador para cálculo de taxa é baseado na contagem Enviada (Entregue + Rejeições).<br/> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem Enviada (Entregue + Devoluções).<br/> </td> 
   </tr> 
   <tr> 
    <td> Devoluções + Erros<br/> </td> 
@@ -56,13 +57,13 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejeição + taxa de erro<br/> </td> 
+   <td> Rejeição + Taxa de erro <br/> </td> 
    <td> @rateBounces<br/> </td> 
    <td> @bounces/@sent<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Clique em<br/> </td> 
+   <td> Clique em <br/> </td> 
    <td> @clicks<br/> </td> 
    <td> count(@trackingUrlType=1 ou 10 ou 11)<br/> </td> 
    <td> </td> 
@@ -71,7 +72,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Taxa de cliques<br/> </td> 
    <td> @clickthrough<br/> </td> 
    <td> @uniqueclicks/@delivered<br/> </td> 
-   <td> O denominador para o cálculo da taxa baseia-se em Delivered only.<br/> </td> 
+   <td> O denominador para cálculo de taxa é baseado em Apenas Entregue.<br/> </td> 
   </tr> 
   <tr> 
    <td> Entregue<br/> </td> 
@@ -83,7 +84,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Taxa de entregas<br/> </td> 
    <td> @rateDelivered<br/> </td> 
    <td> @delivered/@sent<br/> </td> 
-   <td> O denominador para cálculo de taxa é baseado na contagem Enviada (Entregue + Rejeições).<br/> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem Enviada (Entregue + Devoluções).<br/> </td> 
   </tr> 
   <tr> 
    <td> Devoluções permanentes<br/> </td> 
@@ -92,10 +93,10 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taxa de devoluções permanentes<br/> </td> 
+   <td> Taxa de rejeições permanentes<br/> </td> 
    <td> @rateHardBounces<br/> </td> 
    <td> @hardBounces/@sent<br/> </td> 
-   <td> O denominador para cálculo de taxa é baseado na contagem Enviada (Entregue + Rejeições).<br/> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem Enviada (Entregue + Devoluções).<br/> </td> 
   </tr> 
   <tr> 
    <td> Domínio inválido<br/> </td> 
@@ -104,7 +105,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Caixa de entrada cheia<br/> </td> 
+   <td> Caixa de correio cheia<br/> </td> 
    <td> @mailBoxFull<br/> </td> 
    <td> count(@failureReason=5)<br/> </td> 
    <td> </td> 
@@ -113,7 +114,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Mirror page<br/> </td> 
    <td> @mirrorPage<br/> </td> 
    <td> count(@trackingUrlType=6)<br/> </td> 
-   <td> O denominador para o cálculo da taxa baseia-se em Delivered only.<br/> </td> 
+   <td> O denominador para cálculo de taxa é baseado em Apenas Entregue.<br/> </td> 
   </tr> 
   <tr> 
    <td> Taxa de mirror pages<br/> </td> 
@@ -137,7 +138,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Taxa de aberturas<br/> </td> 
    <td> @rateOpens<br/> </td> 
    <td> @opens/@delivered<br/> </td> 
-   <td> O denominador para o cálculo da taxa baseia-se em Delivered only.<br/> </td> 
+   <td> O denominador para cálculo de taxa é baseado em Apenas Entregue.<br/> </td> 
   </tr> 
   <tr> 
    <td> Quarentena<br/> </td> 
@@ -149,7 +150,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Taxa de quarentena<br/> </td> 
    <td> @rateQuarantine<br/> </td> 
    <td> @quarantine/@sent<br/> </td> 
-   <td> O denominador para cálculo de taxa é baseado na contagem Enviada (Entregue + Rejeições).<br/> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem Enviada (Entregue + Devoluções).<br/> </td> 
   </tr>
   <tr> 
    <td> Rejeitada<br/> </td> 
@@ -158,10 +159,10 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taxa de rejeições<br/> </td> 
+   <td> Taxa rejeitada<br/> </td> 
    <td> @rateRejected<br/> </td> 
    <td> @rejected/@sent<br/> </td> 
-   <td> O denominador para cálculo de taxa é baseado na contagem Enviada (Entregue + Rejeições).<br/> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem Enviada (Entregue + Devoluções).<br/> </td> 
   </tr> 
   <tr> 
    <td> Processado/enviado<br/> </td> 
@@ -179,7 +180,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Taxa de rejeição temporária<br/> </td> 
    <td> @rateSoftBounces<br/> </td> 
    <td> @softBounces/@sent<br/> </td> 
-   <td> O denominador para cálculo de taxa é baseado na contagem Enviada (Entregue + Rejeições).<br/> </td> 
+   <td> O denominador para cálculo de taxa é baseado na contagem Enviada (Entregue + Devoluções).<br/> </td> 
   </tr> 
   <tr> 
    <td> Cliques únicos<br/> </td> 
@@ -200,7 +201,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Cancelar inscrição<br/> </td> 
+   <td> Cancelar assinatura<br/> </td> 
    <td> @unsubscribes<br/> </td> 
    <td> count(@trackingUrlType=3)<br/> </td> 
    <td> </td> 
@@ -209,7 +210,7 @@ As tabelas abaixo fornecem a lista de indicadores usados nos diferentes relatór
    <td> Taxa de cancelamento de inscrição<br/> </td> 
    <td> @rateUnsubscribes<br/> </td> 
    <td> @unsubscribes/@delivered<br/> </td> 
-   <td> O denominador para o cálculo da taxa baseia-se em Delivered only.<br/> </td> 
+   <td> O denominador para cálculo de taxa é baseado em Apenas Entregue.<br/> </td> 
   </tr> 
   <tr> 
    <td> Usuário desconhecido<br/> </td> 

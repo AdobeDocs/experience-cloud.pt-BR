@@ -8,7 +8,8 @@ role: Data Engineer
 level: Experienced
 mini-toc-levels: 1
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
-source-git-commit: 4ddde59006a72f34090a0ed4a765447c69c5f029
+exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 1%
@@ -27,7 +28,7 @@ Com a migração, dois perfis de produto são adicionados às suas contas técni
 
 ### ID do inquilino
 
-Após a migração, para integrações futuras, é recomendável usar o **ID do locatário do Campaign v8** em REST URLs, substituindo a ID de locatário do Campaign Standard anterior.
+Após a migração, para qualquer integração futura, é recomendável usar sua **ID de locatário do Campaign v8** em URLs REST, substituindo sua ID de locatário do Campaign Standard anterior.
 
 ### Uso da chave
 
@@ -44,7 +45,7 @@ Por enquanto, as APIs REST listadas abaixo estão disponíveis para uso:
 
 >[!AVAILABILITY]
 >
->Por enquanto, o **Mensagens transacionais** API REST não disponível.
+>Por enquanto, a API REST de **mensagens transacionais** não está disponível.
 >
 >As REST APIs listadas abaixo estão obsoletas e não estão disponíveis para uso:
 >* Histórico de marketing
@@ -53,7 +54,7 @@ Por enquanto, as APIs REST listadas abaixo estão disponíveis para uso:
 
 ## Filtragem
 
-* Para usar os filtros em cargas da API REST, é necessário editá-los no Campaign v8 e fornecer um nome para usar em suas cargas. Para fazer isso, acesse os parâmetros adicionais do filtro no **[!UICONTROL Parâmetros]** e forneça o nome desejado na guia **[!UICONTROL Nome do filtro na API REST]** campo.
+* Para usar os filtros em cargas da API REST, é necessário editá-los no Campaign v8 e fornecer um nome para usar em suas cargas. Para fazer isso, acesse os parâmetros adicionais do filtro na guia **[!UICONTROL Parâmetros]** e forneça o nome desejado no campo **[!UICONTROL Nome do filtro na API REST]**.
 
   ![](assets/api-filtering.png)
 
@@ -113,13 +114,13 @@ A seção abaixo lista as diferenças entre códigos de erro e mensagens do Camp
 | Uso de ID bruta não existente no URI | 404 - RST-360011 Ocorreu um erro - entre em contato com o administrador. Não é possível localizar o documento com o caminho &#39;Service&#39; da chave &#39;adobe_nl:0&#39; (documento com o esquema &#39;service&#39; e o nome &#39;adobe_nl&#39;) | 404 - Não é possível localizar o documento com o caminho &#39;Service&#39; da chave &#39;adobe_nl&#39; (documento com o esquema &#39;service&#39; e o nome &#39;adobe_nl&#39;) |
 | Uso de raw-id não existente no corpo da solicitação | 404 - RST-360011 Ocorreu um erro - entre em contato com o administrador. Não é possível localizar o documento com o caminho &#39;Service&#39; da chave &#39;adobe_nl&#39; (documento com o esquema &#39;service&#39; e o nome &#39;adobe_nl&#39;) | 404 - Não é possível localizar o documento com o caminho &#39;Service&#39; da chave &#39;adobe_nl&#39; (documento com o esquema &#39;service&#39; e o nome &#39;adobe_nl&#39;) |
 | - | 500 - RST-360011 Ocorreu um erro - entre em contato com o administrador. | 500 - Ocorreu um erro - entre em contato com o administrador. |
-| Insira um perfil/serviço com valor de enumeração de gênero inválido (ou qualquer coisa) | 500 - RST-360011 Ocorreu um erro - entre em contato com o administrador. O valor &#39;invalid&#39; não é válido para &#39;nms&#39;:recipient:enumeração de gênero do campo &#39;@gender&#39; | 500 -Ocorreu um erro - entre em contato com o administrador. |
+| Insira um perfil/serviço com valor de enumeração de gênero inválido (ou qualquer coisa) | 500 - RST-360011 Ocorreu um erro - entre em contato com o administrador. O valor &#39;invalid&#39; não é válido para a enumeração &#39;nms:recipient:gender&#39; do campo &#39;@gender&#39; | 500 -Ocorreu um erro - entre em contato com o administrador. |
 
 ## Perfil - Fuso horário
 
-Com o Campaign Standard, o fuso horário é exibido como parte da resposta JSON do **profileAndServices/profile** Chamadas de API REST.
+Com o Campaign Standard, o fuso horário é exibido como parte da resposta JSON de **profileAndServices/profile** chamadas de API REST.
 
-Com o Campaign v8, o fuso horário é exibido somente para o usuário como parte da **profileAndServicesExt/profile** Chamadas de API REST. Não faz parte do **profileAndServices/profile** Chamadas de API REST desde que estejam sendo adicionadas em um schema estendido.
+Com o Campaign v8, o fuso horário é exibido somente para o usuário como parte das chamadas de API REST **profileAndServicesExt/profile**. Não faz parte das chamadas REST API **profileAndServices/profile** porque está sendo adicionado em um esquema estendido.
 
 ## Fluxos de trabalho - Acionamento de sinal externo
 

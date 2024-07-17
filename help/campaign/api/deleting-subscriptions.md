@@ -4,7 +4,8 @@ description: Saiba como excluir assinaturas com APIs
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 76e2d102-c877-41a6-af87-2f407201a572
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Se a solicitação de exclusão for bem-sucedida, o status da resposta será 204
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 As cargas de exemplo abaixo mostram como cancelar a assinatura de um perfil de um serviço. Primeiro, execute uma solicitação GET para recuperar o perfil.
 
@@ -100,7 +101,7 @@ Se a solicitação de exclusão for bem-sucedida, o status da resposta será 204
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Recuperar o registro de serviço.
 

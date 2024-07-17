@@ -7,10 +7,11 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -27,11 +28,11 @@ Você pode controlar um workflow diretamente da API REST, por meio de uma solici
 Quatro comandos de execução estão disponíveis para controlar um workflow:
 
 * Start
-* Pausar
+* Pause
 * Retomar
 * Stop
 
-Para obter mais informações sobre os comandos de execução, consulte [Documentação da campanha](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
+Para obter mais informações sobre os comandos de execução, consulte a [documentação do Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 

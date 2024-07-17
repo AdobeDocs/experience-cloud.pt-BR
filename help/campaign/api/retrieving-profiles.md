@@ -4,7 +4,8 @@ description: Saiba como recuperar perfis com APIs
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 4%
@@ -13,9 +14,9 @@ ht-degree: 4%
 
 # Recuperação de perfis com APIs {#retrieving-profiles}
 
-A recuperação de perfis é executada com um **GET** solicitação.
+A recuperação de perfis é executada com uma solicitação **GET**.
 
-Você pode refinar sua pesquisa usando filtros, ordenação e paginação. Para obter mais informações, consulte [Operações adicionais](sorting.md) seção.
+Você pode refinar sua pesquisa usando filtros, ordenação e paginação. Para obter mais informações, consulte a seção [Operações adicionais](sorting.md).
 
 Além disso, as APIs de Campaign Standard permitem procurar perfis com base em um destes campos: email, nome, sobrenome ou qualquer campo personalizado. Para obter mais informações, consulte [esta seção](#searching-field).
 
@@ -84,7 +85,7 @@ Além disso, as APIs de Campaign Standard permitem procurar perfis com base em u
 
 ## Pesquisar perfis com base em um campo {#searching-field}
 
-A variável **[!UICONTROL filterType]** O parâmetro permite recuperar perfis com base em um destes campos: email, nome, sobrenome ou qualquer campo personalizado que tenha sido adicionado à Filtragem avançada ao estender o recurso de perfil.
+O parâmetro **[!UICONTROL filterType]** permite recuperar perfis com base em um destes campos: email, nome, sobrenome ou qualquer campo personalizado que tenha sido adicionado à Filtragem avançada ao estender o recurso de perfil.
 
 >[!NOTE]
 >

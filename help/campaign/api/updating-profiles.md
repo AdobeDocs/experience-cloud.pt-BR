@@ -4,7 +4,8 @@ description: Saiba como atualizar perfis com APIs
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 1%
@@ -13,19 +14,19 @@ ht-degree: 1%
 
 # Atualização de perfis com APIs{#updating-profiles-api}
 
-A atualização de perfis é executada com um **PATCH** solicitação.
+A atualização de perfis é executada com uma solicitação **PATCH**.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. O primeiro passo é **recuperar o perfil**.
+1. A primeira etapa é **recuperar o perfil**.
 
-1. Em uma segunda solicitação, execute um **solicitação PATCH** no perfil com as informações concluídas na carga.
+1. Em uma segunda solicitação, execute uma **solicitação de PATCH** no perfil com as informações concluídas na carga.
 
 1. Para verificar se a solicitação PATCH atualizou o perfil, podemos executar uma solicitação GET final.
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Exemplo de solicitação do GET para recuperar um perfil.
 

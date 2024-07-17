@@ -1,10 +1,11 @@
 ---
 title: Lista de componentes
-description: Encontre aqui a lista de todos os componentes disponíveis em Relatórios dinâmicos, bem como suas definições.
+description: Encontre aqui a lista de todos os componentes disponíveis em     Relatórios dinâmicos, bem como suas definições.
 level: Beginner
 audience: end-user
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
-source-git-commit: b11d696767209145511b38735f22275a38676ade
+exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 2%
@@ -37,27 +38,27 @@ A tabela abaixo fornece a lista de dimensões usadas em relatórios e suas defin
   </tr> 
   <tr> 
    <td> Entrega<br/> </td> 
-   <td> Etiqueta e ID da entrega.<br/> </td> 
+   <td> Rótulo e ID da entrega.<br/> </td> 
   </tr> 
   <tr> 
    <td> Dispositivo<br/> </td> 
-   <td> Dispositivo no qual o email/SMS/notificação por push foi aberto/exibido/clicado.<br/> </td> 
+   <td> Dispositivo do qual a notificação por email/SMS/push foi aberta/exibida/clicada.<br/> </td> 
   </tr> 
   <tr> 
    <td> Motivo da falha<br/> </td> 
-   <td> Tipos de erros que causaram rejeições para cada delivery, por exemplo, usuário desconhecido, domínio inválido ou caixa de correio cheia.<br/> </td> 
+   <td> Tipos de erros que causaram rejeições para cada entrega, por exemplo, usuário desconhecido, domínio inválido ou caixa de correio cheia.<br/> </td> 
   </tr> 
   <tr> 
    <td> Nome do aplicativo móvel<br/> </td> 
    <td> Nome do aplicativo móvel<br/> </td> 
   </tr>
   <tr> 
-   <td> Platform<br/> </td> 
-   <td> Plataforma do dispositivo do qual a mensagem foi aberta/exibida/clicada.<br/> </td> 
+   <td> Plataforma<br/> </td> 
+   <td> Plataforma do dispositivo a partir do qual a mensagem foi aberta/exibida/clicada.<br/> </td> 
   </tr> 
   <tr> 
    <td> Perfil<br/> </td> 
-   <td> Reagrupa campos de perfil prontos para uso e personalizados criados durante a extensão de recurso de perfil.<br/> </td> 
+   <td> Reagrupa campos de perfil predefinidos e personalizados criados durante a extensão de recurso de perfil.<br/> </td> 
   </tr> 
   <tr> 
    <td> Domínio do destinatário<br/> </td> 
@@ -72,19 +73,19 @@ A tabela abaixo fornece a lista de dimensões usadas em relatórios e suas defin
    <td> Domínio usado para enviar o email.<br/> </td> 
   </tr> 
   <tr> 
-   <td> IP do remetente<br/> </td> 
+   <td> IP do Remetente<br/> </td> 
    <td> IP usado para enviar o email.<br/> </td> 
   </tr> 
   <tr> 
-   <td> URL de rastreamento<br/> </td> 
-   <td> URL no qual o usuário clicou a partir da mensagem.<br/> </td> 
+   <td> URL de Acompanhamento<br/> </td> 
+   <td> URL que foi clicado pelo usuário na mensagem.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Categoria de URL de rastreamento<br/> </td> 
-   <td> Categoria atribuída ao URL de rastreamento.<br/> </td> 
+   <td> Categoria de URL de Acompanhamento<br/> </td> 
+   <td> Categoria atribuída à URL de rastreamento.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Rótulo do URL de rastreamento<br/> </td> 
+   <td> Rótulo da URL de rastreamento <br/> </td> 
    <td> Rótulo fornecido ao URL, como mirror page, entre em contato conosco ou abra.<br/> </td> 
   </tr> 
   <tr> 
@@ -113,7 +114,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
  </thead> 
  <tbody> 
   <tr> 
-   <td> Na inclui na lista de bloqueios<br/> </td> 
+   <td> Na inclui na lista de bloqueios <br/> </td> 
    <td> Número de destinatários que declararam um email como spam ou lixo eletrônico.<br/> </td> 
   </tr> 
   <tr> 
@@ -122,15 +123,15 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Devoluções + Erros<br/> </td> 
-   <td> Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
+   <td> Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Rejeição + taxa de erro<br/> </td> 
-   <td> Porcentagem de emails enviados em comparação ao email enviado.<br/> </td> 
+   <td> Rejeição + Taxa de erro <br/> </td> 
+   <td> Porcentagem de emails devolvidos em comparação ao email enviado.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Clique em<br/> </td> 
-   <td> Número de vezes que um conteúdo foi clicado em um delivery.<br/> </td> 
+   <td> Clique em <br/> </td> 
+   <td> Número de vezes que um conteúdo foi clicado em uma entrega.<br/> </td> 
   </tr> 
   <tr> 
    <td> Taxa de cliques<br/> </td> 
@@ -138,7 +139,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Entregue<br/> </td> 
-   <td> Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.<br/> </td> 
+   <td> Número de mensagens enviadas com êxito, em relação ao número total de mensagens enviadas.<br/> </td> 
   </tr> 
   <tr> 
    <td> Taxa de entregas<br/> </td> 
@@ -146,7 +147,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Rejeição permanente<br/> </td> 
-   <td> Número total de erros permanentes, como um endereço de email incorreto.<br/> </td> 
+   <td> Número total de erros permanentes, como endereço de email incorreto.<br/> </td> 
   </tr> 
   <tr> 
    <td> Taxa de rejeição permanente<br/> </td> 
@@ -158,11 +159,11 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Taxa de mirror pages<br/> </td> 
-   <td> Porcentagem de cliques no link da mirror page em comparação ao total de mensagens de delivery.<br/> </td> 
+   <td> Porcentagem de cliques no link da mirror page em comparação ao total de mensagens de entrega.<br/> </td> 
   </tr> 
   <tr> 
    <td> Cliques de oferta<br/> </td> 
-   <td> Número de vezes que uma oferta foi clicada em um delivery.<br/> </td> 
+   <td> Número de vezes que uma oferta foi clicada em uma entrega.<br/> </td> 
   </tr> 
   <tr> 
    <td> Taxa de cliques da oferta<br/> </td> 
@@ -170,7 +171,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Abertura<br/> </td> 
-   <td> Número de vezes que uma mensagem foi aberta em um delivery.<br/> </td> 
+   <td> Número de vezes que uma mensagem foi aberta em uma entrega.<br/> </td> 
   </tr> 
   <tr> 
    <td> Taxa de aberturas<br/> </td> 
@@ -193,7 +194,7 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
    <td> Número de mensagens classificadas como spam pelos servidores SMTP.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Taxa de rejeições<br/> </td> 
+   <td> Taxa rejeitada<br/> </td> 
    <td> Porcentagem de mensagens marcadas como rejeitadas.<br/> </td> 
   </tr> 
   <tr> 
@@ -206,23 +207,23 @@ As tabelas abaixo fornecem a lista de métricas usadas em relatórios e suas def
   </tr> 
   <tr> 
    <td> Cliques únicos<br/> </td> 
-   <td> Número de recipients que clicaram em um conteúdo em um delivery.<br/> </td> 
+   <td> Número de destinatários que clicaram em um conteúdo em uma entrega.<br/> </td> 
   </tr> 
   <tr> 
    <td> Aberturas únicas<br/> </td> 
-   <td> Número de destinatários que abriram o delivery.<br/> </td> 
+   <td> Número de destinatários que abriram a entrega.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Assinatura única cancelada<br/> </td> 
-   <td> Número de recipients que clicaram no link unsubscription.<br/> </td> 
+   <td> Cancelamento de assinatura exclusivo<br/> </td> 
+   <td> Número de destinatários que clicaram no link de cancelamento de assinatura.<br/> </td> 
   </tr> 
   <tr> 
    <td> Taxa de cancelamento de inscrição<br/> </td> 
-   <td> Número de cancelamentos de subscrição exclusivos em comparação às mensagens entregues.<br/> </td> 
+   <td> Número de cancelamentos de assinatura exclusivos em comparação às mensagens entregues.<br/> </td> 
   </tr> 
   <tr> 
    <td> Assinatura cancelada<br/> </td> 
-   <td> Número de cliques no link unsubscription.<br/> </td> 
+   <td> Número de cliques no link de cancelamento de assinatura.<br/> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -392,36 +393,36 @@ A tabela abaixo fornece a lista de segmentos usados em relatórios e suas defini
    <td> Recipients nascidos de 1977 a 1994.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Idade: geração Z<br/> </td> 
-   <td> Recipients nascidos de 1995 a hoje.<br/> </td> 
+   <td> Idade: Geração Z<br/> </td> 
+   <td> Destinatários nascidos de 1995 a hoje.<br/> </td> 
   </tr> 
   <tr> 
    <td> Idade: maior que 50<br/> </td> 
-   <td> Recipients com idade superior a 50 anos.<br/> </td> 
+   <td> Destinatários com idade superior a 50.<br/> </td> 
   </tr> 
   <tr> 
    <td> Idade: menos de 25<br/> </td> 
-   <td> Recipients com menos de 25 anos.<br/> </td> 
+   <td> Destinatários com menos de 25 anos.<br/> </td> 
   </tr> 
   <tr> 
    <td> Idade: menos de 30<br/> </td> 
-   <td> Recipients com menos de 30 anos.<br/> </td> 
+   <td> Destinatários com menos de 30 anos.<br/> </td> 
   </tr> 
   <tr> 
    <td> Idade: menos de 40<br/> </td> 
-   <td> Recipients com menos de 40 anos.<br/> </td> 
+   <td> Destinatários com menos de 40 anos.<br/> </td> 
   </tr> 
   <tr> 
    <td> Idade: menos de 50<br/> </td> 
-   <td> Recipients com menos de 50 anos.<br/> </td> 
+   <td> Destinatários com menos de 50 anos.<br/> </td> 
   </tr> 
   <tr> 
    <td> Idade: geração silenciosa<br/> </td> 
-   <td> Recipients nascidos em 1945 ou antes.<br/> </td> 
+   <td> Destinatários nascidos em 1945 ou antes.<br/> </td> 
   </tr> 
   <tr> 
    <td> Todas as visitas<br/> </td> 
-   <td> Todos os recipients<br/> </td> 
+   <td> Todos os destinatários<br/> </td> 
   </tr>
  </tbody> 
 </table>

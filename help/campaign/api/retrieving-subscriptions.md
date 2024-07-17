@@ -4,7 +4,8 @@ description: Saiba como recuperar assinaturas com APIs
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -22,11 +23,11 @@ Este é um procedimento de duas etapas.
 
 >[!CAUTION]
 >
->A API REST retorna a propriedade &quot;href&quot;, que contém o URL a ser usado. <b>Sempre usar o URL contido na resposta para fazer a solicitação de API subsequente</b>.
+>A API REST retorna a propriedade &quot;href&quot;, que contém o URL a ser usado. <b>Sempre usar a URL contida na resposta para fazer a solicitação de API subsequente</b>.
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Execute uma solicitação GET para recuperar o serviço.
 
@@ -88,7 +89,7 @@ Este é um procedimento de duas etapas.
 
 <br/>
 
-***Exemplo de solicitação***
+***Solicitação de exemplo***
 
 Execute uma solicitação GET para recuperar o perfil.
 

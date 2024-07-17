@@ -15,28 +15,28 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Observe que você deve arrastar e soltar a variável **[!UICONTROL Tipo de mensagem]** As métricas nas tabelas para dividir os dados dependendo dos tipos de delivery, neste caso, deliveries no aplicativo.
+>Observe que você deve arrastar e soltar as métricas **[!UICONTROL Tipo de mensagem]** nas tabelas para dividir os dados, dependendo dos tipos de entrega, neste caso, Entregas no aplicativo.
 
-A variável **No aplicativo** O relatório de fornece detalhes relacionados às entregas no aplicativo.
+O relatório **No aplicativo** fornece detalhes relacionados às entregas no aplicativo.
 
 Cada tabela é representada por números de resumo e gráficos. É possível alterar como os detalhes são mostrados nas respectivas configurações de visualização.
 
 ![](assets/inapp_report.png)
 
-A primeira tabela **Resumo de engajamento no aplicativo** O é dividido em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para a reatividade do recipient ao delivery:
+A primeira tabela **Resumo do Envolvimento no Aplicativo** é dividida em três categorias: por dia, por aplicativo móvel e por entrega. Ele contém os dados disponíveis para a reatividade do recipient ao delivery:
 
-* **[!UICONTROL Processado/enviado]**: número total de envios para o delivery no aplicativo.
-* **[!UICONTROL Entregue]**: Número de mensagens no aplicativo enviadas com êxito, em relação ao número total de mensagens enviadas.
-* **[!UICONTROL Impressões]**: total de mensagens no aplicativo vistas pelos recipients dependendo se o critério do acionador foi atendido.
-* **[!UICONTROL Impressões exclusivas]**: Número de impressões por recipient.
+* **[!UICONTROL Processado/enviado]**: número total de envios para a entrega no aplicativo.
+* **[!UICONTROL Entregues]**: número de mensagens no aplicativo enviadas com êxito em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Impressões]**: total de mensagens no aplicativo vistas pelos destinatários, dependendo se o critério de acionador foi atendido.
+* **[!UICONTROL Impressões exclusivas]**: número de impressões por destinatário.
 * **[!UICONTROL Taxa de cliques no aplicativo]**: Porcentagem de usuários que clicaram no Botão 1 ou no Botão 2 em comparação aos usuários que viram a mensagem.
-* **[!UICONTROL Taxa de demissão no aplicativo]**: porcentagem de mensagens no aplicativo que os recipients rejeitaram.
+* **[!UICONTROL Taxa de descarte no aplicativo]**: porcentagem de mensagens no aplicativo que os destinatários rejeitaram.
 
 ![](assets/inapp_report_1.png)
 
-A segunda tabela **Cliques no aplicativo e rejeições** O é dividido em três categorias: por dia, por aplicativo móvel e por delivery. Ele contém os dados disponíveis para o comportamento do recipient por delivery:
+A segunda tabela **Cliques no Aplicativo e Descartes** é dividida em três categorias: por dia, por aplicativo móvel e por entrega. Ele contém os dados disponíveis para o comportamento do recipient por delivery:
 
-* **[!UICONTROL Cliques no aplicativo]**: Número total de recipients que clicaram no Botão 1 ou Botão 2.
-* **[!UICONTROL Cliques únicos no aplicativo]**: Número de vezes que os recipients clicaram no Botão 1 ou Botão 2.
-* **[!UICONTROL Descarte no aplicativo]**: Número total de mensagens que os recipients rejeitaram clicando no botão Fechar ou descartando automaticamente.
-* **[!UICONTROL Descarte único no aplicativo]**: Número de vezes que os recipients rejeitaram uma mensagem no aplicativo.
+* **[!UICONTROL Cliques no aplicativo]**: número total de destinatários que clicaram no Botão 1 ou no Botão 2.
+* **[!UICONTROL Cliques únicos no aplicativo]**: número de vezes que os destinatários clicaram no Botão 1 ou no Botão 2.
+* **[!UICONTROL Rejeição no aplicativo]**: número total de mensagens que os destinatários rejeitaram ao clicar no botão Fechar ou ao fechar automaticamente.
+* **[!UICONTROL Descarte exclusivo no aplicativo]**: Número de vezes que os destinatários rejeitaram uma mensagem no aplicativo.
