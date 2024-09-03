@@ -5,14 +5,18 @@ audience: end-user
 level: Intermediate
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '238'
 ht-degree: 3%
 
 ---
 
 # Definição do período do relatório{#defining-the-report-period}
+
+>[!NOTE]
+>
+>O relatório de dados está disponível para os últimos 13 meses. Para obter mais informações sobre os períodos de retenção de dados, entre em contato com os consultores da Adobe ou com os administradores técnicos.
 
 Antes de iniciar ou acessar um relatório, você deve aplicar um período. O período especificado pode ser acessado na parte superior direita do relatório.
 
