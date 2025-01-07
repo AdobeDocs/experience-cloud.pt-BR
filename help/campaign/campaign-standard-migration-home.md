@@ -3,10 +3,10 @@ title: Interface do usuário da Web do Adobe Campaign
 description: Conheça a interface da Web do Adobe Campaign
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: 619453901147f83d691156a3b870d36b6caa1868
+source-git-commit: 57d64cb5436381e1dbad9add0d8fe117e6f11ecf
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -21,11 +21,11 @@ Além disso, essa transição trará muitos benefícios:
 * Integração com o Adobe Experience Platform
 * Interface do usuário e experiência consistentes
 
-Para obter mais informações sobre os principais recursos e diferenças de conceito, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
+Para obter mais informações sobre os principais recursos e diferenças de conceito, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/start/acs-migration).
 
 ## Novidades
 
-Dê uma olhada em todos os recursos e funcionalidades oferecidos pela [Interface do Usuário da Web do Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/campaign-web-home) e pelo [Campaign v8](https://experienceleague.adobe.en/com/docs/campaign/campaign-v8/campaign-home?lang=pt-BR).
+Dê uma olhada em todos os recursos e funcionalidades oferecidos pela [Interface do Usuário da Web do Campaign](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/campaign-web-home) e pelo [Campaign v8](https://experienceleague.adobe.com/pt-br/docs/campaign/campaign-v8/campaign-home).
 
 Para que você possa fazer a transição sem problemas, adicionamos os principais recursos do Campaign Standard para o v8:
 
@@ -79,3 +79,4 @@ Você pode usar as APIs Rest para criar integrações com o Adobe Campaign e cri
     <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
+
