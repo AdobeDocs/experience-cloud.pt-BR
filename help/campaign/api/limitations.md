@@ -9,9 +9,9 @@ level: Experienced
 mini-toc-levels: 1
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 6e4e214731b9772014d01dde89b3f80e4c4e93a6
+source-git-commit: 952706ffafc1e7cd6a759bfbbb9c9200191544d9
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ No Campaign Standard, você recebeu acesso elevado à função de administrador 
 
 Com a migração, dois perfis de produto são adicionados às suas contas técnicas existentes ou pré-criadas: Administrador e Centro de mensagens (para acessar APIs transacionais). Revise o mapeamento do perfil de produto e atribua o perfil de produto necessário se não quiser que o perfil de produto do administrador seja mapeado com sua conta técnica.
 
-### ID do inquilino
+### ID do locatário
 
 Após a migração, para qualquer integração futura, é recomendável usar sua **ID de locatário do Campaign v8** em URLs REST, substituindo sua ID de locatário do Campaign Standard anterior.
 
@@ -42,6 +42,7 @@ Por enquanto, as APIs REST listadas abaixo estão disponíveis para uso:
 * **Serviços e assinaturas**
 * **Recursos personalizados**
 * **Fluxos de trabalhos**
+* **Mensagens transacionais**
 
 >[!AVAILABILITY]
 >

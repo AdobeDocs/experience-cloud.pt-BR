@@ -8,9 +8,9 @@ role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: ea8b978d8f71942c8d034804ca269957a09a52db
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '234'
 ht-degree: 48%
 
 ---
@@ -32,6 +32,7 @@ Com as APIs REST do Adobe Campaign, você obtém acesso às seguintes funcionali
 <td valign="top"><a href="creating-a-service.md"><img width="60px" alt="condições" src="assets/icon_services.svg"/></a><p><a href="creating-a-service.md">Serviços e assinaturas</a></p></td>
 <td valign="top"><a href="interacting-with-custom-resources.md"><img width="60px" alt="condições" src="assets/icon_customresources.svg"/></a><p><a href="interacting-with-custom-resources.md">Recursos personalizados</a></p></td>
 <td valign="top"><a href="controlling-a-workflow.md"><img width="60px" alt="condições" src="assets/icon_workflows.svg"/></a><p><a href="controlling-a-workflow.md">Fluxos de trabalhos</a></p></td>
+<td valign="top"><a href="managing-transactional-messages.md"><img width="60px" alt="condições" src="assets/icon_transactionalmessage.svg"/></a><p><a href="managing-transactional-messages.md">Mensagens transacionais</a></p></td>
 </tr></table>
 
 Para usar as REST APIs do Campaign, você precisa de uma conta Adobe I/O. Esta é uma primeira etapa obrigatória para avançar e descobrir os recursos da API.
