@@ -8,9 +8,9 @@ role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 6f9c9dd7dcac96980bbf5f7228e021471269d187
+source-git-commit: 110fcdcbefef53677cf213a39f45eb5d446807c2
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '752'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Por enquanto, as mensagens transacionais usando as APIs REST só estão disponíveis para o canal de email e para eventos transacionais (os dados de enriquecimento estão disponíveis somente por carga, de modo semelhante ao funcionamento do Adobe Campaign V8).
+>Por enquanto, as mensagens transacionais usando as APIs REST estão disponíveis para os canais de email e SMS. Ela só está disponível para eventos transacionais (os dados de enriquecimento só estão disponíveis por meio de carga, de modo semelhante ao funcionamento do Adobe Campaign V8).
 
 Depois de criar e publicar um evento transacional, é necessário integrar o acionamento desse evento ao site.
 
@@ -30,7 +30,7 @@ Por exemplo, você deseja que um evento de &quot;Abandono de carrinho&quot; seja
 
 ## Envio de um evento transacional {#sending-a-transactional-event}
 
-O evento transacional é enviado por meio de uma solicitação POST com a seguinte estrutura de URL:
+O evento transacional é enviado por uma solicitação POST com a seguinte estrutura de URL:
 
 ```
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
@@ -44,11 +44,9 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-  Observe que o endpoint da API de mensagens transacionais também está visível durante a pré-visualização da API.
-
 * **&lt;eventID>**: o tipo de evento que você deseja enviar. Essa ID é gerada ao criar a configuração do evento
 
-### cabeçalho da solicitação POST
+### cabeçalho de solicitação POST
 
 A solicitação deve conter um cabeçalho &quot;Content-Type: application/json&quot;.
 
@@ -65,7 +63,7 @@ Você deve adicionar um conjunto de caracteres, por exemplo **utf-8**. Observe q
 
 ### corpo da solicitação POST
 
-Os dados do evento estão contidos no corpo do POST JSON. A estrutura do evento depende de sua definição. O botão de visualização da API na tela de definição de recursos fornece um exemplo de solicitação.
+Os dados do evento estão contidos no corpo POST JSON. A estrutura do evento depende de sua definição.
 
 Os seguintes parâmetros opcionais podem ser adicionados ao conteúdo do evento para gerenciar o envio de mensagens transacionais vinculadas ao evento:
 
@@ -76,9 +74,43 @@ Os seguintes parâmetros opcionais podem ser adicionados ao conteúdo do evento 
 >
 >Os valores dos parâmetros &quot;expiration&quot; e &quot;scheduled&quot; seguem o formato ISO 8601. A norma ISO 8601 especifica a utilização da letra maiúscula &quot;T&quot; para separar a data e a hora. No entanto, ele pode ser removido da entrada ou saída para melhorar a legibilidade.
 
+### Parâmetros do canal de comunicação
+
+Dependendo do canal a ser usado, a carga deve conter os parâmetros abaixo:
+
+* Canal de email: &quot;mobilePhone&quot;
+* Canal SMS: &quot;email&quot;
+
+Se o payload contiver apenas &quot;mobilePhone&quot;, o canal de comunicação SMS será acionado. Se o conteúdo contiver apenas &quot;email&quot;, o canal de comunicação por email será acionado.
+
+O exemplo abaixo mostra uma carga em que uma comunicação SMS será acionada:
+
+```
+curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment' \
+--header 'Authorization: Bearer <ACCESS_TOKEN>' \
+--header 'Cache-Control: no-cache' \
+--header 'X-Api-Key: <API_KEY>' \
+--header 'Content-Type: application/json;charset=utf-8' \
+--header 'Content-Length: 79' \
+--data '
+{
+  "mobilePhone":"+9999999999",
+  "scheduled":"2017-12-01 08:00:00.768Z",
+  "expiration":"2017-12-31 08:00:00.768Z",
+  "ctx":
+  {
+    "cartAmount": "$ 125",
+    "lastProduct": "Leather motorbike jacket",
+    "firstName": "Jack"
+  }
+}'
+```
+
+Se a carga incluir &quot;email&quot; e &quot;mobilePhone&quot;, o método de comunicação padrão será email. Para enviar um SMS quando ambos os campos estiverem presentes, você deverá especificá-lo explicitamente na carga usando o parâmetro &quot;wishedChannel&quot;.
+
 ### Resposta à solicitação POST
 
-A resposta POST retorna o status do evento transacional no momento em que foi criada. Para recuperar o status atual (dados do evento, status do evento...), use a Chave primária retornada pela resposta POST em uma solicitação GET:
+A resposta POST retorna o status do evento transacional no momento em que ele foi criado. Para recuperar o status atual (dados do evento, status do evento...), use a Chave primária retornada pela resposta POST em uma solicitação GET:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
@@ -97,7 +129,10 @@ Solicitação POST para enviar o evento.
 -H 'Content-Length:79'
 
 {
-  "email":"test@example.com",
+  "
+  
+  
+  ":"test@example.com",
   "scheduled":"2017-12-01 08:00:00.768Z",
   "expiration":"2017-12-31 08:00:00.768Z",
   "ctx":
