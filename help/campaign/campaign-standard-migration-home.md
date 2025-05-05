@@ -56,27 +56,27 @@ Você pode usar as APIs Rest para criar integrações com o Adobe Campaign e cri
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
     <div><strong>Conheça a nova interface</strong><br/></div>
     </td>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
     <div><strong>Tela de fluxo de trabalho recriada</strong><br/></div><br/>
     </td>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/menu-email.png"></a>
+    <a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/menu-email.png"></a>
     <div><strong>Conheça o Designer de email</strong><br/>
     </div></td>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/menu-dynamic.png"></a>
+    <a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/menu-dynamic.png"></a>
     <div><strong>Tornar seu conteúdo dinâmico</strong><br/></div>
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
