@@ -3,10 +3,10 @@ title: Lista de supressão global
 description: Conheça a lista de supressão global
 hide: true
 exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
-source-git-commit: b66e2525694c771ebb7ac5190b7259ef5658d81a
+source-git-commit: 9d12eece2ca9f8f36951f8575bb0ac42bc10a728
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Para fazer isso, clique no botão **[!UICONTROL Adicionar email ou domínio]** e
 
    >[!NOTE]
    >
-   >Todos os caracteres ASCII imprimíveis compreendidos entre 32 e 126 são permitidos neste campo. Para referência, a lista completa pode ser encontrada [nesta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}.
+   >Todos os caracteres ASCII imprimíveis compreendidos entre 32 e 126 são permitidos neste campo. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}, por exemplo.
 
 1. Clique em **[!UICONTROL Enviar]** para confirmar.
 
@@ -81,7 +81,7 @@ Para fazer isso, clique no botão **[!UICONTROL Adicionar email ou domínio]** e
 
    >[!NOTE]
    >
-   >Todos os caracteres ASCII compreendidos entre 32 e 126 são permitidos na coluna **Comentário**. Para referência, a lista completa pode ser encontrada [nesta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}.
+   >Todos os caracteres ASCII compreendidos entre 32 e 126 são permitidos na coluna **Comentário**. A lista completa pode ser encontrada em [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}, por exemplo.
 
 1. Após concluído, arraste e solte seu arquivo CSV e clique em **[!UICONTROL Enviar]** para confirmar.
 
