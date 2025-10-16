@@ -26,8 +26,8 @@ Os endpoints disponíveis para a API REST do Adobe Campaign:
 
 Por padrão, os principais recursos disponíveis para as APIs **profileAndServices** e **profileAndServicesExt** são:
 
-* **/profile**: interagir com perfis do banco de dados do Campaign. Para adicionar perfis a um serviço, use o ponto de extremidade **/serviço**. Para obter mais informações sobre perfis no Campaign, consulte a [documentação do Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
-* **/serviço**: gerenciar serviços de assinatura. Para obter mais informações sobre os serviços no Campaign, consulte a [documentação do Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
+* **/profile**: interagir com perfis do banco de dados do Campaign. Para adicionar perfis a um serviço, use o ponto de extremidade **/serviço**. Para obter mais informações sobre perfis no Campaign, consulte a [documentação do Campaign](https://helpx.adobe.com/br/campaign/standard/audiences/using/about-profiles.html).
+* **/serviço**: gerenciar serviços de assinatura. Para obter mais informações sobre os serviços no Campaign, consulte a [documentação do Campaign](https://helpx.adobe.com/br/campaign/standard/audiences/using/creating-a-service.html).
 
 >[!NOTE]
 >
