@@ -1,21 +1,21 @@
 ---
-title: GET / POST / PATCH / verbos DELETE
-description: Saiba mais sobre os verbos usados nas APIs de Campaign Standard.
+title: Verbos do GET / POST / PATCH / DELETE
+description: Saiba mais sobre os verbos usados nas APIs do Campaign Standard.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: de97a194-d497-4665-906e-53178fd3b119
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
-# GET / POST / PATCH / verbos DELETE {#verbs}
+# Verbos do GET / POST / PATCH / DELETE {#verbs}
 
 Os verbos disponíveis para executar operações nos recursos são:
 
@@ -66,7 +66,7 @@ Os verbos disponíveis para executar operações nos recursos são:
   }
   ```
 
-* Exemplo de solicitação de GET em um perfil específico.
+* Exemplo de solicitação do GET em um perfil específico.
 
 
   ```
@@ -92,7 +92,7 @@ Os verbos disponíveis para executar operações nos recursos são:
   }
   ```
 
-* Exemplo de solicitação de POST para criar um perfil.
+* Exemplo de solicitação POST para criar um perfil.
 
 
   ```
@@ -116,7 +116,7 @@ Os verbos disponíveis para executar operações nos recursos são:
   }
   ```
 
-* Exemplo de solicitação de PATCH para atualizar um perfil.
+* Exemplo de solicitação do PATCH para atualizar um perfil.
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -136,7 +136,7 @@ Os verbos disponíveis para executar operações nos recursos são:
   }
   ```
 
-* Exemplo de solicitação de DELETE para excluir um perfil.
+* Exemplo de solicitação do DELETE para excluir um perfil.
 
   ```
   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

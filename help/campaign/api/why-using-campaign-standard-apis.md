@@ -1,21 +1,21 @@
 ---
-title: Por que usar APIs Campaign Standard?
+title: Por que usar APIs do Campaign Standard?
 description: Saiba mais sobre as APIs do Campaign Standard e por que usá-las.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: 6e4e214731b9772014d01dde89b3f80e4c4e93a6
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 1%
 
 ---
 
-# Por que usar APIs Campaign Standard {#why-using-campaign-standard-apis}
+# Por que usar APIs do Campaign Standard {#why-using-campaign-standard-apis}
 
 O Adobe Campaign Standard fornece APIs que permitem que os sistemas existentes se integrem à plataforma do Campaign para resolver problemas do mundo real em tempo real.
 
@@ -28,7 +28,7 @@ Veja alguns exemplos:
   <!--* Event based transactional communication triggering – order confirmation, booking Itinerary, password reset, etc.-->
 * Até mesmo abandono de carrinho por e-mail.
 
-As páginas de aterrissagem de inscrição fornecem uma maneira de os clientes ou clientes potenciais registrarem seu nome e endereço de email. Quando o Campaign Standard captura as informações e preferências do perfil, ele pode enviar mensagens personalizadas com base nos interesses da pessoa.
+As páginas de aterrissagem de inscrição fornecem uma maneira de os clientes ou clientes potenciais registrarem seu nome e endereço de email. Depois que o Campaign Standard captura as informações do perfil e as preferências, ele pode enviar mensagens personalizadas com base nos interesses da pessoa.
 
 Eles são criados com os elementos abaixo:
 
@@ -40,7 +40,7 @@ Eles são criados com os elementos abaixo:
 
    ![alt texto](assets/apis_uc2.png)
 
-1. Um perfil pode alterar seus detalhes depois de clicar no link &quot;Atualizar detalhes&quot; no email. Isso leva o perfil à página &quot;Atualizar seu perfil e detalhes de preferência&quot;. Para executar a operação, os detalhes do perfil (Pkey) são passados para o servidor do Campaign e o perfil é recuperado e representado. Quando o perfil clicar no botão &quot;Update&quot;, as informações serão atualizadas no sistema (por meio de um comando PATCH).
+1. Um perfil pode alterar seus detalhes depois de clicar no link &quot;Atualizar detalhes&quot; no email. Isso leva o perfil à página &quot;Atualizar seu perfil e detalhes de preferência&quot;. Para executar a operação, os detalhes do perfil (Pkey) são passados para o servidor do Campaign e o perfil é recuperado e representado. Quando o perfil clicar no botão &quot;Atualizar&quot;, as informações serão atualizadas no sistema (por meio de um comando do PATCH).
 
    ![alt texto](assets/apis_uc3.png)
 
@@ -60,7 +60,7 @@ As etapas abaixo descrevem um caso de uso passo a passo para importar e usar a c
 
    ![alt texto](assets/postman_collection.png)
 
-1. Selecione a solicitação **Criação de um perfil** e atualize a solicitação de POST e a guia **Cabeçalhos** com suas próprias informações (&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Para obter mais informações, consulte [esta seção](setting-up-api-access.md).
+1. Selecione a solicitação **Criação de um perfil** e atualize a solicitação POST e a guia **Cabeçalhos** com suas próprias informações (&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Para obter mais informações, consulte [esta seção](setting-up-api-access.md).
 
    ![alt texto](assets/postman_uc1.png)
 

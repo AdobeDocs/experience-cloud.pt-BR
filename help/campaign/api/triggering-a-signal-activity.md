@@ -4,11 +4,11 @@ description: Saiba como acionar uma atividade de sinal com APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Em um fluxo de trabalho do Adobe Campaign Standard, pode haver uma ou mais **atividades de sinal externo**. Essas atividades são &quot;ouvintes&quot; que aguardam para serem acionados.
 
-As APIs Campaign Standard permitem acionar uma atividade **Sinal externo** para chamar um fluxo de trabalho. A chamada de API pode incluir parâmetros que serão assimilados nas variáveis de eventos do fluxo de trabalho (um nome de público-alvo para direcionamento, um nome de arquivo para importar, uma parte do conteúdo da mensagem etc.). Dessa forma, você pode integrar facilmente as automações do Campaign ao sistema externo.
+As APIs do Campaign Standard permitem acionar uma atividade **Sinal externo** para chamar um fluxo de trabalho. A chamada de API pode incluir parâmetros que serão assimilados nas variáveis de eventos do fluxo de trabalho (um nome de público-alvo para direcionamento, um nome de arquivo para importar, uma parte do conteúdo da mensagem etc.). Dessa forma, você pode integrar facilmente as automações do Campaign ao sistema externo.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Se quiser chamar o fluxo de trabalho com parâmetros, adicione-os à carga com o
 
 ***Solicitação de exemplo***
 
-Execute uma solicitação GET no workflow.
+Execute uma solicitação GET no fluxo de trabalho.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \

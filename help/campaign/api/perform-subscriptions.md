@@ -1,11 +1,11 @@
 ---
 title: Execução de assinaturas
 description: Saiba como executar assinaturas com APIs
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Ele retorna o URL de assinaturas do perfil.
   }
 ```
 
-Execute uma solicitação POST no URL de assinaturas com a chave primária de serviço desejada dentro da carga.
+Execute uma solicitação POST no URL de subscrições com a chave primária de serviço desejada dentro da carga.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

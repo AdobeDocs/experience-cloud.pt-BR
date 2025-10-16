@@ -4,11 +4,11 @@ description: Saiba como executar operações de paginação.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
@@ -31,7 +31,7 @@ O parâmetro **_lineCount** permite limitar o número de recursos listados na re
 
 ***Solicitação de exemplo***
 
-Exemplo de solicitação de GET para exibir 1 registro do recurso de perfil.
+Exemplo de solicitação do GET para exibir 1 registro do recurso de perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -74,4 +74,4 @@ Por padrão, o nó **próximo** não está disponível ao interagir com tabelas 
 
 >[!NOTE]
 >
->O número de registros acima do qual uma tabela é considerada grande é definido na opção Campaign Standard **XtkBigTableThreshold**. O valor padrão é 100.000 registros.
+>O número de registros acima do qual uma tabela é considerada grande é definido na opção **XtkBigTableThreshold** da Campaign Standard. O valor padrão é 100.000 registros.

@@ -4,11 +4,11 @@ description: Saiba como criar perfis com APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -21,15 +21,15 @@ A criação de perfis é executada com uma solicitação **POST** no recurso de 
 
 >[!CAUTION]
 >
->Para associar uma <b>orgUnit</b> ao perfil criado, é necessário estender o recurso de perfil com esse campo e, após a publicação da extensão, executar uma solicitação de POST no ponto de extremidade <b>ProfileAndServicesExt</b>.
+>Para associar uma <b>orgUnit</b> ao perfil criado, é necessário estender o recurso de perfil com esse campo e, após a publicação da extensão, executar uma solicitação POST no ponto de extremidade <b>ProfileAndServicesExt</b>.
 >
->Para obter mais informações sobre a extensão de recursos do perfil, consulte a <a href="https://helpx.adobe.com/br/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentação do Campaign</a>.
+>Para obter mais informações sobre a extensão de recursos do perfil, consulte a <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentação do Campaign</a>.
 
 <br/>
 
 ***Solicitação de exemplo***
 
-Exemplo de solicitação de POST para criar um perfil com o email &quot;john.doe@mail.com&quot;.
+Exemplo de solicitação POST para criar um perfil com o email &quot;john.doe@mail.com&quot;.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \

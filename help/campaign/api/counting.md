@@ -4,11 +4,11 @@ description: Saiba como executar operações de contagem.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: d6354249-3b0d-4532-951f-b0fae953f7e1
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%
@@ -23,7 +23,7 @@ A API REST do Adobe Campaign pode contar o número de registros em uma solicita�
 
 ***Solicitação de exemplo***
 
-Para contar todos os serviços que têm um valor de **messageType** igual a &quot;sms&quot;, execute uma solicitação GET com o filtro **byChannel**.
+Para contar todos os serviços que têm um valor **messageType** igual a &quot;sms&quot;, execute uma solicitação GET com o filtro **byChannel**.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \

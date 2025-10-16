@@ -1,19 +1,19 @@
 ---
 title: Solução de problemas de API
-description: Saiba mais sobre problemas comuns relacionados às APIs de Campaign Standard
-role: Data Engineer
+description: Saiba mais sobre problemas comuns relacionados às APIs do Campaign Standard
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
 # Solução de problemas de API {#troubleshooting}
 
-* **Ao acessar o Console do Adobe.io, ocorre o seguinte erro: &quot;O console do Adobe I/O só está disponível para membros selecionados de contas corporativas. Se você acha que deve ter acesso, contate o Administrador do Sistema.&quot;**
+* **Ao acessar o Console do Adobe.io, você recebe o seguinte erro: &quot;O console do Adobe I/O só está disponível para membros selecionados de contas corporativas. Se você acha que deve ter acesso, contate o Administrador do Sistema.&quot;**
 
 Você só pode criar chaves de API para as organizações das quais é administrador. Se essa mensagem for exibida e você quiser criar chaves de API e solicitar que um dos administradores da organização faça isso.
 
@@ -21,7 +21,7 @@ Você só pode criar chaves de API para as organizações das quais é administr
 
 Isso significa que há um problema com o provisionamento IMS do seu produto específico do Campaign: a equipe IMS precisa corrigi-lo.
 
-Para obter mais detalhes, você pode chamar a API do IMS com seu token para ver a aparência do seu perfil IMS: É necessário ter um prodCtx, em que a organization_id seja a mesma que você inseriu no URL do Adobe.io para poder rotear sua solicitação.
+Para obter mais detalhes, você pode chamar a API do IMS com seu token para ver a aparência do seu perfil IMS: É necessário ter um prodCtx em que a organization_id seja a mesma que você inseriu no URL do Adobe.io para poder rotear sua solicitação.
 Se estiver faltando, o provisionamento de IMS precisará ser corrigido.
 
 ```
@@ -48,7 +48,7 @@ Verifique seu perfil IMS com essa solicitação.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Na resposta, o valor ORGANIZATION_ID deve ser o mesmo na primeira solicitação GET.
+Na resposta, o valor ORGANIZATION_ID deve ser o mesmo na primeira solicitação do GET.
 
 ```
 {
@@ -75,7 +75,7 @@ Na resposta, o valor ORGANIZATION_ID deve ser o mesmo na primeira solicitação 
 
 * **Ao fazer uma solicitação para o Adobe.io, você obtém {&quot;code&quot;:500, &quot;message&quot;:&quot;Oops. Algo deu errado. Verifique seu URI e tente novamente.&quot;}**
 
-O Adobe.io declara seu URI inválido: provavelmente o URI que você está solicitando não é válido. No Adobe.io, ao selecionar o serviço do Campaign, você obtém um seletor com uma lista de IDs_organizações possíveis. Você precisa verificar se aquele que você escolher é o que você colocou no seu URL.
+Adobe.io declara seu URI inválido: provavelmente o URI que você está solicitando não é válido. No Adobe.io, ao selecionar o serviço do Campaign, você obtém um seletor com uma lista de IDs_organizações possíveis. Você precisa verificar se aquele que você escolher é o que você colocou no seu URL.
 
 * **Ao fazer uma solicitação para o Adobe.io, você obtém {&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth token is not valid&quot;}**
 

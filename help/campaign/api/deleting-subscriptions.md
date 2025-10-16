@@ -1,11 +1,11 @@
 ---
 title: Exclusão de subscrições
 description: Saiba como excluir assinaturas com APIs
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Se a solicitação de exclusão for bem-sucedida, o status da resposta será 204
 
 ***Solicitação de exemplo***
 
-As cargas de exemplo abaixo mostram como cancelar a assinatura de um perfil de um serviço. Primeiro, execute uma solicitação GET para recuperar o perfil.
+As cargas de exemplo abaixo mostram como cancelar a assinatura de um perfil de um serviço. Primeiro, execute uma solicitação do GET para recuperar o perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -95,7 +95,7 @@ Este é um procedimento de três etapas.
 
 1. Recupere o serviço desejado e seu URL de assinatura.
 1. Execute uma solicitação GET no URL de assinaturas para recuperar todas as assinaturas de perfis.
-1. Execute uma solicitação DELETE no URL de assinatura de perfil desejado.
+1. Execute uma solicitação de DELETE no URL de assinatura do perfil desejado.
 
 Se a solicitação de exclusão for bem-sucedida, o status da resposta será 204 Sem conteúdo.
 
@@ -157,7 +157,7 @@ Ele retorna a lista de assinaturas do serviço selecionado, com um URL (href) pa
 }
 ```
 
-Execute uma solicitação DELETE no URL de assinatura de perfil desejado.
+Execute uma solicitação de DELETE no URL de assinatura do perfil desejado.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \

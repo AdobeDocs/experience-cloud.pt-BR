@@ -1,11 +1,11 @@
 ---
 title: Criação de um serviço com APIs
 description: Saiba como criar um serviço com APIs
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%

@@ -4,11 +4,11 @@ description: Saiba como controlar um fluxo de trabalho com APIs.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 10%
@@ -30,9 +30,9 @@ Quatro comandos de execução estão disponíveis para controlar um workflow:
 * Start
 * Pause
 * Retomar
-* Stop
+* Parar
 
-Para obter mais informações sobre os comandos de execução, consulte a [documentação do Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html?lang=pt-BR).
+Para obter mais informações sobre os comandos de execução, consulte a [documentação do Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 

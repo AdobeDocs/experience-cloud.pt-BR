@@ -1,14 +1,14 @@
 ---
 title: Configuração do acesso à API
-description: Saiba como configurar o acesso a APIs Campaign Standard.
+description: Saiba como configurar o acesso às APIs do Campaign Standard.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 18979fea28f4f3adce1139293203a59876831313
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 27%
@@ -21,7 +21,7 @@ O acesso à API do Adobe Campaign Standard é configurado de acordo com as etapa
 
 >[!IMPORTANT]
 >
->Para gerenciar certificados no [Adobe Developer](https://developer.adobe.com/), verifique se você tem os direitos de **Administrador do sistema** na organização ou de uma [conta de desenvolvedor](https://helpx.adobe.com/br/enterprise/using/manage-developers.html) no Admin Console.
+>Para gerenciar certificados no [Adobe Developer](https://developer.adobe.com/), verifique se você tem direitos de **Administrador do sistema** na organização ou de uma [conta de desenvolvedor](https://helpx.adobe.com/br/enterprise/using/manage-developers.html) na Admin Console.
 
 1. **Verifique se você tem um certificado digital** ou crie um, se necessário. As chaves públicas e privadas fornecidas com o certificado são necessárias nas etapas a seguir.
 1. **Crie uma nova integração com o Serviço Adobe Campaign** no [Adobe Developer](https://developer.adobe.com/) e configure-a. Suas credenciais serão geradas (chave da API, segredo do cliente etc.).
@@ -44,20 +44,20 @@ Para estabelecer uma sessão de API segura e de serviço a serviço no Adobe I/O
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;ORGANIZAÇÃO>**: esta é a sua ID de ORGANIZAÇÃO pessoal, uma ID de ORGANIZAÇÃO é fornecida pelo Adobe para cada uma das suas instâncias:
+* **&lt;ORGANIZAÇÃO>**: esta é a sua ID de ORGANIZAÇÃO pessoal, uma ID de ORGANIZAÇÃO é fornecida pela Adobe para cada uma das suas instâncias:
 
    * &lt;ORGANIZATION> : sua instância de produção,
    * &lt;ORGANIZATION-mkt-stage>: sua instância de estágio.
 
   Para obter o valor da ID de ORGANIZAÇÃO, consulte seu administrador ou contato técnico da Adobe. Você também pode recuperá-la no Adobe I/O ao criar uma nova integração, na lista de licenças (consulte a <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">documentação do Adobe Developer</a>).
 
-* **&lt;ACCESS_TOKEN>**: Seu token de acesso pessoal, que foi recuperado ao trocar seu JSON Web Token por meio de uma solicitação POST.
+* **&lt;ACCESS_TOKEN>**: seu token de acesso pessoal, que foi recuperado ao trocar seu JSON Web Token por meio de uma solicitação POST.
 
 * **&lt;API_KEY>**: sua chave de API pessoal. Ele é fornecido no Adobe I/O após a criação de uma nova integração ao Adobe Campaign Service.
 
   ![alt texto](assets/tenant.png)
 
-## Solução de problemas
+## Resolução de problemas
 
 Durante a integração do AdobeIO, se o seguinte erro for exibido:
 
@@ -69,4 +69,4 @@ Durante a integração do AdobeIO, se o seguinte erro for exibido:
 ```
 
 
-Consulte o administrador ou o contato técnico do Adobe para verificar se o parâmetro CNAME foi criado corretamente.
+Consulte o administrador ou o contato técnico da Adobe para verificar se o parâmetro CNAME foi criado corretamente.

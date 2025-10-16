@@ -4,11 +4,11 @@ description: Saiba mais sobre o mecanismo de metadados.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Mecanismo de metadados {#metadata-mechanism}
 
-Você pode recuperar os metadados dos recursos usando **resourceType** em uma solicitação GET:
+Você pode recuperar os metadados dos recursos usando o **resourceType** em uma solicitação GET:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
@@ -27,7 +27,7 @@ A resposta retorna os principais metadados do recurso (todos os outros campos s�
 
    * &quot;apiName&quot;: nome do atributo usado nas APIs.
    * &quot;type&quot;: esta é a definição de tipo de alto nível (sequência, número, link, coleção, enumeração...).
-   * &quot;dataPolicy&quot;: o valor do campo deve seguir as regras de política fornecidas. Por exemplo, se a regra dataPolicy estiver definida como &quot;email&quot;, o valor deverá ser um email válido. Durante um PATCH ou POST, o dataPolicy pode verificar o valor ou modificar o valor para transformar (smartCase, por exemplo).
+   * &quot;dataPolicy&quot;: o valor do campo deve seguir as regras de política fornecidas. Por exemplo, se a regra dataPolicy estiver definida como &quot;email&quot;, o valor deverá ser um email válido. Durante uma PATCH ou POST, a dataPolicy pode verificar o valor ou modificar o valor para transformar (smartCase, por exemplo).
    * &quot;category&quot;: fornece a categoria do campo no editor de consultas.
    * &quot;resType&quot;: é o tipo técnico.
 

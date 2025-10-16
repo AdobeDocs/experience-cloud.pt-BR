@@ -1,38 +1,38 @@
 ---
-title: Recommendations e limitações
-description: Limitações do Recommendations ao migrar para as APIs REST do Campaign v8.
+title: Recomendações e limitações
+description: Recomendações e limitações ao migrar para as APIs REST do Campaign v8.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 mini-toc-levels: 1
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 952706ffafc1e7cd6a759bfbbb9c9200191544d9
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1061'
 ht-degree: 1%
 
 ---
 
-# Recommendations e limitações {#limitations}
+# Recomendações e limitações {#limitations}
 
 ## Permissões e segurança {#permissions}
 
 ### Mapeamento de perfis de produto
 
-No Campaign Standard, você recebeu acesso elevado à função de administrador para APIs, independentemente do perfil de produto atribuído. O Campaign v8 apresenta um conjunto diferente de perfis de produto, exigindo o mapeamento de perfis de produto do Campaign Standard para o Campaign v8.
+No Campaign Standard, você recebeu acesso elevado à função de administrador para APIs, independentemente do perfil de produto atribuído. O Campaign v8 apresenta um conjunto diferente de perfis de produto, exigindo o mapeamento do Campaign Standard para perfis de produto do Campaign v8.
 
 Com a migração, dois perfis de produto são adicionados às suas contas técnicas existentes ou pré-criadas: Administrador e Centro de mensagens (para acessar APIs transacionais). Revise o mapeamento do perfil de produto e atribua o perfil de produto necessário se não quiser que o perfil de produto do administrador seja mapeado com sua conta técnica.
 
-### ID do locatário
+### ID do inquilino
 
-Após a migração, para qualquer integração futura, é recomendável usar sua **ID de locatário do Campaign v8** em URLs REST, substituindo sua ID de locatário do Campaign Standard anterior.
+Após a migração, para qualquer integração futura, é recomendável usar sua **ID de locatário do Campaign v8** em URLs REST, substituindo sua ID de locatário anterior do Campaign Standard.
 
 ### Uso da chave
 
-O gerenciamento de valores de PKey difere entre o Campaign Standard e o Campaign v8. Se você estava armazenando PKeys com Campaign Standard, certifique-se de que sua implementação formará dinamicamente chamadas de API subsequentes usando PKeys ou hrefs obtidos de chamadas de API anteriores.
+O gerenciamento de valores PKey difere entre o Campaign Standard e o Campaign v8. Se você estava armazenando PKeys com o Campaign Standard, certifique-se de que sua implementação formará dinamicamente chamadas de API subsequentes usando PKeys ou hrefs obtidos de chamadas de API anteriores.
 
 ## APIs disponíveis {#deprecated}
 
@@ -89,16 +89,16 @@ As informações do link são ignoradas. Consequentemente, um novo registro é g
 
 No Campaign v8, quando a mesma estrutura de corpo de solicitação é usada e o &quot;veículo&quot; é vinculado a um perfil, ocorre um erro. Este erro ocorre porque a propriedade &quot;firstName&quot; não é reconhecida como válida para &quot;cusVehicle&quot;. No entanto, um corpo de solicitação que inclui apenas os atributos sem o link funciona sem problemas.
 
-## operações de PATCH
+## Operações do PATCH
 
-* O Campaign v8 não oferece suporte ao PATCH com um corpo de solicitação vazio: ele retorna um status 204 Sem conteúdo.
-* Embora o Campaign Standard seja compatível com PATCH em elementos/atributos em um esquema, observe que as operações de PATCH no local não são compatíveis com o Campaign v8. Tentar um PATCH no local resultará em um Erro interno do servidor 500 com uma mensagem de erro indicando que a propriedade &#39;zipCode&#39; não é válida para o recurso &#39;profile&#39;.
+* O Campaign v8 não é compatível com o PATCH com um corpo de solicitação vazio: retorna um status 204 Sem conteúdo.
+* Embora o Campaign Standard seja compatível com PATCH em elementos/atributos em um esquema, observe que as operações do PATCH no local não são compatíveis com o Campaign v8. Tentar um PATCH no local resultará em um Erro interno do servidor 500 com uma mensagem de erro indicando que a propriedade &#39;zipCode&#39; não é válida para o recurso &#39;profile&#39;.
 
 ## Respostas REST
 
 A seção abaixo lista pequenas diferenças entre as respostas REST do Campaign Standard e do v8.
 
-* Para registros de GET únicos, a resposta inclui o href na resposta.
+* Para registros únicos do GET, a resposta inclui o href na resposta.
 * Quando consultado com o atributo, o Campaign v8 fornece Count e Pagination na resposta.
 * Após as operações POST, os valores dos recursos vinculados são retornados na resposta.
 
@@ -125,9 +125,9 @@ Com o Campaign v8, o fuso horário é exibido somente para o usuário como parte
 
 ## Fluxos de trabalho - Acionamento de sinal externo
 
-A API de GET do fluxo de trabalho do Campaign Standard retorna nomes de parâmetros como as variáveis de instância do fluxo de trabalho e seus tipos de dados (booleano, string etc.). Isso é usado para criar o corpo da solicitação JSON formatado corretamente ao acionar o sinal por meio de uma chamada de API POST.
+A API do GET do Campaign Standard Workflow retorna nomes de parâmetros como as variáveis de instância do workflow e seus tipos de dados (booleano, string etc.). Isso é usado para criar o corpo da solicitação JSON formatado corretamente ao acionar o sinal por meio de uma chamada de API POST.
 
-O Campaign v8 não é compatível com variáveis de instância de fluxo de trabalho de publicidade, mas espera que os desenvolvedores saibam o que são. Dessa forma, após a migração, as informações de parâmetros no corpo da solicitação do POST precisarão ser construídas sem a disponibilidade de informações de parâmetros na resposta da API do GET.
+O Campaign v8 não é compatível com variáveis de instância de fluxo de trabalho de publicidade, mas espera que os desenvolvedores saibam o que são. Dessa forma, após a migração, as informações de parâmetros no corpo da solicitação POST precisarão ser construídas sem a disponibilidade de informações de parâmetros na resposta da API do GET.
 
 <!--## Transactional messages
 
