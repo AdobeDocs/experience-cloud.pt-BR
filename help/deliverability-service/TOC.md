@@ -3,10 +3,10 @@ user-guide-title: Gerenciamento do serviço de capacidade de entrega da Adobe
 user-guide-description: Serviço de capacidade de entrega da Adobe
 breadcrumb-title: Serviço de capacidade de entrega da Adobe
 hide: true
-source-git-commit: e52b82bd3f81fb68831ccbd1038e0187d1672595
+source-git-commit: cfdca7ed165ac603341373eaeea7397dc76d8630
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 100%
+source-wordcount: '20'
+ht-degree: 85%
 
 ---
 
@@ -14,3 +14,4 @@ ht-degree: 100%
 
 * [Início](home.md)
 * [Lista de supressão global](global-suppression-list.md)
+* [Artigo de teste oculto](hidden-test.md)
