@@ -1,9 +1,9 @@
 ---
 title: Visão geral das APIs de gerenciamento de recursos
 description: Visão geral das APIs de gerenciamento de Implantações de experiência, que permitem criar, ler, atualizar e excluir sinalizadores de recursos, grupos de recursos e versões de forma programática.
-source-git-commit: 6ecedbfc6c7de392f214f3f8f2e71aa18e1bacb9
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ As APIs de gerenciamento de Implantações de experiência permitem gerenciar si
 As seguintes APIs de gerenciamento estão disponíveis:
 
 * [API de gerenciamento de sinalizadores de recursos](feature-flags-management-api.md) — Criar, ler, atualizar e excluir sinalizadores de recursos de um aplicativo.
-* [API de gerenciamento de grupo de recursos](feature-group-management-api.md) — Crie, leia, atualize, exclua e controle planos de implantação automatizados para grupos de recursos.
+* [API de gerenciamento de grupo de recursos](feature-group-management-api.md) — Criar, ler, atualizar e excluir grupos de recursos.
 * [APIs de gerenciamento de versão](release-management-apis.md) — Crie e edite grupos de recursos e versões entre equipes.
 
 ## Requisitos comuns {#common-requirements}
@@ -45,6 +45,5 @@ Os guias a seguir ajudam na criação de cargas de API corretas:
 
 ## Consulte também {#see-also}
 
-* [API V3 de recursos do GET](../feature-api/get-feature-api-v3.md)
-* [API V2 de recursos do GET](../feature-api/get-feature-api-v2.md)
+* **API de Recursos do GET V3** e **API de Recursos do GET V2** — consulte a seção API de Recursos deste guia para obter as referências completas.
 * [Inscrever-se no aplicativo de API](../guides/integrate/subscribe-to-api-application.md)

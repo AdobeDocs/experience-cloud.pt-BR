@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Implantações de experiência do Adobe
 user-guide-description: Saiba como usar implantações da Adobe Experience para gerenciar sinalizadores de recursos, implantações controladas e versões direcionadas em seus aplicativos.
-source-git-commit: cd1d882942705f51440ae99f4ce6daf467d3283c
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 6%
+source-wordcount: '340'
+ht-degree: 5%
 
 ---
 
@@ -77,10 +77,6 @@ ht-degree: 6%
       + [Associar ambientes a um aplicativo](guides/cross-environment/associate-environments.md)
       + [Exibir sinalizadores de recursos entre ambientes](guides/cross-environment/view-feature-flags-across-environments.md)
       + [Importar sinalizadores de recursos](guides/cross-environment/import-feature-flags.md)
-   + Implantações automatizadas {#automated-rollouts}
-      + [Criar uma implantação automatizada](guides/automated-rollouts/create-automated-rollout.md)
-      + [Conceito de implantação automatizada](guides/automated-rollouts/automated-rollout-concept.md)
-      + [Monitorar e editar um plano de implantação](guides/automated-rollouts/monitor-edit-rollout-plan.md)
    + Suporte {#support}
       + [Solução de problemas](guides/support/troubleshooting.md)
       + [Obter suporte](guides/support/get-support.md)
@@ -93,14 +89,14 @@ ht-degree: 6%
          + [Guia de integração do SDK Node.js](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
          + [Notas de versão do Node.js SDK](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
       + [Benchmarking SDK](guides/sdk-releases/java-sdk-benchmarking.md)
-<!--+ Feature API {#feature-api}
-  + [GET Feature API V3](feature-api/get-feature-api-v3.md)
-  + [GET Feature API V2](feature-api/get-feature-api-v2.md)
-+ Management API {#management-api}
-  + [Feature management APIs overview](management-api/feature-management-apis-overview.md)
-  + [Feature flags management API](management-api/feature-flags-management-api.md)
-  + [Feature group management API](management-api/feature-group-management-api.md)
-  + [Release management APIs](management-api/release-management-apis.md)
-  + [Get client ID for an application](management-api/get-client-id.md)
-  + [Get desired audience criteria](management-api/get-audience-criteria.md)
-  + [Management patch API](management-api/management-patch-api.md)-->
++ API de recurso {#feature-api}
+   + [API V3 de recursos do GET](feature-api/get-feature-api-v3.md)
+   + [API V2 de recursos do GET](feature-api/get-feature-api-v2.md)
++ API de gerenciamento {#management-api}
+   + [Visão geral das APIs de gerenciamento de recursos](management-api/feature-management-apis-overview.md)
+   + [API de gerenciamento de sinalizadores de recursos](management-api/feature-flags-management-api.md)
+   + [API de gerenciamento de grupos de recursos](management-api/feature-group-management-api.md)
+   + [APIs de gerenciamento de versão](management-api/release-management-apis.md)
+   + [Obter a ID do cliente para um aplicativo](management-api/get-client-id.md)
+   + [Obtenha os critérios de público desejados](management-api/get-audience-criteria.md)
+   + [API de patch de gerenciamento](management-api/management-patch-api.md)

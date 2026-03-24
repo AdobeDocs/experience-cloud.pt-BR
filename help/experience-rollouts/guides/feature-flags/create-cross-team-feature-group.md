@@ -1,9 +1,9 @@
 ---
 title: Criar um grupo de recursos entre equipes
 description: Saiba como criar um grupo de recursos entre equipes em implantações de experiência do Adobe para coordenar sinalizadores de recursos entre aplicativos de propriedade de equipes diferentes.
-source-git-commit: a1ed4582217001ffcf500cd7b634d9959adbe028
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Inicie o processo de criação na seção Versões do console:
 Forneça um título, chave, descrição e, opcionalmente, uma tag. Configure as seguintes opções:
 
 * **Porcentagem de implantação** — Defina quanto do público-alvo recebe o recurso.
-* **Tipo de implantação** — escolha Manual ou Automatizada. Consulte [implantações automatizadas](../automated-rollouts/automated-rollout-concept.md) para obter detalhes sobre como as implantações automatizadas funcionam.
+* **Tipo de implantação** — Defina como Manual. A porcentagem é gerenciada passo a passo conforme a implantação avança.
 
 >[!NOTE]
 >
@@ -91,4 +91,3 @@ Consulte [Versões e grupos de recursos entre equipes](releases-and-cross-team-f
 
 * [Versões e grupos de recursos entre equipes](releases-and-cross-team-feature-groups.md)
 * [Criar um grupo de recursos](create-a-feature-group.md)
-* [Criar uma implantação automatizada](../automated-rollouts/create-automated-rollout.md)

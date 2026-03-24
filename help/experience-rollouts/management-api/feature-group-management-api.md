@@ -1,9 +1,9 @@
 ---
 title: API de gerenciamento de grupos de recursos
 description: Referência de API para a API de gerenciamento de grupo de recursos de Implantações de Experiência, incluindo endpoints para obter, criar, atualizar, excluir e controlar planos de implantação para grupos de recursos.
-source-git-commit: 8a92b7a3e8c52da8bb2474f52c831e159420b878
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '575'
 ht-degree: 14%
 
 ---
@@ -90,28 +90,6 @@ O corpo da solicitação usa o [objeto do grupo de recursos](#feature-group-obje
 }
 ```
 
-**Amostra — implantação automatizada:**
-
-```json
-{
-  "params": { "rolloutType": "automated", "label": "my-automated-group", "tags": [] },
-  "status": "SAVED",
-  "type": "group",
-  "name": "my.automated.group",
-  "variations": [{ "variantPercentage": 100, "variantName": "Variant 1", "features": [] }],
-  "phaseRollOutPlan": {
-    "phaseRollOutBlocks": [
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 1, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": false, "phaseRule": null, "waitRule": { "waitDuration": { "val": "2", "unit": "HOURS" } }, "blockId": 2, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 3, "blockName": "", "isBlockActivated": false }
-    ],
-    "rollOutPlanState": "DRAFT"
-  },
-  "clients": [],
-  "org": { "id": 95 }
-}
-```
-
 ### Resposta {#create-response}
 
 | Status | Descrição |
@@ -136,29 +114,6 @@ Atualiza um grupo de recursos existente. Passe a mesma estrutura do corpo da sol
 | `200` | Sucesso. O corpo da resposta é o objeto do grupo de recursos atualizado. |
 | `400` | Conteúdo inválido. |
 | `403` | Permissões insuficientes. |
-
-## Pausar, retomar ou suspender um plano de implantação {#pause-resume-abort}
-
-Controla a execução de um plano de implantação de teste A/B ou automatizado em andamento.
-
-| Ação | Endpoint |
-|---|---|
-| **Retomar** | `POST /m/api/v1/mgmt/phaserollout/resume` |
-| **Pause** | `POST /m/api/v1/mgmt/phaserollout/pause` |
-| **Anular** | `POST /m/api/v1/mgmt/phaserollout/abort` |
-
-### Corpo da solicitação {#control-request-body}
-
-```json
-{
-  "entityId": 10282,
-  "fgEntityType": "GROUP"
-}
-```
-
-### Resposta {#control-response}
-
-Retorna `true` em caso de sucesso.
 
 ## Excluir grupo de recursos {#delete-group}
 
@@ -230,4 +185,3 @@ Cada bloco em `phaseRollOutBlocks` é um **bloco de fase** (`isPhaseBlock: true`
 * [Visão geral das APIs de gerenciamento de recursos](feature-management-apis-overview.md)
 * [API de gerenciamento de sinalizadores de recursos](feature-flags-management-api.md)
 * [API de patch de gerenciamento](management-patch-api.md)
-* [Criar uma implantação automatizada](../guides/automated-rollouts/create-automated-rollout.md)
