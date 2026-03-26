@@ -1,17 +1,17 @@
 ---
 title: Associar ambientes a um aplicativo
 description: Saiba como vincular as instâncias do aplicativo entre ambientes em implantações de experiência do Adobe para gerenciar sinalizadores de recursos de forma consistente, do desenvolvimento à produção.
-source-git-commit: 5c99061a7f2aaaad98190166ea6fd79b7eb26dec
+exl-id: 53080db1-f257-4369-82ab-57c84395a40a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
 
-
 # Associar ambientes a um aplicativo {#associate-environments}
 
-Vincular as instâncias do aplicativo entre ambientes permite a visibilidade entre ambientes e importar workflows. Você deve ter a função de **Administrador** para configurar isso. Consulte [Funções do usuário](../teams/user-roles.md) se precisar verificar sua função.
+Vincular as instâncias do aplicativo entre ambientes permite a visibilidade entre ambientes e importar workflows. Você deve ter a função de **Administrador** para configurar isso. Entre em contato com o administrador da equipe se precisar verificar ou atualizar sua função.
 
 Para obter informações sobre por que isso é útil, consulte [Conceito entre ambientes](cross-environment-concept.md).
 

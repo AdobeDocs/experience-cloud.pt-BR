@@ -1,13 +1,13 @@
 ---
 title: Faça logon no console Implantações de experiência
 description: Saiba como começar a usar implantações de experiência da Adobe encontrando sua equipe, solicitando acesso e fazendo logon no console.
-source-git-commit: a7ff5bf33bd8e8c5ff89848955bf6af33b0d6c21
+exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
-
 
 # Faça logon no console Implantações de experiência {#log-in}
 
@@ -17,7 +17,7 @@ A introdução às implantações de experiência envolve três etapas: encontra
 
 As Implantações de Experiência estão organizadas em torno de **equipes**. Cada equipe possui um ou mais aplicativos e gerencia sinalizadores de recursos para esses aplicativos. Antes de fazer logon, você precisa pertencer a uma equipe.
 
-Consulte seu produto ou líder de engenharia para descobrir se já existe uma equipe para o seu projeto. Em caso afirmativo, peça ao administrador da equipe para adicioná-lo com a [função de usuário](../teams/user-roles.md) correta. Se nenhuma equipe ainda existir, siga as etapas em [Criar uma nova equipe](create-a-new-team.md).
+Consulte seu produto ou líder de engenharia para descobrir se já existe uma equipe para o seu projeto. Caso isso aconteça, peça ao administrador da equipe para adicioná-lo com a função de usuário correta. Se nenhuma equipe ainda não existir, entre em contato com o administrador de Implantações de experiência de sua organização.
 
 ## Solicitar acesso {#request-access}
 
@@ -31,7 +31,7 @@ Após o acesso ser concedido:
 
 1. Vá para [https://experience.adobe.com/](https://experience.adobe.com/) e entre com as credenciais da organização.
 2. Selecione **Implantações de Experiência** no alternador de aplicativos.
-3. Selecione o ambiente apropriado — **Preparo** para teste, **Produção** para implantações ativas. Consulte [Visão geral dos ambientes](environments-overview.md) para obter detalhes.
+3. Selecione a sandbox correta. Consulte [Selecionar sua sandbox](environments-overview.md) para obter detalhes.
 
 ## Primeiras etapas após fazer logon {#first-steps}
 
@@ -43,4 +43,4 @@ Depois de fazer logon, verifique se o aplicativo está listado no console. Os ap
 |---|---|
 | **Equipe** | Um grupo autogerenciado que possui aplicativos e gerencia sinalizadores de recursos. As equipes têm uma estrutura simples com diferentes funções de usuário e níveis de permissão. |
 | **Aplicativo** | O aplicativo que você deseja controlar com sinalizadores de recursos. Cada aplicativo pertence a uma equipe. |
-| **Sinalizador de recurso/Grupo de recursos/Versão** | Os artefatos criados em Implantações de experiência para teste de recursos e gerenciamento de versões. |
+| **Sinalizador de recurso/Grupo de recursos** | Os artefatos criados em Implantações de experiência para testes de recursos e implantações controladas. |

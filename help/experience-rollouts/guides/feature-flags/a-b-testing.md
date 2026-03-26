@@ -1,13 +1,13 @@
 ---
 title: Teste A/B com sinalizadores de recursos
 description: Saiba como executar testes A/B usando grupos de recursos em implantações de experiência do Adobe, configurando várias variantes para um conjunto de sinalizadores de recursos.
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
-
 
 # Teste A/B com sinalizadores de recursos {#a-b-testing}
 
@@ -17,7 +17,7 @@ Os testes A/B em implantações de experiência são executados usando **grupos 
 
 * Você tem acesso ao console — consulte [Fazer logon no console](../console/log-in-to-the-console.md)
 * Você pertence a uma equipe e seu aplicativo é integrado
-* Você tem a função **Desenvolvedor** ou **Proprietário da Versão do Produto** — consulte [Funções do usuário](../teams/user-roles.md)
+* Você tem a função **Desenvolvedor** ou **Proprietário da Versão do Produto**
 * Você criou os sinalizadores de recursos para testar — consulte [Criar seu primeiro sinalizador de recursos](create-your-first-feature-flag.md)
 
 ## Etapa 1: criar um grupo de recursos com várias variantes {#create}

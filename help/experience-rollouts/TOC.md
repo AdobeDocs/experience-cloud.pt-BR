@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Implantações de experiência do Adobe
 user-guide-description: Saiba como usar implantações da Adobe Experience para gerenciar sinalizadores de recursos, implantações controladas e versões direcionadas em seus aplicativos.
-source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
+source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 5%
+source-wordcount: '291'
+ht-degree: 6%
 
 ---
 
@@ -27,15 +27,8 @@ ht-degree: 5%
 + Guias {#guides}
    + Introdução ao console {#console}
       + [Faça logon no console Implantações de experiência](guides/console/log-in-to-the-console.md)
-      + [Visão geral dos ambientes](guides/console/environments-overview.md)
+      + [Selecione sua sandbox](guides/console/environments-overview.md)
       + [Solicitar acesso](guides/console/request-access.md)
-      + [Equipes e seus administradores](guides/console/teams-and-admins.md)
-      + [Criar uma nova equipe](guides/console/create-a-new-team.md)
-   + Equipes {#teams}
-      + [Gerenciar equipes](guides/teams/manage-teams.md)
-      + [Funções do usuário](guides/teams/user-roles.md)
-      + [Adicionar membros à sua equipe](guides/teams/add-team-members.md)
-      + [Perguntas frequentes sobre gerenciamento de equipe](guides/teams/team-management-faq.md)
    + Aplicativos {#applications}
       + [Gerenciar aplicativos](guides/applications/manage-applications.md)
       + [Integrar seu aplicativo](guides/applications/onboard-your-application.md)
@@ -49,19 +42,13 @@ ht-degree: 5%
       + [SDKs](guides/integrate/sdks.md)
       + [Etapas de integração](guides/integrate/integration-steps.md)
       + [Assinar o aplicativo de API no Adobe Developer Console](guides/integrate/subscribe-to-api-application.md)
-   + Sinalizadores e lançamentos de recursos {#feature-flags-releases}
-      + [Recursos, grupos de recursos e versões](guides/feature-flags/features-feature-groups-releases.md)
+   + Sinalizadores de recursos {#feature-flags}
+      + [Recursos e grupos de recursos](guides/feature-flags/features-feature-groups-releases.md)
       + [Criar o primeiro sinalizador de recurso](guides/feature-flags/create-your-first-feature-flag.md)
       + [Definir um recurso para implantação gradual](guides/feature-flags/set-feature-gradual-rollout.md)
       + [Criar um grupo de recursos](guides/feature-flags/create-a-feature-group.md)
       + [Definir um grupo de recursos para implantação gradual](guides/feature-flags/set-feature-group-gradual-rollout.md)
       + [Teste A/B com sinalizadores de recursos](guides/feature-flags/a-b-testing.md)
-      + [Versões e grupos de recursos entre equipes](guides/feature-flags/releases-and-cross-team-feature-groups.md)
-      + [Liberar fluxo de trabalho de ponta a ponta](guides/feature-flags/release-workflow-end-to-end.md)
-      + [Solicitar uma versão](guides/feature-flags/request-a-release.md)
-      + [Atualizar regras de lançamento de público-alvo](guides/feature-flags/update-release-audience-rules.md)
-      + [Estados de lançamento](guides/feature-flags/release-states.md)
-      + [Criar um grupo de recursos entre equipes](guides/feature-flags/create-cross-team-feature-group.md)
       + [Perguntas frequentes sobre gerenciamento de versão](guides/feature-flags/release-management-faqs.md)
       + [Analytics](guides/feature-flags/analytics.md)
       + [Agendar](guides/feature-flags/schedule.md)

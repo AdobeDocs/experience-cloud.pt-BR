@@ -1,17 +1,17 @@
 ---
 title: Integrar seu aplicativo
 description: Saiba como integrar um novo aplicativo às implantações de experiência do Adobe para que sua equipe possa começar a criar e gerenciar sinalizadores de recursos.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 1%
 
 ---
 
-
 # Integrar seu aplicativo {#onboard-your-application}
 
-Você deve ter a função de **Administrador** para adicionar um novo aplicativo. Consulte [Funções do usuário](../teams/user-roles.md) se precisar verificar sua função ou solicitá-la ao administrador de equipe.
+Você deve ter a função de **Administrador** para adicionar um novo aplicativo. Entre em contato com o administrador da equipe se precisar verificar ou atualizar sua função.
 
 ## Adicionar um novo aplicativo {#add-application}
 
@@ -45,5 +45,4 @@ Depois que o aplicativo for integrado, a equipe poderá começar a criar sinaliz
 ## Consulte também {#see-also}
 
 * [Gerenciar aplicativos](manage-applications.md)
-* [Funções do usuário](../teams/user-roles.md)
 * [Fazer logon no console](../console/log-in-to-the-console.md)

@@ -1,13 +1,13 @@
 ---
 title: Criar o primeiro sinalizador de recurso
 description: Saiba como criar um sinalizador de recurso em Implantações da Adobe Experience, definir um público-alvo e testá-lo antes de implantar para os usuários.
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+exl-id: ae115120-8da9-465e-a556-c17591ea7054
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
-
 
 # Criar o primeiro sinalizador de recurso {#create-feature-flag}
 
@@ -16,9 +16,8 @@ ht-degree: 0%
 Antes de criar um sinalizador de recurso, conclua o seguinte:
 
 * Você tem acesso ao console de Implantações de Experiência — consulte [Fazer logon no console](../console/log-in-to-the-console.md)
-* Você pertence a uma equipe — consulte [Gerenciar equipes](../teams/manage-teams.md)
 * Seu aplicativo está integrado — consulte [Integrar seu aplicativo](../applications/onboard-your-application.md)
-* Você tem a função **Desenvolvedor** ou **Proprietário da Versão do Produto** — consulte [Funções do usuário](../teams/user-roles.md)
+* Você tem a função **Desenvolvedor** ou **Proprietário da Versão do Produto**
 
 ## Etapa 1: criar o sinalizador de recurso {#create}
 
@@ -61,4 +60,3 @@ A função de **Desenvolvedor** está em modo seguro. Os desenvolvedores podem t
 
 * [Definir um recurso para implantação gradual](set-feature-gradual-rollout.md)
 * [Criar um grupo de recursos](create-a-feature-group.md)
-* [Funções do usuário](../teams/user-roles.md)

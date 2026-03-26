@@ -1,13 +1,13 @@
 ---
 title: Solicitar acesso
 description: Saiba como solicitar acesso a uma equipe de implantações de experiência do Adobe e as funções disponíveis para novos membros.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
-
 
 # Solicitar acesso {#request-access}
 
@@ -17,7 +17,7 @@ O acesso às implantações de experiência é gerenciado no nível da equipe. P
 
 Antes de solicitar o acesso, confirme o seguinte:
 
-* Você sabe em qual time entrar. Consulte seu produto ou líder de engenharia, ou consulte [Equipes e seus administradores](teams-and-admins.md) para identificar sua equipe e seu administrador.
+* Você sabe em qual time entrar. Consulte seu produto ou líder de engenharia para identificar a equipe e o administrador.
 * Você sabe a qual ambiente precisa acessar — **Preparo**, **Produção** ou ambos.
 
 ## Solicitar acesso {#request-steps}
@@ -35,7 +35,7 @@ Você receberá uma confirmação assim que a solicitação for enviada. Você p
 
 ## Funções disponíveis {#roles}
 
-A função atribuída a você determina quais ações podem ser executadas no console. Consulte [Funções de usuário](../teams/user-roles.md) para obter uma descrição completa de cada função e suas permissões.
+A função atribuída a você determina quais ações podem ser executadas no console. Entre em contato com o administrador da equipe se não tiver certeza sobre qual função solicitar.
 
 ## Depois que o acesso for concedido {#after-access}
 
@@ -43,4 +43,4 @@ Depois que a solicitação for aprovada, faça logon no console Implantações d
 
 ## Precisa de ajuda? {#need-help}
 
-Se não tiver certeza de qual equipe ingressar ou se ainda não houver uma equipe para o seu projeto, consulte [Criar uma nova equipe](create-a-new-team.md) ou entre em contato com o administrador de Implantações de Experiência da sua organização.
+Se não tiver certeza de qual equipe ingressar ou se ainda não houver uma equipe para o projeto, entre em contato com o administrador de Implantações de experiência da sua organização.

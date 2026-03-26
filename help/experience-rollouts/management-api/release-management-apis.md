@@ -1,13 +1,13 @@
 ---
 title: APIs de gerenciamento de versão
 description: Referência de API para as APIs de gerenciamento de versões de Implantações de experiência, incluindo endpoints para obter, criar e editar versões e grupos de recursos entre equipes.
-source-git-commit: 8a92b7a3e8c52da8bb2474f52c831e159420b878
+exl-id: e8d1d025-0645-4cf2-921f-d94c9f71282d
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '490'
 ht-degree: 13%
 
 ---
-
 
 # APIs de gerenciamento de versão {#release-management-apis}
 
@@ -146,4 +146,3 @@ Atualiza uma versão existente ou um grupo de recursos entre equipes. Passe o ob
 * [Visão geral das APIs de gerenciamento de recursos](feature-management-apis-overview.md)
 * [API de gerenciamento de sinalizadores de recursos](feature-flags-management-api.md)
 * [API de gerenciamento de grupos de recursos](feature-group-management-api.md)
-* [Criar um grupo de recursos entre equipes](../guides/feature-flags/create-cross-team-feature-group.md)

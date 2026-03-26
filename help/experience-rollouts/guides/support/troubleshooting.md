@@ -1,13 +1,13 @@
 ---
 title: Solução de problemas
 description: Use o Workbench de implantações de experiência para diagnosticar problemas de avaliação de sinalizador de recursos para usuários específicos, incluindo a verificação de quais recursos estão ativados, desativados ou não correspondentes para uma determinada identidade de usuário.
-source-git-commit: d824d85c6701edc9be314713bb8e9624b183e2d2
+exl-id: d64e9573-8e18-46a1-a75a-5ae5bfc7c82d
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
-
 
 # Solução de problemas {#troubleshooting}
 
@@ -85,5 +85,3 @@ A tabela a seguir descreve problemas comuns e como investigá-los usando a banca
 
 * [Obter suporte](get-support.md)
 * [Entrar em contato com o suporte](contact-support.md)
-* [Atualizar regras de lançamento de público-alvo](../feature-flags/update-release-audience-rules.md)
-* [Estados de lançamento](../feature-flags/release-states.md)

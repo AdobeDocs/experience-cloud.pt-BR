@@ -1,13 +1,13 @@
 ---
 title: Gerenciar aplicativos
 description: Saiba como gerenciar aplicativos em implantações da Adobe Experience, incluindo a adição de novos aplicativos e o entendimento da propriedade da equipe.
-source-git-commit: 53edbee220e7ef17c4a3ea066743192c1e9681f4
+exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
+source-git-commit: 8dc03f77f4e13ac9196df0910b1c00904b57a934
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '167'
 ht-degree: 1%
 
 ---
-
 
 # Gerenciar aplicativos {#manage-applications}
 
@@ -28,10 +28,8 @@ Cada aplicativo pertence a exatamente uma equipe. Somente os membros dessa equip
 Esse modelo de propriedade também afeta como você estrutura grupos de recursos:
 
 * **Na sua equipe** — Um Proprietário de Versão do Produto pode agrupar sinalizadores de recursos entre aplicativos pertencentes à mesma equipe. Consulte [Grupos de recursos para controlar vários recursos](../../concepts/feature-groups-to-control-multiple-features.md).
-* **Entre equipes** — Se você precisar agrupar sinalizadores de recursos de aplicativos de propriedade de equipes diferentes, use um grupo de recursos entre equipes, o que requer a função de **Administrador de Recursos**.
 
 ## Consulte também {#see-also}
 
 * [Integrar seu aplicativo](onboard-your-application.md)
 * [Grupos de recursos para controlar vários recursos](../../concepts/feature-groups-to-control-multiple-features.md)
-* [Funções do usuário](../teams/user-roles.md)

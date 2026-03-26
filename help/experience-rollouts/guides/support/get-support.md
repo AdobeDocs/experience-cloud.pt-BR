@@ -1,13 +1,13 @@
 ---
 title: Obter suporte
 description: Saiba como obter ajuda com as implantações da Adobe Experience, incluindo recursos de autoatendimento, e como enviar uma solicitação de suporte quando precisar de assistência.
-source-git-commit: d824d85c6701edc9be314713bb8e9624b183e2d2
+exl-id: f4ba9c00-941b-4c33-b42f-087113d58b0d
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
-
 
 # Obter suporte {#get-support}
 
@@ -19,8 +19,7 @@ Antes de enviar uma solicitação de suporte, tente estas opções de autoatendi
 
 * **Pesquisar esta documentação** — Use a função de pesquisa para localizar guias, explicações de conceito e conteúdo de instruções.
 * **Usar a Bancada de Recursos** — Diagnostica problemas de avaliação de sinalizador de recursos para usuários específicos sem escrever código. Consulte [Solução de problemas](troubleshooting.md) para obter instruções.
-* **Verificar estados de versão** — Confirme se o recurso está no estado correto para o público-alvo desejado. Consulte [Estados de versão](../feature-flags/release-states.md).
-* **Verificar regras de público-alvo** — Revise os critérios de público-alvo e a configuração de porcentagem do recurso. Consulte [Atualizar regras de lançamento de público-alvo](../feature-flags/update-release-audience-rules.md).
+* **Verificar estado do sinalizador de recurso** — Confirme se o sinalizador de recurso foi publicado e se as regras de público-alvo estão configuradas corretamente.
 
 ## Enviar uma solicitação de suporte {#submit-request}
 

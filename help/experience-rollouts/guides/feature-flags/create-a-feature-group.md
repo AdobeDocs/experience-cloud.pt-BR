@@ -1,13 +1,13 @@
 ---
 title: Criar um grupo de recursos
 description: Saiba como criar um grupo de recursos em implantações de experiência do Adobe para gerenciar vários sinalizadores de recursos entre aplicativos em sua equipe como uma única unidade.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
-
 
 # Criar um grupo de recursos {#create-feature-group}
 
@@ -16,9 +16,8 @@ ht-degree: 0%
 Antes de criar um grupo de recursos, faça o seguinte:
 
 * Você tem acesso ao console de Implantações de Experiência — consulte [Fazer logon no console](../console/log-in-to-the-console.md)
-* Você pertence a uma equipe — consulte [Gerenciar equipes](../teams/manage-teams.md)
 * Seu aplicativo está integrado — consulte [Integrar seu aplicativo](../applications/onboard-your-application.md)
-* Você tem a função **Desenvolvedor** ou **Proprietário da Versão do Produto** — consulte [Funções do usuário](../teams/user-roles.md)
+* Você tem a função **Desenvolvedor** ou **Proprietário da Versão do Produto**
 * Você criou os sinalizadores de recursos que deseja adicionar ao grupo — consulte [Criar seu primeiro sinalizador de recursos](create-your-first-feature-flag.md)
 
 Para obter uma introdução aos grupos de recursos, consulte [Grupos de recursos para controlar vários recursos](../../concepts/feature-groups-to-control-multiple-features.md).

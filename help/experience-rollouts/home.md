@@ -2,9 +2,9 @@
 title: Implantações de experiência do Adobe
 description: Saiba como usar as implantações de experiência do Adobe para fornecer recursos de forma segura e gradual com implantações controladas, sinalizadores de recursos e gerenciamento de público-alvo direcionado.
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: 65effd7e3b12404359e3693820bbf9e5080bea03
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '343'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ A obtenção de valor das implantações de experiência começa com três etapa
 
 3. **Integrar com seu aplicativo** — Conecte seu aplicativo à API de Implantações de Experiência ou ao SDK para que ele possa recuperar e aplicar sinalizadores de recursos no tempo de execução. Comece com as [etapas de integração](guides/integrate/integration-steps.md) para o seu tipo de aplicativo.
 
-Depois que o primeiro sinalizador estiver ativo, você poderá refinar o público-alvo, configurar uma implantação gradual e promovê-la pelos [estados de versão](guides/feature-flags/release-states.md), desde a implantação salva até a completa.
+Depois que o primeiro sinalizador estiver ativo, você poderá refinar o público-alvo, configurar uma implantação gradual e promovê-la de salva para implantação completa.
 
 ## Precisa de ajuda?
 

@@ -1,13 +1,13 @@
 ---
 title: Usar dados da organização corporativa nas regras de público-alvo
 description: Saiba como usar as Enterprise Organization IDs como critérios de público-alvo nas implantações de experiência da Adobe para direcionar organizações de clientes específicas.
-source-git-commit: 3f3f7145b3c58dc721cbeb850e9e8571e3255bb1
+exl-id: 74f97ec7-a809-41bf-a41d-bb57f033040f
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
-
 
 # Usar dados da organização corporativa nas regras de público-alvo {#enterprise-org-data}
 
@@ -41,5 +41,4 @@ As organizações DMA usam IDs de organização no formato `XXXXXXXXXXXXXXXXXXXX
 ## Consulte também {#see-also}
 
 * [Público-alvo em sinalizadores e grupos de recursos](audience-in-feature-flags-and-feature-groups.md)
-* [Atualizar regras de lançamento de público-alvo](../feature-flags/update-release-audience-rules.md)
 * [Regras complexas de público](complex-rules.md)
