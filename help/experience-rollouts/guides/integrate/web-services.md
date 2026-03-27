@@ -1,13 +1,13 @@
 ---
 title: Serviços da web
 description: Saiba como integrar implantações da Adobe Experience em um serviço da Web de back-end usando o Java ou o Node.js SDK.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 9%
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
-
 
 # Serviços da web {#web-services}
 
@@ -22,11 +22,7 @@ Os serviços de back-end se integram às implantações de experiência usando u
 
 ## Outros idiomas {#other-languages}
 
-Se o serviço de back-end usar um idioma não listado acima, é possível integrar diretamente com a API REST:
-
-* API de recursos V3 — consulte a seção API de recursos neste guia para obter uma referência completa
-
-Entre em contato com o suporte de Implantações da Experience se precisar de orientação sobre a integração com uma pilha não compatível.
+Se seu serviço de back-end usar um idioma não listado acima, entre em contato com o suporte de Implantações de Experiência para obter orientação sobre como integrar o à sua pilha específica.
 
 ## Consulte também {#see-also}
 

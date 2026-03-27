@@ -1,19 +1,21 @@
 ---
 title: Aplicações web
-description: Saiba como integrar Implantações da Adobe Experience em um aplicativo web usando a API de recurso V3.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: Saiba como integrar implantações da Adobe Experience em um aplicativo web usando o SDK da Web.
+exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 8%
 
 ---
 
-
 # Aplicações web {#web-applications}
 
-Os aplicativos Web se integram às Implantações de Experiência ao chamar a **API de Recurso V3** para recuperar sinalizadores de recursos e colocar uma lógica condicional por trás deles no código do aplicativo.
+Os aplicativos Web se integram às Implantações de experiência por meio do Web SDK.
 
-Consulte **API de Recurso do GET V3** na seção API de Recurso deste guia para obter a referência completa da API, incluindo parâmetros de solicitação, formato de resposta e chamadas de exemplo.
+>[!NOTE]
+>
+>A documentação do Web SDK está sendo preparada e estará disponível em breve. Entre em contato com o representante da Adobe para obter orientação de acesso antecipado.
 
 ## Etapas de integração {#integration-steps}
 

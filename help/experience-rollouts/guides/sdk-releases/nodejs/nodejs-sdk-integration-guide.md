@@ -1,13 +1,13 @@
 ---
 title: Guia de integração do SDK Node.js
 description: Saiba como integrar o SDK Node.js de Implantações de Experiência ao seu serviço de back-end para recuperar e avaliar sinalizadores de recursos.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 063829fe-6933-45ff-add4-285ca7391778
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
-
 
 # Guia de integração do SDK Node.js {#nodejs-sdk-integration-guide}
 
@@ -15,14 +15,14 @@ A SDK Node.js de implantações de experiência é uma biblioteca do lado do ser
 
 >[!NOTE]
 >
->O Node.js SDK foi projetado apenas para uso no lado do servidor. Para aplicações Web do lado do cliente, chame o endpoint REST da API de recurso V3 diretamente.
+>O Node.js SDK foi projetado apenas para uso no lado do servidor. Para aplicações Web do lado do cliente, use o SDK da Web. A documentação do Web SDK está sendo preparada e estará disponível em breve.
 
 ## Pré-requisitos {#prerequisites}
 
 Antes de integrar o SDK Node.js, verifique se você tem:
 
 * Um aplicativo do lado do servidor Node.js
-* Uma **chave de API** e um **token de serviço** obtidos por meio do Adobe Developer Console — consulte [Assinar o aplicativo de API](../../integrate/subscribe-to-api-application.md)
+* Uma **Chave de API** e um **token de serviço** obtidos por meio do Adobe Developer Console — entre em contato com o suporte de Implantações de Experiência para obter sua ID de cliente
 * Suas **IDs de clientes de aplicativos** registradas no console de Implantações de Experiência — consulte [Integrar seu aplicativo](../../applications/onboard-your-application.md)
 
 ## Instalar o SDK {#install}
@@ -160,5 +160,4 @@ floodgateClient.createInstance(
 
 * [Notas de versão do Node.js SDK](nodejs-sdk-release-notes.md)
 * [SDKs](../../integrate/sdks.md)
-* [Inscrever-se no aplicativo de API](../../integrate/subscribe-to-api-application.md)
 * [Etapas de integração](../../integrate/integration-steps.md)

@@ -1,19 +1,21 @@
 ---
 title: Aplicativos móveis
-description: Saiba como integrar implantações da Adobe Experience em um aplicativo móvel usando a API de recurso V3.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: Saiba como integrar implantações da Adobe Experience em um aplicativo móvel usando o SDK móvel.
+exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 8%
 
 ---
 
-
 # Aplicativos móveis {#mobile-applications}
 
-Os aplicativos móveis são integrados com implantações de experiência ao chamar a **API de Recurso V3** para recuperar sinalizadores de recursos e aplicar lógica condicional ao código do aplicativo.
+Os aplicativos móveis se integram às implantações de experiência por meio da SDK móvel.
 
-Consulte **API de Recurso do GET V3** na seção API de Recurso deste guia para obter a referência completa da API, incluindo parâmetros de solicitação, formato de resposta e chamadas de exemplo.
+>[!NOTE]
+>
+>A documentação do Mobile SDK está sendo preparada e estará disponível em breve. Entre em contato com o representante da Adobe para obter orientação de acesso antecipado.
 
 ## Etapas de integração {#integration-steps}
 

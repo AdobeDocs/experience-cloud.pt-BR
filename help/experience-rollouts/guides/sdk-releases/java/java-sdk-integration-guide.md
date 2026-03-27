@@ -1,13 +1,13 @@
 ---
 title: Guia de integração do Java SDK
 description: Saiba como integrar o Java SDK de implantações de experiência ao seu serviço de back-end para recuperar e avaliar sinalizadores de recursos.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 7c12bd6c-1883-4f1c-985f-a2b0432e61ce
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 1%
 
 ---
-
 
 # Guia de integração do Java SDK {#java-sdk-integration-guide}
 
@@ -19,7 +19,7 @@ Antes de integrar o Java SDK, verifique se você tem:
 
 * JDK 11 ou posterior (necessário a partir do SDK versão 3.0.0; versões anteriores são compatíveis com JDK 8+)
 * Um sistema de compilação baseado em Maven
-* Uma ID de cliente da **Chave de API** e do **token de serviço** do seu projeto do Adobe Developer Console — consulte [Assinar o aplicativo de API](../../integrate/subscribe-to-api-application.md)
+* Uma ID de cliente do **Chave de API** e do **token de serviço** do seu projeto do Adobe Developer Console — entre em contato com o suporte a Implantações de Experiência para que sua ID de cliente seja incluída na lista de permissões
 * Suas **IDs de clientes de aplicativos** registradas no console de Implantações de Experiência — consulte [Integrar seu aplicativo](../../applications/onboard-your-application.md)
 
 ## Adicionar a dependência do Maven {#maven-dependency}
@@ -188,5 +188,4 @@ try {
 
 * [Notas de versão do Java SDK](java-sdk-release-notes.md)
 * [SDKs](../../integrate/sdks.md)
-* [Inscrever-se no aplicativo de API](../../integrate/subscribe-to-api-application.md)
 * [Etapas de integração](../../integrate/integration-steps.md)

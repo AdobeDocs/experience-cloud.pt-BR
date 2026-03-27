@@ -1,13 +1,13 @@
 ---
 title: SDKs
 description: Saiba mais sobre a arquitetura do SDK em implantações da Adobe Experience e os SDKs disponíveis para Java e Node.js.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '312'
 ht-degree: 2%
 
 ---
-
 
 # SDKs {#sdks}
 
@@ -48,15 +48,6 @@ Consulte o [guia de integração do Java SDK](../sdk-releases/java/java-sdk-inte
 O SDK do Node.js é distribuído via npm.
 
 Consulte o [guia de integração do Node.js com o SDK](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) para obter instruções de configuração.
-
-## Escolha entre SDK e REST API {#sdk-vs-api}
-
-| Cenário | Recomendação |
-|---|---|
-| Back-end do Java ou serviço Node.js | Use o SDK apropriado para armazenamento automático em cache e integração simplificada |
-| Outro idioma de back-end | Usar a API de Recurso V3 diretamente — consulte a seção API de Recurso deste guia |
-| Aplicativo web ou móvel | Usar a API de Recurso V3 diretamente — consulte a seção API de Recurso deste guia |
-| Aplicativo de desktop | Usar a API de Recurso V2 diretamente — consulte a seção API de Recurso deste guia |
 
 ## Consulte também {#see-also}
 

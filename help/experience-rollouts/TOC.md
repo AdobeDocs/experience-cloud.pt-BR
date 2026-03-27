@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Implantações de experiência do Adobe
 user-guide-description: Saiba como usar implantações da Adobe Experience para gerenciar sinalizadores de recursos, implantações controladas e versões direcionadas em seus aplicativos.
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 6%
+source-wordcount: '242'
+ht-degree: 8%
 
 ---
 
@@ -41,7 +41,6 @@ ht-degree: 6%
       + [Serviços da web](guides/integrate/web-services.md)
       + [SDKs](guides/integrate/sdks.md)
       + [Etapas de integração](guides/integrate/integration-steps.md)
-      + [Assinar o aplicativo de API no Adobe Developer Console](guides/integrate/subscribe-to-api-application.md)
    + Sinalizadores de recursos {#feature-flags}
       + [Recursos e grupos de recursos](guides/feature-flags/features-feature-groups-releases.md)
       + [Criar o primeiro sinalizador de recurso](guides/feature-flags/create-your-first-feature-flag.md)
@@ -76,14 +75,3 @@ ht-degree: 6%
          + [Guia de integração do SDK Node.js](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
          + [Notas de versão do Node.js SDK](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
       + [Benchmarking SDK](guides/sdk-releases/java-sdk-benchmarking.md)
-+ API de recurso {#feature-api}
-   + [API V3 de recursos do GET](feature-api/get-feature-api-v3.md)
-   + [API V2 de recursos do GET](feature-api/get-feature-api-v2.md)
-+ API de gerenciamento {#management-api}
-   + [Visão geral das APIs de gerenciamento de recursos](management-api/feature-management-apis-overview.md)
-   + [API de gerenciamento de sinalizadores de recursos](management-api/feature-flags-management-api.md)
-   + [API de gerenciamento de grupos de recursos](management-api/feature-group-management-api.md)
-   + [APIs de gerenciamento de versão](management-api/release-management-apis.md)
-   + [Obter a ID do cliente para um aplicativo](management-api/get-client-id.md)
-   + [Obtenha os critérios de público desejados](management-api/get-audience-criteria.md)
-   + [API de patch de gerenciamento](management-api/management-patch-api.md)

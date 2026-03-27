@@ -1,13 +1,13 @@
 ---
 title: Guia de inicialização
 description: Siga estas etapas para integrar seu aplicativo às implantações de experiência da Adobe, desde a solicitação de acesso até a criação do primeiro sinalizador de recurso.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
-
 
 # Guia de inicialização {#startup-guide}
 
@@ -29,21 +29,17 @@ Antes da integração, prepare o seguinte:
 | **Clientes do lado do servidor** | Se estiver integrando com um SDK do lado do servidor, você precisará de uma ID de cliente administrador com permissões apropriadas. |
 | **Clientes de desktop** | Um código de produto e uma versão de produto podem ser usados no lugar de uma ID de cliente. |
 
-## Etapa 3: assinar a API de implantações de experiência {#step-3-subscribe}
+## Etapa 3: Obter suas credenciais {#step-3-credentials}
 
-Assine a API de Implantações de experiência por meio do Adobe Developer Console para que seu aplicativo possa chamar os endpoints do sinalizador de recurso. Consulte [Assinar o aplicativo de API no Adobe Developer Console](subscribe-to-api-application.md).
+Se estiver integrando via SDK do lado do servidor, você precisará de uma ID de cliente do token de serviço. Entre em contato com o suporte de Implantações de experiência para que suas IDs de clientes sejam incluídas na lista de permissões antes que você possa fazer chamadas de API do SDK.
 
->[!NOTE]
->
->Se estiver integrando via SDK do lado do servidor, você precisará de uma ID de cliente do token de serviço. Entre em contato com o suporte de Implantações de experiência para que suas IDs de clientes sejam incluídas na lista de permissões.
-
-## Etapa 4: integrar usando uma SDK ou a API {#step-4-integrate}
+## Etapa 4: integrar usando uma SDK {#step-4-integrate}
 
 Siga as [etapas de integração](integration-steps.md) para o seu tipo de aplicativo. Escolha o caminho que se ajusta à sua pilha:
 
 * **Serviços da Web** → Java SDK ou Node.js SDK
-* **Aplicativos da Web e móveis** → API de Recurso V3
-* **Aplicativos da área de trabalho** → API de Recurso V2
+* **Aplicativos da Web e móveis** → Web SDK ou SDK móvel (em breve)
+* **Aplicativos da área de trabalho** → SDK (em breve)
 
 ## Etapa 5: criar e testar o primeiro sinalizador de recurso {#step-5-feature-flag}
 

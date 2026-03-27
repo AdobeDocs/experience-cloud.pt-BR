@@ -1,13 +1,13 @@
 ---
 title: Etapas de integração
-description: Siga as etapas de integração do seu tipo de aplicativo para conectar as implantações de experiência do Adobe ao seu serviço da Web, aplicativo da Web ou móvel ou aplicativo de desktop.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: Siga as etapas de integração do seu tipo de aplicativo para conectar Implantações de Experiência do Adobe ao seu serviço Web, aplicativo da Web ou móvel ou aplicativo de desktop usando os SDKs disponíveis.
+exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 4%
 
 ---
-
 
 # Etapas de integração {#integration-steps}
 
@@ -27,23 +27,23 @@ Siga o [guia de integração do Node.js com o SDK](../sdk-releases/nodejs/nodejs
 
 **Outros idiomas**
 
-Se sua pilha não estiver listada acima, integre-a diretamente à **API de Recurso V3** (consulte a seção API de Recurso deste guia). Entre em contato com o suporte de Implantações da experiência se precisar de orientação.
+Entre em contato com o suporte de Implantações da Experience para obter orientação sobre sua pilha específica.
 
 ## Aplicativos da Web e móveis {#web-mobile}
 
-Os aplicativos Web e móveis chamam a **API de Recurso V3** para recuperar sinalizadores de recursos para o usuário atual e aplicar a lógica condicional no aplicativo.
+Os aplicativos da Web e móveis se integram por meio do Web SDK e do SDK móvel, respectivamente.
 
-Consulte **API de Recurso do GET V3** na seção API de Recurso deste guia para obter a referência completa da API.
+>[!NOTE]
+>
+>A documentação do Web SDK e do SDK móvel está sendo preparada e estará disponível em breve. Entre em contato com o representante da Adobe para obter orientação de acesso antecipado.
 
 ## Aplicativos de desktop {#desktop}
 
-Os aplicativos de área de trabalho chamam a **API de Recurso V2** para recuperar sinalizadores de recursos.
+Os aplicativos de desktop se integram por meio da SDK. Entre em contato com seu representante da Adobe para obter orientação de integração específica para sua pilha de desktops.
 
-Consulte **API de Recursos do GET V2** na seção API de Recursos deste guia para obter a referência completa da API.
-
->[!IMPORTANT]
+>[!NOTE]
 >
->Os clientes de desktop devem respeitar o valor TTL na resposta da API e implementar uma manipulação de erros adequada para a indisponibilidade da API. Consulte [Aplicativos da área de trabalho](desktop-applications.md) para obter os requisitos.
+>A documentação do Desktop SDK está sendo preparada e estará disponível em breve.
 
 ## Consulte também {#see-also}
 
