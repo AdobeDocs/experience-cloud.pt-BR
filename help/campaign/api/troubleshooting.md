@@ -4,9 +4,9 @@ description: Saiba mais sobre problemas comuns relacionados às APIs do Campaign
 role: Developer
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
-source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
+source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,8 @@ Seu token é inválido (chamada IMS inadequada usada para gerar um token) ou seu
 
 Dependendo da configuração da instância, o perfil criado precisa ser associado a uma **orgUnit**. Para entender como adicionar este campo à sua criação, consulte [esta seção](creating-profiles-api.md).
 
-<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
+<!-- 
+* (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 
 With Curl
 List all profiles

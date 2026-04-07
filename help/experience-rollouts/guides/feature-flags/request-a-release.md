@@ -1,24 +1,24 @@
 ---
 title: Solicitar uma versão
 description: Saiba como solicitar uma nova versão coordenada em implantações de experiência do Adobe e quais informações fornecer.
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
+source-git-commit: f4c365e1a0e61ba3dec298dfa8ab0d9e74e1259a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
-
 
 # Solicitar uma versão {#request-a-release}
 
 ## Pré-requisitos {#prerequisites}
 
-* Você tem a função de **Gerente de versões** — consulte [Funções de usuário](../teams/user-roles.md)
+* Você tem a função de **Gerente de versões** — consulte <!-- broken link[User roles](../teams/user-roles.md) -->
 * Seu aplicativo está integrado — consulte [Integrar seu aplicativo](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
->Antes de solicitar uma versão, revise [Versões e grupos de recursos entre equipes](releases-and-cross-team-feature-groups.md). Um grupo de recursos entre equipes pode atender às suas necessidades com menos sobrecarga, é de autoatendimento e oferece suporte ao direcionamento de público-alvo mais avançado.
+>Antes de solicitar uma versão, reveja <!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->. Um grupo de recursos entre equipes pode atender às suas necessidades com menos sobrecarga, é de autoatendimento e oferece suporte ao direcionamento de público-alvo mais avançado.
 
 ## Enviar uma solicitação de suporte {#submit}
 

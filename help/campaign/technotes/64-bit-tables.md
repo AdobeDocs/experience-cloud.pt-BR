@@ -3,10 +3,10 @@ title: Interface do usuário da Web do Adobe Campaign
 description: Tabelas de 64 bits
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: ab5f01fd-4ad5-46e9-b132-011fe0f7bbd2
-source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
+source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 7%
+source-wordcount: '175'
+ht-degree: 17%
 
 ---
 
@@ -27,21 +27,21 @@ Esta é a lista de esquemas alterados para 64 bits e seus atributos modificados.
 
 | Nome do esquema | Nome do atributo |
 |--- |--- |
-| nms:broadLogRcp | ID |
-| nms:trackingLogRcp | ID |
-| nms:excludeLogRcp | ID |
-| nms:broadLogVisitor | ID |
-| nms:trackingLogVisitor | ID |
+| nms:broadLogRcp | id |
+| nms:trackingLogRcp | id |
+| nms:excludeLogRcp | id |
+| nms:broadLogVisitor | id |
+| nms:trackingLogVisitor | id |
 | nms:propositionRcp | interactionId |
 | nms:propositionVisitor | interactionId |
-| nms:webTrackingLog | ID |
+| nms:webTrackingLog | id |
 | nms:tmpBroadcast | message-id |
 | nms:tmpMarketingPressure | message-id |
 | nms:tmpBroadcastExclusion | message-id |
 | nms:tmpBroadcastPaper | message-id |
-| nms:broadLogAppSubRcp | ID |
-| nms:trackingLogAppSubRcp | ID |
-| nms:excludeLogAppSubRcp | ID |
+| nms:broadLogAppSubRcp | id |
+| nms:trackingLogAppSubRcp | id |
+| nms:excludeLogAppSubRcp | id |
 | nms:webEvent | broadLogSrc-id, broadLogRemkt-id |
 | nms:broadLogMid | mktBroadLogId |
 | nms:mirrorPageSearch | remoteMessageId |
