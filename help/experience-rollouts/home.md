@@ -2,9 +2,9 @@
 title: Implantações de experiência do Adobe
 description: Saiba como usar as implantações de experiência do Adobe para fornecer recursos de forma segura e gradual com implantações controladas, sinalizadores de recursos e gerenciamento de público-alvo direcionado.
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ As implantações de experiência da Adobe permitem que as equipes de produtos f
 
 **Reduzir o risco de lançamento.** Divida grandes alterações em implantações menores e controladas. Se um erro ou problema de desempenho aparecer, desative somente o recurso afetado — o restante do aplicativo permanece estável.
 
-**Coordenar entre equipes.** Os grupos de recursos entre equipes permitem que várias equipes participem de uma única versão coordenada, cada uma gerenciando seus próprios sinalizadores de recursos enquanto compartilham um cronograma de implantação e público-alvo comuns.
+**Coordenar entre aplicativos.** Os grupos de recursos permitem gerenciar vários sinalizadores de recursos juntos, compartilhando um público-alvo de implantação comum entre aplicativos.
 
 ## Integre seu primeiro recurso
 
@@ -37,4 +37,4 @@ Depois que o primeiro sinalizador estiver ativo, você poderá refinar o públic
 
 ## Precisa de ajuda?
 
-Se algo não se comportar conforme o esperado, o [guia de solução de problemas](guides/support/troubleshooting.md) aborda os problemas mais comuns. Para qualquer outra coisa, [contate o suporte](guides/support/contact-support.md).
+Se algo não se comportar conforme o esperado, entre em contato com o representante da Adobe para obter suporte.

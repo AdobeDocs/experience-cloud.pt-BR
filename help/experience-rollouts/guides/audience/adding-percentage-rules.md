@@ -1,13 +1,13 @@
 ---
 title: Adicionar regras de porcentagem aos critérios de público
 description: Saiba como adicionar regras baseadas em porcentagem nos critérios de público-alvo em implantações de experiência do Adobe para direcionar porcentagens de implantação diferentes para segmentos de público-alvo diferentes.
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+exl-id: 15a3c26f-31fc-4e73-aa0e-035dcbe7d770
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
-
 
 # Adicionar regras de porcentagem aos critérios de público {#adding-percentage-rules}
 
@@ -20,7 +20,7 @@ No entanto, alguns cenários de implantação exigem porcentagens diferentes par
 * 100% dos usuários do Reino Unido e 50% dos usuários dos EUA
 * Todos os usuários de uma lista de email importada, mais 50% dos usuários de um país específico
 
-Nesses casos, use a regra de **Porcentagem** na seção de perfil da guia **Público**, combinada com lógica aninhada.
+Nesses casos, use a regra **Percentage** na seção de contexto da guia **Audience**, combinada com a lógica aninhada.
 
 >[!TIP]
 >
@@ -28,10 +28,10 @@ Nesses casos, use a regra de **Porcentagem** na seção de perfil da guia **Púb
 
 ## Como adicionar uma regra de porcentagem {#how-to-add}
 
-A opção **Percentage** está disponível como uma regra na seção Perfil da guia Público-alvo.
+A opção **Percentage** está disponível como uma regra na seção de contexto da guia Público-alvo.
 
 1. Vá para a guia **Público** do sinalizador de recurso ou grupo de recursos.
-2. Em **Perfil**, adicione uma regra de **Porcentagem** e defina o valor desejado.
+2. Em **Público-alvo**, adicione uma regra de **Porcentagem do contexto** e defina o valor desejado.
 3. Adicione outras condições de público-alvo necessárias (por exemplo, uma regra de País).
 
 ## Combinação de regras de porcentagem com lógica aninhada {#nested-logic}

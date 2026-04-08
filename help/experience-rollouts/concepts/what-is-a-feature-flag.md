@@ -1,13 +1,13 @@
 ---
 title: O que é um sinalizador de recurso
 description: Saiba o que são sinalizadores de recursos e como eles permitem ativar ou desativar recursos do aplicativo no tempo de execução sem reimplantação.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: c4ed4ab5-0d73-4697-b05c-476d6e4010ce
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # O que é um sinalizador de recurso {#what-is-a-feature-flag}
 
@@ -19,4 +19,4 @@ Essa separação reduz significativamente o risco. Os desenvolvedores podem cria
 
 >[!NOTE]
 >
->Nas implantações da experiência, um sinalizador de recurso é a unidade mais atômica de controle de recurso. Ele pode ser usado sozinho para direcionar um único recurso ou combinado com outros sinalizadores em um [grupo de recursos](feature-groups-to-control-multiple-features.md) ou [versão](release-management.md).
+>Nas implantações da experiência, um sinalizador de recurso é a unidade mais atômica de controle de recurso. Ele pode ser usado sozinho para direcionar um único recurso ou combinado com outros sinalizadores em um [grupo de recursos](feature-groups-to-control-multiple-features.md).

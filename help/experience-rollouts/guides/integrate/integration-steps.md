@@ -2,9 +2,9 @@
 title: Etapas de integração
 description: Siga as etapas de integração do seu tipo de aplicativo para conectar Implantações de Experiência do Adobe ao seu serviço Web, aplicativo da Web ou móvel ou aplicativo de desktop usando os SDKs disponíveis.
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '163'
 ht-degree: 4%
 
 ---
@@ -15,19 +15,11 @@ Escolha o caminho de integração que corresponde ao seu tipo de aplicativo.
 
 ## Serviços da web {#web-services}
 
-Os serviços de back-end se integram usando uma SDK do lado do servidor. Escolha o SDK para sua pilha de tecnologia.
+Os serviços de back-end se integram usando uma SDK do lado do servidor. Entre em contato com o suporte de Implantações da Experience para obter orientação sobre sua pilha específica.
 
-**Java**
-
-Siga o [guia de integração do Java SDK](../sdk-releases/java/java-sdk-integration-guide.md) para instalação, configuração de dependência e inicialização.
-
-**Node.js**
-
-Siga o [guia de integração do Node.js com o SDK](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) para instalação e inicialização.
-
-**Outros idiomas**
-
-Entre em contato com o suporte de Implantações da Experience para obter orientação sobre sua pilha específica.
+>[!NOTE]
+>
+>A documentação do SDK do lado do servidor está sendo preparada e estará disponível em breve. Entre em contato com o representante da Adobe para obter orientação de acesso antecipado.
 
 ## Aplicativos da Web e móveis {#web-mobile}
 

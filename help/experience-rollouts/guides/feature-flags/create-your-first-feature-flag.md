@@ -2,9 +2,9 @@
 title: Criar o primeiro sinalizador de recurso
 description: Saiba como criar um sinalizador de recurso em Implantações da Adobe Experience, definir um público-alvo e testá-lo antes de implantar para os usuários.
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Depois de adicionar os critérios de público-alvo, selecione **Calcular** na ba
 
 ## Etapa 4: programação (opcional) {#schedule}
 
-Você pode agendar um sinalizador de recurso para ativação em uma data e hora futuras. Consulte [Agendamento](schedule.md) para obter detalhes.
+Você pode agendar um sinalizador de recurso para ativação em uma data e hora futuras usando a opção **Agendar** nas configurações de sinalizador de recurso.
 
 ## Perguntas frequentes: não consigo adicionar um sinalizador de recurso como Desenvolvedor {#faq}
 

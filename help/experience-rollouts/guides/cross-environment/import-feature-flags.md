@@ -1,51 +1,45 @@
 ---
 title: Importar sinalizadores de recursos
-description: Saiba como importar sinalizadores de recursos de um ambiente inferior para um ambiente superior em implantações do Adobe Experience para evitar a recriação manual das configurações de sinalizador.
-source-git-commit: 5c99061a7f2aaaad98190166ea6fd79b7eb26dec
+description: Saiba como importar sinalizadores de recursos de uma sandbox para outra em implantações do Adobe Experience para evitar a recriação manual das configurações de sinalizadores.
+exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '307'
 ht-degree: 1%
 
 ---
 
-
 # Importar sinalizadores de recursos {#import-feature-flags}
 
-As Implantações de experiência permitem importar sinalizadores de recursos de um ambiente inferior (por exemplo, Preparo) para um ambiente superior (por exemplo, Produção). Isso evita a necessidade de recriar as configurações de sinalizador manualmente e reduz o risco de descompasso entre os ambientes.
+As implantações de experiência permitem importar sinalizadores de recursos de uma sandbox (por exemplo, sandbox 1) para outra sandbox (por exemplo, sandbox 2). Isso evita a necessidade de recriar configurações de sinalizador manualmente e reduz o risco de descompasso de configuração entre as sandboxes.
 
-## Pré-requisitos {#prerequisites}
+## Etapa 1: Ir para a sandbox e o aplicativo de destino {#step-1}
 
-Para usar o workflow de importação, as instâncias do aplicativo devem estar vinculadas entre os ambientes. Consulte [Associar ambientes a um aplicativo](associate-environments.md).
-
-## Etapa 1: Ir para o ambiente e aplicativo de destino {#step-1}
-
-Faça logon no console do ambiente **de destino** — o ambiente para o qual você deseja importar os sinalizadores *de*. Selecione o aplicativo para o qual você deseja importar sinalizadores no menu suspenso do aplicativo na página Sinalizadores de recursos.
+Faça logon no console da sandbox **destino** — a sandbox para a qual você deseja importar os sinalizadores *.* Selecione o aplicativo para o qual você deseja importar sinalizadores no menu suspenso do aplicativo na página Sinalizadores de recursos.
 
 >[!IMPORTANT]
 >
->O ambiente atual e o aplicativo selecionado devem ser o **destino** — não a origem. Por exemplo, para importar um sinalizador do Preparo para a Produção, faça logon no console Produção e selecione o aplicativo Produção.
+>Sua sandbox atual e o aplicativo selecionado devem ser o **destino** — não a origem. Por exemplo, para importar um sinalizador da sandbox 1 para a sandbox 2, faça logon no console da sandbox 2 e selecione o aplicativo sandbox 2.
 
 ## Etapa 2: abrir a caixa de diálogo de importação {#step-2}
 
-Selecione **Importar Sinalizadores de Recursos**. Uma caixa de diálogo é aberta mostrando o ambiente e o aplicativo de origem, pré-preenchidos com base nos ambientes vinculados configurados para seu aplicativo. Se necessário, você pode alterar o ambiente de origem e o aplicativo dos menus suspensos na caixa de diálogo.
+Selecione **Importar Sinalizadores de Recursos**. Uma caixa de diálogo é aberta mostrando a sandbox de origem e o aplicativo, pré-preenchidos com base nos aplicativos disponíveis. Se necessário, é possível alterar a sandbox de origem e o aplicativo nos menus suspensos na caixa de diálogo.
 
 ## Etapa 3: Selecionar os sinalizadores de recurso a serem importados {#step-3}
 
-Na lista de sinalizadores de recursos no ambiente de origem, selecione os sinalizadores que deseja importar. Você pode selecionar um, vários ou todos os sinalizadores de uma só vez.
+Na lista de sinalizadores de recursos na sandbox de origem, selecione os sinalizadores que deseja importar. Você pode selecionar um, vários ou todos os sinalizadores de uma só vez.
 
-## Etapa 4: Manipular sinalizadores existentes (se necessário) {#step-4}
+## Etapa 4: selecionar o estado dos sinalizadores de recursos a serem importados {#step-4}
 
-Se um sinalizador de recurso com a mesma chave já existir no ambiente de destino, as implantações de experiência solicitarão que você confirme se deve substituí-lo. Revise a configuração do sinalizador existente antes de confirmar, pois a substituição substituirá as configurações do sinalizador de destino pelas da origem.
+Use a lista suspensa para escolher como os sinalizadores de recursos devem ser importados — **Habilitado**, **Desabilitado** ou em seu **Estado atual**. Por padrão, os sinalizadores de recursos são importados no estado **Desabilitado**.
 
 ## Observações importantes {#important-notes}
 
 Lembre-se do seguinte ao importar sinalizadores de recursos:
 
-* Os sinalizadores importados são sempre definidos para o estado **OFF** no ambiente de destino, independentemente do estado no ambiente de origem. Você deve habilitá-los manualmente após a importação.
-* Se um sinalizador foi agendado para ser ativado em uma data e hora futuras no ambiente de origem, esse agendamento é **não** transportado. Você deve definir um novo agendamento no ambiente de destino, se necessário.
+* Se um sinalizador de recurso com a mesma chave já existir na sandbox de destino, ele não será importado.
 
 ## Consulte também {#see-also}
 
-* [Associar ambientes a um aplicativo](associate-environments.md)
-* [Exibir sinalizadores de recursos entre ambientes](view-feature-flags-across-environments.md)
-* [Conceito entre ambientes](cross-environment-concept.md)
+* [Recursos e grupos de recursos](../feature-flags/features-feature-groups-releases.md)
+* [Criar o primeiro sinalizador de recurso](../feature-flags/create-your-first-feature-flag.md)

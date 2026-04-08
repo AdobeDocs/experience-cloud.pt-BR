@@ -1,13 +1,13 @@
 ---
 title: Grupos de recursos para controlar vários recursos
 description: Saiba como os grupos de recursos em Implantações de experiência permitem agrupar e gerenciar sinalizadores de recursos relacionados entre aplicativos como uma única unidade.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '174'
+ht-degree: 0%
 
 ---
-
 
 # Grupos de recursos para controlar vários recursos {#feature-groups}
 
@@ -21,14 +21,5 @@ Por exemplo, considere um recurso de colaboração que envolve alterações em u
 
 ## Agrupamento entre aplicativos {#cross-application}
 
-Os grupos de recursos oferecem suporte ao gerenciamento de recursos entre aplicativos, desde que os sinalizadores pertençam à **mesma equipe** nas Implantações de Experiência. Uma equipe pode ter vários aplicativos, de modo que sinalizadores relacionados entre esses aplicativos possam ser agrupados.
+Os grupos de recursos oferecem suporte ao gerenciamento de recursos entre aplicativos. Sinalizadores relacionados em vários aplicativos podem ser agrupados.
 
-## Grupos de recursos versus versões {#vs-releases}
-
-| | Grupo de recursos | Versão |
-|---|---|---|
-| Escopo | Em uma única equipe | Em várias equipes |
-| Caso de uso | Coordenar sinalizadores na sua equipe | Coordenação de lançamento de grandes equipes |
-| Privilégios necessários | Nível da equipe | Mais alto (gerenciador de versões) |
-
-Se os sinalizadores de recursos que você deseja agrupar pertencerem a aplicativos de propriedade de equipes diferentes, use uma [versão](release-management.md) em vez de um grupo de recursos.

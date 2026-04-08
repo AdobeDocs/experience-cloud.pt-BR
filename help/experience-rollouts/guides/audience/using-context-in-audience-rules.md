@@ -1,25 +1,23 @@
 ---
 title: Usar contexto nas regras de público
 description: Saiba como usar variáveis de contexto em regras de público-alvo para sinalizadores de recursos e grupos de recursos em implantações do Adobe Experience.
-source-git-commit: 3f3f7145b3c58dc721cbeb850e9e8571e3255bb1
+exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
-
 # Usar contexto nas regras de público {#context-in-audience-rules}
 
-As variáveis de contexto são valores fornecidos pelo aplicativo cliente no tempo de execução. Elas permitem definir usuários como alvo com base em informações dinâmicas no nível da sessão, como idioma ativo do usuário, tipo de dispositivo ou estado do aplicativo — critérios que não fazem parte do perfil persistente do usuário.
+As variáveis de contexto são valores fornecidos pelo aplicativo cliente no tempo de execução. Eles permitem definir usuários como alvo com base em informações dinâmicas no nível da sessão, como idioma ativo do usuário, tipo de dispositivo ou estado do aplicativo.
 
-As variáveis de contexto são relevantes para clientes da Web, do desktop e móveis.
+As variáveis de contexto são relevantes para os clientes móveis e da Web.
 
 ## Como as variáveis de contexto funcionam {#how-context-works}
 
 Seu aplicativo transmite variáveis de contexto para implantações de experiência ao avaliar um sinalizador de recurso. Você define regras no console que verificam esses valores, e a plataforma os usa no momento da avaliação para determinar se o usuário se qualifica.
-
-Se você definir condições nas seções **Perfil** e **Contexto** das regras de público-alvo, todas as condições de perfil serão combinadas com todas as condições de contexto usando a lógica AND.
 
 ## Tipos de variável de contexto {#variable-types}
 
@@ -52,12 +50,7 @@ Para adicionar uma variável de contexto a uma regra de público:
 
 Se a variável de contexto necessária não for exibida na lista, você poderá criar uma nova de maneira automatizada na seção de gerenciamento de variável de contexto do console.
 
->[!NOTE]
->
->Quando as variáveis de contexto são incluídas nos critérios de público-alvo, a **Calculadora de público-alvo** não retorna uma contagem estimada, pois os valores de contexto são determinados no tempo de execução e não podem ser previstos antecipadamente.
-
 ## Consulte também {#see-also}
 
 * [Público-alvo em sinalizadores e grupos de recursos](audience-in-feature-flags-and-feature-groups.md)
 * [Adicionar regras de porcentagem aos critérios de público](adding-percentage-rules.md)
-* [Regra de público-alvo com variável de contexto de IP do cliente](clientip-rule.md)
