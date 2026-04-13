@@ -1,8 +1,9 @@
 ---
 title: SDKs
 description: Saiba mais sobre a arquitetura do SDK em implantações da Adobe Experience e a extensão móvel do SDK disponível para o Android.
+hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 3%
@@ -39,3 +40,5 @@ Consulte o [guia de integração de extensão do Android](../sdk-releases/androi
 * [guia de integração de extensão do Android](../sdk-releases/android/android-extension-integration-guide.md)
 * [Serviços da web](web-services.md)
 * [Etapas de integração](integration-steps.md)
+
+<!-- -->

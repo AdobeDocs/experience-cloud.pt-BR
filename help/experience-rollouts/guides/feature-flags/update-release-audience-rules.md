@@ -1,13 +1,14 @@
 ---
 title: Atualizar regras de lançamento de público-alvo
 description: Saiba como configurar e atualizar os critérios de público-alvo para uma versão do nas implantações de experiência do Adobe, incluindo os tipos de regras compatíveis e como combiná-los.
-source-git-commit: bb4541dd7a77edadded2edbc9c71905cf70f2e24
+hide: true
+exl-id: 8d546cd7-af66-47c7-aab3-c667568e8582
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 3%
 
 ---
-
 
 # Atualizar regras de lançamento de público-alvo {#update-release-audience-rules}
 
@@ -76,3 +77,5 @@ Use os ícones **+/-** para adicionar ou remover condições. Para duplicar uma 
 * [Solicitar uma versão](request-a-release.md)
 * [Liberar fluxo de trabalho de ponta a ponta](release-workflow-end-to-end.md)
 * [Estados de lançamento](release-states.md)
+
+<!-- -->

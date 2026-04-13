@@ -1,8 +1,9 @@
 ---
 title: Público-alvo em sinalizadores e grupos de recursos
 description: Saiba como definir critérios de público-alvo para sinalizadores de recursos e grupos de recursos em implantações do Adobe Experience usando variáveis de contexto.
+hide: true
 exl-id: 4a8f7c3f-1ae5-4e65-a070-9fc33133eec0
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
@@ -21,3 +22,5 @@ Para direcionamento baseado em contexto (por exemplo, direcionamento pelo idioma
 * [Adicionar regras de porcentagem aos critérios de público](adding-percentage-rules.md)
 * [Regras complexas de público](complex-rules.md)
 * [Criar o primeiro sinalizador de recurso](../feature-flags/create-your-first-feature-flag.md)
+
+<!-- -->

@@ -1,8 +1,9 @@
 ---
 title: Grupos de recursos para controlar vários recursos
 description: Saiba como os grupos de recursos em Implantações de experiência permitem agrupar e gerenciar sinalizadores de recursos relacionados entre aplicativos como uma única unidade.
+hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -23,3 +24,5 @@ Por exemplo, considere um recurso de colaboração que envolve alterações em u
 
 Os grupos de recursos oferecem suporte ao gerenciamento de recursos entre aplicativos. Sinalizadores relacionados em vários aplicativos podem ser agrupados.
 
+
+<!-- -->

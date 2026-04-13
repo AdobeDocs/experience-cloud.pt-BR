@@ -1,13 +1,14 @@
 ---
 title: Introdução às implantações de experiência
 description: Saiba como as implantações de experiência do Adobe fornecem um sistema de versão controlada para implantar recursos progressivamente para públicos-alvo direcionados.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+hide: true
+exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
 
 ---
-
 
 # Introdução às implantações de experiência {#introduction}
 
@@ -40,3 +41,5 @@ As Implantações de experiência são uma plataforma de gerenciamento de recurs
 * **Implantações graduais** — crie uma fase de entrega de recursos de forma incremental para reduzir riscos, obter feedback e gerenciar a carga de back-end.
 
 * **Interruptor de eliminação** — Desative qualquer recurso imediatamente se um problema for detectado, sem uma alteração de código ou reimplantação.
+
+<!-- -->

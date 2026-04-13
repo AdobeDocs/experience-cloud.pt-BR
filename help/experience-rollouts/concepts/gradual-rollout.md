@@ -1,8 +1,9 @@
 ---
 title: Implantação gradual
 description: Saiba como as implantações graduais em implantações de experiência permitem que você coloque a entrega de recursos em produção de forma segura, com feedback em tempo real e risco mínimo.
+hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 2%
@@ -38,3 +39,5 @@ Em cada etapa, uma única ação pode pausar a implantação ou desativar o recu
 ## Consulte também {#see-also}
 
 * [Sinalizadores de recursos para ativar e desativar recursos](feature-flags-to-enable-disable-features.md)
+
+<!-- -->

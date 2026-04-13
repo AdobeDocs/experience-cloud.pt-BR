@@ -1,8 +1,9 @@
 ---
 title: Criar um grupo de recursos
 description: Saiba como criar um grupo de recursos em implantações de experiência do Adobe para gerenciar vários sinalizadores de recursos entre aplicativos em sua equipe como uma única unidade.
+hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -69,3 +70,5 @@ Você pode agendar o grupo de recursos para ativação em uma data e hora futura
 * [Definir um grupo de recursos para implantação gradual](set-feature-group-gradual-rollout.md)
 * [Teste A/B com sinalizadores de recursos](a-b-testing.md)
 * [Grupos de recursos para controlar vários recursos](../../concepts/feature-groups-to-control-multiple-features.md)
+
+<!-- -->

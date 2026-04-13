@@ -1,13 +1,14 @@
 ---
 title: Definir um grupo de recursos para implantação gradual
 description: Saiba como configurar uma implantação gradual com base em porcentagem para um grupo de recursos em implantações de experiência do Adobe.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+hide: true
+exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 3%
 
 ---
-
 
 # Definir um grupo de recursos para implantação gradual {#gradual-rollout-feature-group}
 
@@ -26,3 +27,5 @@ Se você tiver configurado várias variantes (para testes A/B), a porcentagem de
 * [Criar um grupo de recursos](create-a-feature-group.md)
 * [Teste A/B com sinalizadores de recursos](a-b-testing.md)
 * [Implantação gradual](../../concepts/gradual-rollout.md)
+
+<!-- -->

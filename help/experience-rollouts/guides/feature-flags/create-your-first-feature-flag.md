@@ -1,8 +1,9 @@
 ---
 title: Criar o primeiro sinalizador de recurso
 description: Saiba como criar um sinalizador de recurso em Implantações da Adobe Experience, definir um público-alvo e testá-lo antes de implantar para os usuários.
+hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -60,3 +61,5 @@ A função de **Desenvolvedor** está em modo seguro. Os desenvolvedores podem t
 
 * [Definir um recurso para implantação gradual](set-feature-gradual-rollout.md)
 * [Criar um grupo de recursos](create-a-feature-group.md)
+
+<!-- -->

@@ -1,13 +1,14 @@
 ---
 title: Estados de lançamento
 description: Saiba mais sobre os estados de ciclo de vida de uma versão nas implantações de experiência do Adobe, incluindo o que cada estado significa e quais transições são permitidas.
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+hide: true
+exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 3%
 
 ---
-
 
 # Estados de lançamento {#release-states}
 
@@ -46,3 +47,5 @@ Planeje incluir na baseline ou cancelar suas versões em três meses.
 * [Solicitar uma versão](request-a-release.md)
 * [Liberar fluxo de trabalho de ponta a ponta](release-workflow-end-to-end.md)
 * [Atualizar regras de lançamento de público-alvo](update-release-audience-rules.md)
+
+<!-- -->

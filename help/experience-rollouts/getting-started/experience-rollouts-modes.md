@@ -1,13 +1,14 @@
 ---
 title: Modos de implantações de experiência
 description: Saiba mais sobre os dois modos de direcionamento de recursos nas Implantações de experiência do Adobe — direcionamento no nível do usuário e direcionamento no nível da organização — e quando usar cada um.
-source-git-commit: bb4541dd7a77edadded2edbc9c71905cf70f2e24
+hide: true
+exl-id: 0fdfa429-d9bd-4990-8f96-cd9deb273aa0
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 3%
 
 ---
-
 
 # Modos de implantações de experiência {#modes}
 
@@ -81,3 +82,5 @@ O direcionamento no nível da organização e do ambiente não foi projetado par
 
 * Se a sua pergunta for *&quot;Quais usuários devem ver este recurso?&quot;* → Use **direcionamento no nível do usuário**
 * Se a sua pergunta for *&quot;Quais organizações ou ambientes devem ter esse recurso?&quot;* → Use **org e direcionamento no nível do ambiente**
+
+<!-- -->
