@@ -1,8 +1,9 @@
 ---
 title: Implantações de experiência do Adobe
 description: Saiba como usar as implantações de experiência do Adobe para fornecer recursos de forma segura e gradual com implantações controladas, sinalizadores de recursos e gerenciamento de público-alvo direcionado.
+hide: true
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 571439cb5f463567b11b6dd24a9cfbca400f9357
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -38,3 +39,7 @@ Depois que o primeiro sinalizador estiver ativo, você poderá refinar o públic
 ## Precisa de ajuda?
 
 Se algo não se comportar conforme o esperado, entre em contato com o representante da Adobe para obter suporte.
+
+<!-- 
+Bob was here
+-->

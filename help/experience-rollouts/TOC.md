@@ -3,7 +3,7 @@ audience: user
 user-guide-title: Implantações de experiência do Adobe
 user-guide-description: Saiba como usar implantações da Adobe Experience para gerenciar sinalizadores de recursos, implantações controladas e versões direcionadas em seus aplicativos.
 hide: true
-source-git-commit: 632654252181c4941632a0dbd1877e721a4d3a71
+source-git-commit: 571439cb5f463567b11b6dd24a9cfbca400f9357
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 8%
@@ -11,7 +11,7 @@ ht-degree: 8%
 ---
 
 
-# Implantações de experiência do Adobe {#experience-rollouts}
+# Implantações de experiência do Adobe {#experience-rollouts-docs}
 
 + [Visão geral](home.md)
 + Introdução {#get-started}
@@ -60,3 +60,7 @@ ht-degree: 8%
          + [guia de integração de extensão do Android](guides/sdk-releases/android/android-extension-integration-guide.md)
       + Extensão do iOS {#ios-extension}
          + [guia de integração de extensão do iOS](guides/sdk-releases/ios/ios-extension-integration-guide.md)
+
+<!-- 
+Bob was here
+-->
