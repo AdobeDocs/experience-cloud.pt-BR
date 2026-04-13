@@ -1,8 +1,9 @@
 ---
 title: Integrar implantações de experiência no seu aplicativo
 description: Saiba como integrar implantações de experiência do Adobe ao seu aplicativo, seja um serviço Web, uma propriedade da Web, um aplicativo móvel ou um aplicativo de desktop.
+hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -33,3 +34,5 @@ Selecione o guia que corresponde ao tipo de aplicativo:
 | **Aplicativo Web** | Web SDK (em breve) |
 | **Aplicativo móvel** | Mobile SDK (em breve) |
 | **Aplicativo de desktop** | SDK (em breve) |
+
+<!-- -->

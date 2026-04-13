@@ -1,8 +1,9 @@
 ---
 title: Teste A/B com sinalizadores de recursos
 description: Saiba como executar testes A/B usando grupos de recursos em implantações de experiência do Adobe, configurando várias variantes para um conjunto de sinalizadores de recursos.
+hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -53,3 +54,5 @@ Salve as configurações do grupo de recursos. Quando estiver pronto para inicia
 * [Criar um grupo de recursos](create-a-feature-group.md)
 * [Definir um grupo de recursos para implantação gradual](set-feature-group-gradual-rollout.md)
 * [Analytics](analytics.md)
+
+<!-- -->

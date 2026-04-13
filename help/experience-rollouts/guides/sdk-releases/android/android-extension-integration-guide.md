@@ -1,13 +1,14 @@
 ---
 title: Guia da extensão de implantação da experiência para integração com o Android
 description: Saiba como integrar a extensão de Implantação de experiência com o Adobe Experience Platform Mobile SDK no Android.
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+hide: true
+exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 7%
 
 ---
-
 
 # Extensão de implantação da experiência para o Android {#android-extension-integration-guide}
 
@@ -52,7 +53,7 @@ Verifique se essas extensões estão instaladas na propriedade móvel da Coleç�
    | ID do conjunto de dados | A ID do conjunto de dados do Adobe Experience Platform para os dados de evento de análise |
 
 1. Selecione **Salvar**.
-1. Siga o [processo de publicação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
+1. Siga o [processo de publicação](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
 
 ### Obter a ID do arquivo de ambiente {#environment-file-id}
 
@@ -474,3 +475,5 @@ String version = Rollout.extensionVersion();
 * [Aplicativos móveis](../../integrate/mobile-applications.md)
 * [Etapas de integração](../../integrate/integration-steps.md)
 * [SDKs](../../integrate/sdks.md)
+
+<!-- -->

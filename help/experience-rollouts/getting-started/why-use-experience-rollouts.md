@@ -1,13 +1,14 @@
 ---
 title: Por que usar implantações de experiência
 description: Saiba mais sobre os principais casos de uso para implantações da Adobe Experience, desde testes seletivos de recursos até versões coordenadas de vários aplicativos.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+hide: true
+exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%
 
 ---
-
 
 # Por que usar implantações de experiência {#why-use}
 
@@ -18,7 +19,7 @@ As implantações de experiência são a ferramenta certa sempre que você preci
 **Teste seletivo durante o desenvolvimento**
 Teste um recurso em relação à sua própria sessão, enquanto outros desenvolvedores continuam o trabalho sem serem afetados. Não é necessária uma ramificação de código complexa.
 
-**Implantação preparada com feedback do usuário**
+**Implantação em etapas com comentários do usuário**
 Libere um recurso primeiro para um pequeno grupo de usuários. Colete feedback, resolva problemas e expanda o público gradualmente antes de um lançamento completo.
 
 **Implantação gradual para produção**
@@ -35,3 +36,5 @@ Implante o código antecipadamente na produção e ative o recurso em um momento
 
 **Eliminar opção**
 Se um problema for detectado após o lançamento, desative o recurso instantaneamente, sem uma correção ou reimplantação.
+
+<!-- -->

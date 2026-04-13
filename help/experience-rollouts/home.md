@@ -2,8 +2,9 @@
 title: Implantações de experiência do Adobe
 description: Saiba como usar as implantações de experiência do Adobe para fornecer recursos de forma segura e gradual com implantações controladas, sinalizadores de recursos e gerenciamento de público-alvo direcionado.
 hide: true
+index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: 571439cb5f463567b11b6dd24a9cfbca400f9357
+source-git-commit: 9387119c1d87e07f11ee4a98e2698c804e2fe780
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%

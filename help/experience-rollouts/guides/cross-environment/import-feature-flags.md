@@ -1,8 +1,9 @@
 ---
 title: Importar sinalizadores de recursos
 description: Saiba como importar sinalizadores de recursos de uma sandbox para outra em implantações do Adobe Experience para evitar a recriação manual das configurações de sinalizadores.
+hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 1%
@@ -43,3 +44,5 @@ Lembre-se do seguinte ao importar sinalizadores de recursos:
 
 * [Recursos e grupos de recursos](../feature-flags/features-feature-groups-releases.md)
 * [Criar o primeiro sinalizador de recurso](../feature-flags/create-your-first-feature-flag.md)
+
+<!-- -->

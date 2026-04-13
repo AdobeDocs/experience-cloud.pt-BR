@@ -1,13 +1,14 @@
 ---
 title: Recursos e grupos de recursos
 description: Saiba mais sobre as diferenças entre sinalizadores de recursos e grupos de recursos em implantações de experiência do Adobe e quando usar cada um.
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+hide: true
+exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 4%
 
 ---
-
 
 # Recursos e grupos de recursos {#features-feature-groups}
 
@@ -44,3 +45,5 @@ Uma coleção de sinalizadores de recursos pertencentes à mesma equipe. Permite
 
 * [Criar o primeiro sinalizador de recurso](create-your-first-feature-flag.md)
 * [Criar um grupo de recursos](create-a-feature-group.md)
+
+<!-- -->

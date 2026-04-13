@@ -1,13 +1,14 @@
 ---
 title: Analytics
 description: Saiba como ativar e usar o painel de análise integrado em Implantações da Adobe Experience para rastrear o desempenho do sinalizador de recursos e medir o impacto da implantação.
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+hide: true
+exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
 
 ---
-
 
 # Analytics {#analytics}
 
@@ -42,3 +43,5 @@ Para grupos de recursos e versões, selecione o menu suspenso **Resultados** par
 * [Criar o primeiro sinalizador de recurso](create-your-first-feature-flag.md)
 * [Teste A/B com sinalizadores de recursos](a-b-testing.md)
 * [Criar um grupo de recursos](create-a-feature-group.md)
+
+<!-- -->

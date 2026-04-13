@@ -1,8 +1,9 @@
 ---
 title: Serviços da web
 description: Saiba como integrar implantações da Adobe Experience em um serviço da Web de back-end usando o Java ou o Node.js SDK.
+hide: true
 exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 10%
@@ -28,3 +29,5 @@ Entre em contato com o suporte da Experience Rollups para obter orientação sob
 * [SDKs](sdks.md)
 * [Etapas de integração](integration-steps.md)
 * [Guia de inicialização](startup-guide.md)
+
+<!-- -->

@@ -1,8 +1,9 @@
 ---
 title: Gerenciar aplicativos
 description: Saiba como gerenciar aplicativos em implantações de experiência do Adobe, incluindo a adição de novos aplicativos.
+hide: true
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -25,3 +26,5 @@ Para adicionar um aplicativo, consulte [Integrar o aplicativo](onboard-your-appl
 
 * [Integrar seu aplicativo](onboard-your-application.md)
 * [Grupos de recursos para controlar vários recursos](../../concepts/feature-groups-to-control-multiple-features.md)
+
+<!-- -->

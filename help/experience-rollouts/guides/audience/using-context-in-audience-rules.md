@@ -1,8 +1,9 @@
 ---
 title: Usar contexto nas regras de público
 description: Saiba como usar variáveis de contexto em regras de público-alvo para sinalizadores de recursos e grupos de recursos em implantações do Adobe Experience.
+hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -54,3 +55,5 @@ Se a variável de contexto necessária não for exibida na lista, você poderá 
 
 * [Público-alvo em sinalizadores e grupos de recursos](audience-in-feature-flags-and-feature-groups.md)
 * [Adicionar regras de porcentagem aos critérios de público](adding-percentage-rules.md)
+
+<!-- -->

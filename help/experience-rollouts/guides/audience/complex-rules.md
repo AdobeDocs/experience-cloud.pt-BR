@@ -1,8 +1,9 @@
 ---
 title: Regras complexas de público
 description: Saiba como trabalhar com conjuntos de regras de público-alvo grandes ou complexos em implantações do Adobe Experience, incluindo limites de valor em massa e como dividir regras em várias condições.
+hide: true
 exl-id: 37e037b6-45eb-4261-b580-30d94d8e55da
-source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -36,3 +37,5 @@ Esse é o mesmo mecanismo usado para regras de porcentagem em combinação com o
 
 * [Público-alvo em sinalizadores e grupos de recursos](audience-in-feature-flags-and-feature-groups.md)
 * [Adicionar regras de porcentagem aos critérios de público](adding-percentage-rules.md)
+
+<!-- -->

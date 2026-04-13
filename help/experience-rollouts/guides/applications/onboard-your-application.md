@@ -1,8 +1,9 @@
 ---
 title: Integrar seu aplicativo
 description: Saiba como integrar um novo aplicativo às implantações de experiência do Adobe para começar a criar e gerenciar sinalizadores de recursos.
+hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 2%
@@ -45,3 +46,5 @@ Depois que o aplicativo for integrado, você poderá começar a criar sinalizado
 
 * [Gerenciar aplicativos](manage-applications.md)
 * [Fazer logon no console](../console/log-in-to-the-console.md)
+
+<!-- -->

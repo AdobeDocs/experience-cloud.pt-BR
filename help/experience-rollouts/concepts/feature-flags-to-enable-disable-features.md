@@ -1,8 +1,9 @@
 ---
 title: Sinalizadores de recursos para ativar e desativar recursos
 description: Saiba como os sinalizadores de recursos nas Implantações de experiência permitem controlar a disponibilidade de recursos, gerenciar dependências e reduzir o risco de implantação.
+hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -44,3 +45,5 @@ Um sinalizador de recurso nas Implantações de experiência segue este ciclo de
 1. Um desenvolvedor cria um sinalizador de recurso e o testa de forma isolada, sem expô-lo a outros usuários.
 2. Um proprietário de produto vincula um público-alvo ao sinalizador, tornando o recurso visível para um conjunto definido de usuários externos.
 3. O sinalizador é opcionalmente adicionado a um [grupo de recursos](feature-groups-to-control-multiple-features.md) para ser gerenciado junto com sinalizadores relacionados.
+
+<!-- -->

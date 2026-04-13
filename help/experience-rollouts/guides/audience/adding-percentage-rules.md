@@ -1,8 +1,9 @@
 ---
 title: Adicionar regras de porcentagem aos critérios de público
 description: Saiba como adicionar regras baseadas em porcentagem nos critérios de público-alvo em implantações de experiência do Adobe para direcionar porcentagens de implantação diferentes para segmentos de público-alvo diferentes.
+hide: true
 exl-id: 15a3c26f-31fc-4e73-aa0e-035dcbe7d770
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -63,3 +64,5 @@ Adicione quatro regras: País = EUA, Porcentagem = 10%, País = Reino Unido, Por
 * [Público-alvo em sinalizadores e grupos de recursos](audience-in-feature-flags-and-feature-groups.md)
 * [Regras complexas de público](complex-rules.md)
 * [Definir um recurso para implantação gradual](../feature-flags/set-feature-gradual-rollout.md)
+
+<!-- -->

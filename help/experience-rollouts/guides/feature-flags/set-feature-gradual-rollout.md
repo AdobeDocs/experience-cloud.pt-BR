@@ -1,13 +1,14 @@
 ---
 title: Definir um recurso para implantação gradual
 description: Saiba como configurar uma implantação gradual com base em porcentagem para um sinalizador de recurso em implantações de experiência do Adobe.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+hide: true
+exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 3%
 
 ---
-
 
 # Definir um recurso para implantação gradual {#gradual-rollout-feature}
 
@@ -24,3 +25,5 @@ Você pode aumentar ou diminuir a porcentagem ao longo do tempo para expandir ou
 * [Implantação gradual](../../concepts/gradual-rollout.md)
 * [Definir um grupo de recursos para implantação gradual](set-feature-group-gradual-rollout.md)
 * [Criar o primeiro sinalizador de recurso](create-your-first-feature-flag.md)
+
+<!-- -->

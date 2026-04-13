@@ -1,8 +1,9 @@
 ---
 title: Solicitar acesso
 description: Saiba como solicitar acesso a uma equipe de implantações de experiência do Adobe e as funções disponíveis para novos membros.
+hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%
@@ -44,3 +45,5 @@ Depois que a solicitação for aprovada, faça logon no console Implantações d
 ## Precisa de ajuda? {#need-help}
 
 Se não tiver certeza de qual equipe ingressar ou se ainda não houver uma equipe para o projeto, entre em contato com o administrador de Implantações de experiência da sua organização.
+
+<!-- -->

@@ -1,13 +1,14 @@
 ---
 title: Liberar fluxo de trabalho de ponta a ponta
 description: Saiba mais sobre o fluxo de trabalho completo para gerenciar uma versão coordenada em implantações de experiência do Adobe, desde a definição de sinalizadores de recursos até a ativação.
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+hide: true
+exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
 
 ---
-
 
 # Liberar fluxo de trabalho de ponta a ponta {#release-workflow}
 
@@ -46,3 +47,5 @@ Depois que a versão for ativada, o Release Manager poderá ajustar as regras de
 * [Solicitar uma versão](request-a-release.md)
 * [Atualizar regras de lançamento de público-alvo](update-release-audience-rules.md)
 * [Estados de lançamento](release-states.md)
+
+<!-- -->

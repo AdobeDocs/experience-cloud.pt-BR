@@ -1,8 +1,9 @@
 ---
 title: Etapas de integração
 description: Siga as etapas de integração do seu tipo de aplicativo para conectar Implantações de Experiência do Adobe ao seu serviço Web, aplicativo da Web ou móvel ou aplicativo de desktop usando os SDKs disponíveis.
+hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 4%
@@ -43,3 +44,5 @@ Os aplicativos de desktop se integram por meio da SDK. Entre em contato com seu 
 * [SDKs](sdks.md)
 * [Serviços da web](web-services.md)
 * [Aplicativos de desktop](desktop-applications.md)
+
+<!-- -->

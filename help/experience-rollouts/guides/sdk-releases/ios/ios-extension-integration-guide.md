@@ -1,7 +1,8 @@
 ---
 title: Guia da extensão de implantação da experiência para integração com o iOS
 description: Saiba como integrar a extensão de Implantação de experiência com o Adobe Experience Platform Mobile SDK no iOS.
-source-git-commit: a9f6746c2b470377d2fd58de18e984d1ec404a77
+hide: true
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 7%
@@ -52,7 +53,7 @@ Verifique se essas extensões estão instaladas na propriedade móvel da Coleç�
    | ID do conjunto de dados | A ID do conjunto de dados do Adobe Experience Platform para os dados de evento de análise |
 
 1. Selecione **Salvar**.
-1. Siga o [processo de publicação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
+1. Siga o [processo de publicação](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para atualizar sua configuração.
 
 ### Obter a ID do arquivo de ambiente {#environment-file-id}
 
@@ -445,3 +446,5 @@ NSString *version = [AEPMobileRollout extensionVersion];
 * [Etapas de integração](../../integrate/integration-steps.md)
 * [SDKs](../../integrate/sdks.md)
 * [guia de integração de extensão do Android](../android/android-extension-integration-guide.md)
+
+<!-- -->

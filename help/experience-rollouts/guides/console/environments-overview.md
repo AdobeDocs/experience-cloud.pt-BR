@@ -1,13 +1,14 @@
 ---
 title: Selecione sua sandbox
 description: Saiba como selecionar a sandbox correta do Adobe Experience Platform ao trabalhar em implantações de experiência da Adobe.
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+hide: true
+exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 2%
 
 ---
-
 
 # Selecione sua sandbox {#sandbox}
 
@@ -21,3 +22,5 @@ Use o alternador de sandbox na barra de navegação superior do console Implanta
 
 * [Fazer logon no console](log-in-to-the-console.md)
 * [Solicitar acesso](request-access.md)
+
+<!-- -->
