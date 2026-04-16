@@ -3,7 +3,7 @@ audience: user
 user-guide-title: Sinalizadores
 user-guide-description: Saiba como usar sinalizadores no Adobe Target para gerenciar sinalizadores de recursos, implantações controladas e versões direcionadas em seus aplicativos.
 hide: true
-source-git-commit: 99576412627fe4576dfd787c02cf5c3501a22d88
+source-git-commit: 8a3a8f0293e32db896f62a63ea6a886868ffe1a3
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 8%
@@ -59,5 +59,5 @@ ht-degree: 8%
    + [guia de integração de extensão do iOS](guides/sdk-releases/ios/ios-extension-integration-guide.md)
 
 <!-- 
-Bob was here
+Bob was here again.
 -->
