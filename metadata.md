@@ -1,15 +1,17 @@
 ---
 cloud: Experience Cloud
 solution: Experience Cloud
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 feature-set: Experience Cloud Services
 type: Documentation
 git-repo: https://github.com/AdobeDocs/experience-cloud.pt-BR
 index: true
 mini-toc-levels: 2
 product: experience cloud
-source-git-commit: e78974f85712f9179377fee0d8970d7b637f0943
+source-git-commit: 76932b21cfe714780ff520ace588cd9fcba5c6ae
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 125
 ht-degree: 96%
 
 ---
@@ -17,7 +19,7 @@ ht-degree: 96%
 
 # Metadados para uso interno
 
-O arquivo metadata.md inclui metadados de nível de repositório que passam para os arquivos TOC.md do guia do usuário no repositório. Se quiser alterar o conteúdo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
+O arquivo metadata.md inclui metadados de nível de repositório que são repassados para os arquivos TOC.md do guia do usuário no repositório. Se quiser alterar o conteúdo do arquivo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
 
 | metadados | o que isso significa |
 |--- |--- |

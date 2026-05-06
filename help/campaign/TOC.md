@@ -3,11 +3,13 @@ user-guide-title: Adobe Campaign v8
 user-guide-description: Adobe Campaign v8
 breadcrumb-title: Adobe Campaign v8
 solution: Experience Cloud
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 role: User
-source-git-commit: 0650d42102216c353c5843322d01af5af80d2e5c
+source-git-commit: 76932b21cfe714780ff520ace588cd9fcba5c6ae
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 71%
+source-wordcount: 162
+ht-degree: 81%
 
 ---
 
@@ -15,8 +17,8 @@ ht-degree: 71%
 
 + [Início](campaign-standard-migration-home.md)
 + Relatórios dinâmicos {#reporting}
-   + [Introdução a relatórios dinâmicos](reporting/get-started-reporting.md)
-   + Sobre relatórios {#about-reporting}
+   + [Introdução aos relatórios dinâmicos](reporting/get-started-reporting.md)
+   + Sobre os relatórios {#about-reporting}
       + [Sobre relatórios dinâmicos](reporting/about-dynamic-reports.md)
       + [Interface de relatórios](reporting/reporting-interface.md)
       + [Lista de componentes](reporting/list-of-components.md)
@@ -29,7 +31,7 @@ ht-degree: 71%
       + [Reclamações](reporting/complaints.md)
       + [Resumo da entrega](reporting/delivery-summary.md)
       + [Taxa de transferência de entrega](reporting/delivery-throughput.md)
-      + [Não entregues e rejeitados](reporting/non-deliverables-and-bounces.md)
+      + [Não entregáveis e rejeições](reporting/non-deliverables-and-bounces.md)
       + [Aberturas](reporting/opens.md)
       + [Indicadores de rastreamento](reporting/tracking-indicators.md)
       + [Cancelamentos de assinatura](reporting/unsubscriptions.md)
@@ -41,12 +43,12 @@ ht-degree: 71%
       + [Criação de uma dimensão de perfil personalizada](reporting/creating-a-custom-profile-dimension.md)
       + [Contrato de uso de relatórios dinâmicos](reporting/pii-agreement.md)
 + Identidade visual {#branding}
-   + [Sobre a marca](branding/branding-gs.md)
+   + [Sobre identidade visual](branding/branding-gs.md)
    + [Configurar uma marca](branding/branding-configure.md)
    + [Atribuir uma marca](branding/branding-assign.md)
-+ APIs REST {#apis}
++ REST APIs {#apis}
    + [Introdução às REST APIs](api/get-started-apis.md)
-   + [Recommendations e limitações](api/limitations.md)
+   + [Recomendações e limitações](api/limitations.md)
    + [Por que usar APIs REST](api/why-using-campaign-standard-apis.md)
    + [Configuração do acesso à API](api/setting-up-api-access.md)
    + Conceitos globais {#global-concepts}
@@ -65,13 +67,13 @@ ht-degree: 71%
       + [Recuperação de perfis](api/retrieving-profiles.md)
       + [Atualização de perfis](api/updating-profiles.md)
       + [Criação de perfis](api/creating-profiles-api.md)
-   + Gerenciando serviços e assinatura {#managing-services-and-subscriptiopns}
+   + Gerenciamento de serviços e assinaturas {#managing-services-and-subscriptiopns}
       + [Criação de um serviço](api/creating-a-service.md)
       + [Recuperação de subscrições](api/retrieving-subscriptions.md)
       + [Realizar subscrições](api/perform-subscriptions.md)
       + [Exclusão de subscrições](api/deleting-subscriptions.md)
    + [Gerenciamento de mensagens transacionais](api/managing-transactional-messages.md)
-   + Gerenciamento de workflows {#managing-workflows}
+   + Gerenciamento de fluxos de trabalho {#managing-workflows}
       + [Controle de um fluxo de trabalho](api/controlling-a-workflow.md)
       + [Acionamento de uma atividade de sinal](api/triggering-a-signal-activity.md)
 + Notas técnicas {#technotes}
