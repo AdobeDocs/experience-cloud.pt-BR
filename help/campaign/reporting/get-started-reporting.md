@@ -5,16 +5,21 @@ audience: end-user
 level: Beginner
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
-source-git-commit: b65dbece574778eada43497456ff0eed850a3598
+TQID: https://experienceleague.adobe.com/W4ZvHvvxyFGzL11PAwgDp4hLsUL80aaJBA-aFG9aZy8
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 14%
+source-wordcount: 297
+ht-degree: 23%
 
 ---
 
 # Introdução aos relatórios dinâmicos {#get-started-reporting}
 
-O Dynamic Reporting fornece relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Ele adiciona acesso aos dados do perfil, permitindo a análise demográfica por dimensões de perfil, como gênero, cidade e idade, além de dados funcionais de campanha de email, como aberturas e cliques.
+O Dynamic Reporting fornece relatórios totalmente personalizáveis e em tempo real para medir o impacto de suas atividades de marketing. Eles adicionam acesso aos dados do perfil, permitindo análises demográficas por dimensões do perfil, como gênero, cidade e idade, além de dados funcionais de campanhas de email, como aberturas e cliques.
 
 <table>
 <tr>

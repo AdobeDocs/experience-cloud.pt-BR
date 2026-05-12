@@ -2,9 +2,13 @@
 title: Criar e gerenciar Triggers da Experience Cloud
 description: Descubra a interface dos Triggers da Adobe Experience Cloud
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
-source-git-commit: 94ca96baaef706ace2ed131a5c2974371a5e0e57
+TQID: https://experienceleague.adobe.com/0EG1662w4P--X1uN3hH7JRBFrU0B5JU--LxP0T49tYY
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: 516
 ht-degree: 100%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 100%
 >
 >A nova interface do Adobe Experience Cloud Triggers será implantada progressivamente para todos os clientes. Para obter mais informações, entre em contato com o seu representante da Adobe.
 
-Crie um acionador e configure as condições para ele. Por exemplo, você pode especificar o critério das regras para um acionador durante uma visita. Alguns exemplos são métricas, como Abandono de carrinho, ou dimensões, como o nome do produto. O disparador é executado quando as regras são cumpridas.
+Crie um acionador e configure as condições para ele. Por exemplo, você pode especificar o critério das regras para um acionador durante uma visita. Alguns exemplos são métricas, como Abandono de carrinho, ou dimensões, como o nome do produto. O acionador é executado quando as regras são cumpridas.
 
 >[!NOTE]
 >
@@ -43,7 +47,7 @@ Crie um acionador e configure as condições para ele. Por exemplo, você pode e
 
    [Saiba mais sobre Conjuntos de relatórios](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=pt-BR){target="_blank"}.
 
-1. Escolha o período de validade **[!UICONTROL Disparar após inatividade de]**.
+1. Escolha o período de validade **[!UICONTROL Acionar após inatividade de]**.
 
 1. Nas categorias **[!UICONTROL A visita deve incluir]** e **[!UICONTROL A visita não deve incluir]**, é possível definir critérios ou comportamentos de visitante que você deseja ou não que ocorram. É possível especificar operadores lógicos **E** ou **Ou** dentro de ou entre condições, dependendo dos critérios especificados.
 

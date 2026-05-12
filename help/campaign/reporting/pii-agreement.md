@@ -1,16 +1,22 @@
 ---
-title: Introdução a relatórios dinâmicos
+title: Introdução aos relatórios dinâmicos
 description: WLaiba mais sobre o contrato de uso de Relatórios dinâmicos
 level: Beginner
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 audience: end-user
-source-git-commit: c6a6cb7da640c9c29af71487e468f38ebf51d4f6
+exl-id: 9fcef466-f306-480e-b42e-d18daa8bcf06
+TQID: https://experienceleague.adobe.com/AGXqq-XOQU8SmHobDIA-nZqw3eNSa2THnw2jQQP54YA
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 1%
+source-wordcount: 549
+ht-degree: 3%
 
 ---
-
 
 # Contrato de uso de relatórios dinâmicos {#pii-agreement}
 
@@ -28,16 +34,16 @@ Três opções estão disponíveis:
 
 A tabela abaixo exibe o que acontece após aceitar este contrato, dependendo da sua região.
 
-|  | Relatórios dinâmicos | Conector do Microsoft Dynamics 365 |
+|  | Relatórios dinâmicos | Conector Microsoft Dynamics 365 |
 |---|---|---|
 | Américas e APAC (Ásia-Pacífico) | **Recurso disponível**. <br>Todas as informações prontas para uso (ou seja, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados enviadas para o centro de relatórios dos EUA. | **Recurso disponível**. <br>Todos os campos de perfis prontos para uso e personalizados e de eventos do Adobe Campaign são processados no data center dos EUA. |
-| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Todas as informações prontas para uso (isto é, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados são enviadas para o centro de relatórios do EMEA. | **Recurso disponível.** <br>Todos os campos de perfis prontos para uso e personalizados e campos de eventos do Adobe Campaign processados no data center do EMEA. <br>**[!UICONTROL Dados de controle &#x200B;]**, que contêm dados de registro de Adobe I/O e IDs de eventos de usuários finais de clientes enviados e armazenados no data center dos EUA. |
+| EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Todas as informações prontas para uso (isto é, cidade, país/região, estado, gênero e segmentos com base na idade) e perfis personalizados são enviadas para o centro de relatórios do EMEA. | **Recurso disponível.** <br>Todos os campos de perfis prontos para uso e personalizados e campos de eventos do Adobe Campaign processados no data center do EMEA. <br>**[!UICONTROL Dados de controle ]**, que contêm dados de registro da Adobe I/O e IDs de eventos de usuários finais de clientes enviados e armazenados no data center dos EUA. |
 
-A tabela abaixo exibe o que acontece após a recusa deste contrato, dependendo da sua região. Observe que mesmo que você recuse esse contrato, os relatórios de deliveries e a integração com o Microsoft Dynamics 365 ainda estarão disponíveis.
+A tabela abaixo exibe o que acontece após a recusa deste contrato, dependendo da sua região. Observe que mesmo que você recuse este contrato, os relatórios sobre deliveries e a integração com o Microsoft Dynamics 365 ainda estarão disponíveis.
 
-| Região | Relatórios dinâmicos | Conector do Microsoft Dynamics 365 |
+| Região | Relatórios dinâmicos | Conector Microsoft Dynamics 365 |
 |---|---|---|
-| Américas e APAC (Ásia-Pacífico) | **Recurso disponível**. <br> Nenhuma informação de perfil pronta para uso e personalizada enviada para a central de relatórios dos EUA, com exceção de ExternalID. | **Recurso disponível**. <br>Nenhum campo de perfil pronto para uso ou personalizado enviado para o data center dos EUA, com exceção da ID externa e da ID do destinatário. <br>Todos os campos de eventos do Adobe Campaign processados no data center dos EUA, com exceção da ID da mirror page. |
+| Américas e APAC (Ásia-Pacífico) | **Recurso disponível**. <br> Nenhuma informação de perfil pronta para uso e personalizada enviada para o centro de relatórios dos EUA, com exceção da ExternalID. | **Recurso disponível**. <br>Nenhum campo de perfil pronto para uso ou personalizado enviado para o data center dos EUA, com exceção da ID externa e da ID do destinatário. <br>Todos os campos de eventos do Adobe Campaign processados no data center dos EUA, com exceção da ID da mirror page. |
 | EMEA (Europa, Oriente Médio e África) | **Recurso disponível**. <br>Nenhuma informação de perfil pronta para uso e personalizada enviada para a central de relatórios do EMEA, com exceção da ExternalID. | **Recurso disponível.** <br>Nenhum campo de perfil pronto para uso ou personalizado enviado para o data center do EMEA, com exceção da ID externa e da ID do destinatário. <br>Todos os campos de eventos do Adobe Campaign processados no data center do EMEA, com exceção da ID da mirror page. |
 
 Esta opção não é definitiva, você sempre pode alterá-la selecionando a opção **[!UICONTROL realtimeReporting_collectPII]** em **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**.

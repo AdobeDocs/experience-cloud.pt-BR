@@ -3,16 +3,21 @@ title: Interface do usuário da Web do Adobe Campaign
 description: Conheça a interface da Web do Adobe Campaign
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: 57d64cb5436381e1dbad9add0d8fe117e6f11ecf
+TQID: https://experienceleague.adobe.com/Ac8fvg1LbjA-BhC7ldFfSxFo-CYzKhjd1itqk6jltOM
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 11%
+source-wordcount: 391
+ht-degree: 19%
 
 ---
 
 # Transição do Campaign Standard para o Campaign v8 {#triggers-home}
 
-Como usuário Campaign Standard em transição para o Campaign v8, você pode se beneficiar da nova versão da interface da Web do Adobe Campaign e do poderoso console v8. A transição é perfeita e permitirá que você use todos os recursos intuitivos projetados para simplificar a criação de campanhas personalizadas entre canais. A interface da Web do Campaign também traz uma tela conectada ao Adobe Experience Platform para oferecer uma experiência unificada.
+Como usuário do Campaign Standard em transição para o Campaign v8, você pode se beneficiar da nova versão da interface da Web do Adobe Campaign e do eficiente console v8. A transição é perfeita e permitirá que você use todos os recursos intuitivos projetados para simplificar a criação de campanhas personalizadas entre canais. A interface da Web do Campaign também traz uma tela conectada ao Adobe Experience Platform para oferecer uma experiência unificada.
 
 Além disso, essa transição trará muitos benefícios:
 
@@ -39,7 +44,7 @@ Você pode acessar o Dynamic Reporting, que fornece relatórios totalmente perso
 
 >[!TAB Marca Centralizada]
 
-Os administradores técnicos agora podem definir uma ou várias marcas para centralizar os parâmetros que afetam a identidade de uma marca.
+Agora, os seus administradores técnicos podem definir uma ou várias marcas para centralizar os parâmetros que afetam a identidade de uma marca.
 
 [![imagem](assets/do-not-localize/learn-more-button.svg)](branding/branding-gs.md)
 
@@ -56,27 +61,27 @@ Você pode usar as APIs Rest para criar integrações com o Adobe Campaign e cri
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
     <div><strong>Conheça a nova interface</strong><br/></div>
     </td>
     <td>
-    <a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
     <div><strong>Tela de fluxo de trabalho recriada</strong><br/></div><br/>
     </td>
     <td>
-    <a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/menu-email.png"></a>
+    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/menu-email.png"></a>
     <div><strong>Conheça o Designer de email</strong><br/>
     </div></td>
     <td>
-    <a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/menu-dynamic.png"></a>
+    <a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/menu-dynamic.png"></a>
     <div><strong>Tornar seu conteúdo dinâmico</strong><br/></div>
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/user-interface"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/content/start-design/get-started-email-designer"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
 

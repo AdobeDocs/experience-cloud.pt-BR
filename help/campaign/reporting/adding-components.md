@@ -5,9 +5,14 @@ audience: end-user
 level: Intermediate
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 2b22f147-ed75-40ca-8859-8f4b23bca7c3
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/Mq7ZEHuTsJVuPF8x-wz4452BJ61ffImgSIVtkIgiokM
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: 294
 ht-degree: 4%
 
 ---
@@ -24,7 +29,7 @@ Os componentes ajudam você a personalizar seus relatórios com diferentes dimen
 
    A tabela de componentes é dividida em quatro categorias:
 
-   * **Dimension**: obtenha detalhes do log de entregas, como o navegador ou domínio do destinatário, ou o sucesso de uma entrega.
+   * **Dimensões**: obtenha detalhes do log de entregas, como o navegador ou domínio do destinatário, ou o sucesso de uma entrega.
    * **Métricas**: obtenha detalhes sobre o status de uma mensagem. Por exemplo, se uma mensagem foi entregue e o usuário a abriu.
    * **[!UICONTROL Segmentos]**: filtre dados de acordo com a faixa etária do destinatário. **[!UICONTROL Segmentos]** podem ser arrastados e soltos diretamente em uma tabela de forma livre ou na barra superior do painel.
 
