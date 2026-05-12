@@ -1,5 +1,5 @@
 ---
-title: Marca
+title: Identidade visual
 description: Saiba como configurar sua marca
 audience: administration
 context-tags: branding,overview;branding,main
@@ -7,9 +7,18 @@ role: Admin
 level: Experienced
 badge: label="DISPONIBILIDADE LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrito a usuários migrados do Campaign Standard"
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
+TQID: https://experienceleague.adobe.com/hnN2EgVkkBA0Zp6NYqk2ID2XgHjv1EBDrWRW7k7qJ7Q
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: 380
 ht-degree: 42%
 
 ---
@@ -50,7 +59,7 @@ Uma **[!UICONTROL Marca]** é definida pelas seguintes características:
 
 * As **[!UICONTROL Configurações de marca]** definem os servidores usados para rastreamento também para acesso à página de aterrissagem. Esta seção contém os seguintes campos:
 
-   * **[!UICONTROL Subdomínio da marca]** refere-se à URL do subdomínio designado específica para esta marca, solicitada para delegação do Adobe.
+   * **[!UICONTROL Subdomínio da marca]** refere-se à URL do subdomínio designado específica para essa marca, solicitada para delegação da Adobe.
 
   Observe que a configuração para rastreamento, espelhamento e servidores de aplicativos é armazenada em contas externas separadas associadas ao roteamento. Essas configurações são aplicadas durante o provisionamento e não devem ser modificadas. Para exibir URLs, acesse a guia **[!UICONTROL Prefixos de marca]** da sua conta externa.
 
