@@ -59,7 +59,7 @@ Agora você pode usar esse template para enviar seus deliveries.
 
 >[!TAB Adobe Campaign Web]
 
-Para criar um template do delivery, você pode duplicar um template incorporado, converter um delivery existente em um template ou criar um template do delivery do zero. [Saiba mais](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template)
+Para criar um template do delivery, você pode duplicar um template incorporado, converter um delivery existente em um template ou criar um template do delivery do zero. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/msg/delivery-template)
 
 Depois que o modelo for criado, você pode vinculá-lo a uma marca. Para fazer isso:
 
@@ -107,7 +107,7 @@ Para criar um novo delivery independente, siga as etapas abaixo.
 
 1. Após a configuração, selecione **OK**.
 
-1. Personalize ainda mais seus deliveries. Para obter mais informações sobre como criar um email, consulte a seção [Design e enviar emails](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email).
+1. Personalize ainda mais seus deliveries. Para obter mais informações sobre como criar um email, consulte a seção [Design e enviar emails](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/msg/email/create-email).
 
 >[!TAB Adobe Campaign Web]
 
@@ -133,6 +133,6 @@ Para criar um novo delivery independente, siga as etapas abaixo.
 
    ![](assets/branding_assign_web_7.png)
 
-1. Personalize ainda mais seus deliveries. Para obter mais informações sobre como criar um email, consulte a seção [Criar seu primeiro email](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email).
+1. Personalize ainda mais seus deliveries. Para obter mais informações sobre como criar um email, consulte a seção [Criar seu primeiro email](https://experienceleague.adobe.com/pt-br/docs/campaign-web/v8/msg/email/create-email).
 
 >[!ENDTABS]
