@@ -6,13 +6,12 @@ exl-id: 31ea97e7-b0a0-4a92-bc69-a458fdbc1d7c
 TQID: https://experienceleague.adobe.com/cBUtLbfjHHnFO2SMjh0bVDJNZFJlnGolwSShLZ0hIew
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+    internal-label: CX Enterprise
+source-git-commit: 4d6fa2af9541ffd61bfe4b26a84e574ea6a634c8
 workflow-type: tm+mt
-source-wordcount: 173
+source-wordcount: '173'
 ht-degree: 100%
-
 ---
-
 # Serviços de capacidade de entrega da Adobe {#deliv-home}
 
 Consultores de capacidade de entrega e equipes de operações precisam realizar várias atividades para ajudar os clientes a melhorar a capacidade de entrega de seus emails. Após a análise de todas as funções de capacidade de entrega, descobriu-se que, embora a maioria dos recursos possa ser liberada diretamente aos clientes, alguns recursos devem ser restritos somente à equipe de capacidade de entrega da Adobe. Para fornecer serviços de capacidade de entrega melhores e mais rápidos aos clientes, decidimos criar um aplicativo de capacidade de entrega baseado em interface que servirá como uma solução única para a equipe de capacidade de entrega. Com esse aplicativo, a equipe de capacidade de entrega poderá fornecer seus serviços a clientes que utilizam vários produtos da família de gerenciamento de jornadas do cliente, ou seja, Journey Optimizer, Campaign e Marketo.
